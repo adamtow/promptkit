@@ -4,6 +4,13 @@
 		"👎": "no,nope,negative,again,nada",
 		"🛑": "stop,cancel,exit,quit,terminate,we're done",
 		"#️⃣": "zero,one,two,three,four,five,six,seven,eight,nine,ten",
-		"Instructions": "PromptKit is a shortcut library that asks for user input via dictation. It handles asking for numbers, freeform questions, and yes/no questions.\n\nYou can restrict responses to a list of answers, and PromptKit repeats the question if it did not understand the user's response.\n\nAdam Tow • tow.com • @atow"
+		"Instructions": "PromptKit is a shortcut library that asks for user input via dictation. It handles asking for numbers, freeform questions, and yes/no questions.\n\nYou can restrict responses to a list of answers, and PromptKit repeats the question if it did not understand the user's response.\n\nhttps://tow.com/shortcuts/promptkit/\n\nAdam Tow • tow.com • @atow"
+	},
+	"Français": {
+		"👍": "oui",
+		"👎": "non",
+		"🛑": "arrête, annule",
+		"#️⃣": "zero,un,deux,trois,quatre,cinq,six,sept,huit,neuf,dix",
+		"Instructions": "PromptKit is a shortcut library that asks for user input via dictation. It handles asking for numbers, freeform questions, and yes/no questions.\n\nYou can restrict responses to a list of answers, and PromptKit repeats the question if it did not understand the user's response.\n\nhttps://tow.com/shortcuts/promptkit/\n\nAdam Tow • tow.com • @atow"
 	}
 }
