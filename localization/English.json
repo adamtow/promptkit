@@ -4,13 +4,25 @@
 		"👎": "no,nope,negative,again,nada",
 		"🛑": "stop,cancel,exit,quit,terminate,we're done",
 		"#️⃣": "zero,one,two,three,four,five,six,seven,eight,nine,ten",
-		"Instructions": "PromptKit is a shortcut library that asks for user input via dictation. It handles asking for numbers, freeform questions, and yes/no questions.\n\nYou can restrict responses to a list of answers, and PromptKit repeats the question if it did not understand the user's response.\n\nhttps://tow.com/shortcuts/promptkit/\n\nAdam Tow • tow.com • @atow"
+		"alert_about": "PromptKit is a shortcut library that asks for user input via dictation. It handles asking for numbers, freeform questions, and yes/no questions.\n\nYou can restrict responses to a list of answers, and PromptKit repeats the question if it did not understand the user's response.\n\nhttps://tow.com/shortcuts/promptkit/\n\nAdam Tow • tow.com • @atow",
+		"error_function_unknown": "The Return object was not handled properly.",
+		"error_language_unknown": "PromptKit could not detect the inputted language.",
+		"error_locked": "PromptKit requires the device to be unlocked in order to dictate text.",
+		"error_message_missing": "No message text was supplied to PromptKit",
+		"error_type_unknown": "An unknown prompt type was requested: {{type}}.",
+		"prompt_language_unknown": "The language could not be detected for the inputted text. Continue using the default language?",
+		"prompt_unlock": "You will need to unlock this device in order to dictate text."
+		
 	},
 	"Français": {
 		"👍": "oui",
 		"👎": "non",
 		"🛑": "arrête, annule",
 		"#️⃣": "zero,un,deux,trois,quatre,cinq,six,sept,huit,neuf,dix",
-		"Instructions": "PromptKit is a shortcut library that asks for user input via dictation. It handles asking for numbers, freeform questions, and yes/no questions.\n\nYou can restrict responses to a list of answers, and PromptKit repeats the question if it did not understand the user's response.\n\nhttps://tow.com/shortcuts/promptkit/\n\nAdam Tow • tow.com • @atow"
+		"alert_about": "PromptKit is a shortcut library that asks for user input via dictation. It handles asking for numbers, freeform questions, and yes/no questions.\n\nYou can restrict responses to a list of answers, and PromptKit repeats the question if it did not understand the user's response.\n\nhttps://tow.com/shortcuts/promptkit/\n\nAdam Tow • tow.com • @atow",
+		"error_language_unknown": "PromptKit could not detect the inputted language.",
+		"error_locked": "PromptKit requires the device to be unlocked in order to dictate text.",
+		"prompt_language_unknown": "The language could not be detected for the inputted text. Continue using the default language?",
+		"prompt_unlock": "You will need to unlock this device in order to dictate text."
 	}
 }
