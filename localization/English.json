@@ -80,7 +80,6 @@
 		"prompt_settings_unlockPrompt": "Enter the prompt that will be spoken when your device is locked.",
 		"prompt_story_mode": "How would you like this story presented?",
 		"prompt_translationLanguage": "Change the language used for automatic translation of prompts.\n\nNote: The language name must match the name of the language from the Translate Text with Microsoft action.",
-		"prompt_translationLanguage_enter": "Enter the language used for automatic translation of prompts.\n\nNote: The language name must match the name of the language from the Translate Text with Microsoft action.",
 		"prompt_unlock": "You will need to unlock this device in order to run this PromptKit prompt."		
 	},
 	"Français": {
