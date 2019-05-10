@@ -1,13 +1,14 @@
 # PromptKit
-PromptKit is a shortcut library for creating interactive and  multilingual audio or menu-driven prompts. 
+PromptKit is a shortcut library for creating powerful, interactive, multilingual prompts featuring speech, dictation, menus, and dialogs.
 
 With PromptKit, you can:
 
-- Select between voice or Menu-driven prompts. Not connected to the internet? Your voice-driven prompts will automatically turn into menu prompts. 
-- Automatically translate a prompt from one language to another. 
-- Restrict the prompt to accept a list of answers.
+- Select between voice or dialog-driven prompts. Not connected to the internet? Your voice-driven prompts will automatically turn into menu and dialog prompts. 
+- Automatically translate prompts from one language to another. 
+- Restrict your prompts to accept a list of answers.
+- Use comparison operators such as contains, equals, greater than, less than, before, after and between for text, number, date and time input.
 - Configure the number of times a prompt can be repeated if a decision was not chosen. 
-- Confirmations with YES or NO.
+- Confirmations with yes or no.
 - Asking for numeric input.
 - Freefrom voice input.
 - Cancellation by the user.
@@ -42,12 +43,11 @@ A PromptKit Prompt and Scene are dictionaries that contain the following require
 - [hideFromHistory](#hideFromHistory)
 - [dataKey](#dataKey)
 
-### message
-(Required) Text or Array
+### message (Required) Text or Array
 This is the text displayed or spoken to the user. If you supply just one string, it will be used for all repetitions. If you supply multiple strings in an array, the string used will correspond to the loop repeat index. For instance:
 
 ```
-Question:
+"message":
 	[
 		"Pick a number between 1 and 5.",
 		"Any number between 1 and 5.",
@@ -58,11 +58,10 @@ Question:
 
 The first time PromptKit is called, it will speak the first question string. If a successful response is not given, it will speak the second question, followed by the third and fourth. If the user did not provide a successful response after the fourth, the function will return with a ❓ response.
 
-## type 
-(Optional) Text 
+## type (Optional) Text
 Specifies how the message will be interpreted and presented to the user. Valid values are:
 
-- **freeform** (default): For manual prompts, the message is displayed in an Ask For Input action dialogue. For handsfree prompts, the message is spoken to the user and Dictate Text Action is used to capture the user’s input. This type can be combined with the `choices` array to accept only certain responses.
+- **text** (default): For manual prompts, the message is displayed in an Ask For Input action dialogue. For handsfree prompts, the message is spoken to the user and Dictate Text Action is used to capture the user’s input. This type can be combined with the `choices` array to accept only certain responses.
 - **confirm**: Prompts the user for a Yes or No response.
 - **number**: Prompts the user to enter a number. Verifies that the user entered a valid number. 
 - **list**: Prompts the user to choose from a list of choices.
@@ -79,12 +78,9 @@ Specifies how the message will be interpreted and presented to the user. Valid v
 - **result**: Displays the message in a modal dialog for manual prompts. For handsfree prompts, the message is spoken to the user. 
 - **none**: No message is displayed to the user. This type is used commonly in PromptKit Stories as a separator between scenes. 
 
-
-
 Voice-driven prompts can specify the `speakChoices` option to verbally list out the choices after speaking the message. 
 
-## choices
-(Optional) Array of strings
+## choices (Optional) Array of strings
 If specified, the response will be compared with the values in the `choices` array. Each value in the array can have optional matching strings, delimited by the `|` character. For instance:
 
 ```
@@ -103,8 +99,7 @@ When run, the user will be prompted to choose a default maps app. The user could
 
 You can use the | delimiter with both Freeform and Number prompts. Confirm prompts make use of the Localized Strings dictionary to determine yes or no responses.
 
-### comparison
-(Optional) String
+### comparison (Optional) String
 By default, your response will be matched to possible answers in the `choices` array using a contains comparison. You can specify the following values for `comparison`:
 
 - contains (default for text)
@@ -154,17 +149,16 @@ For use with numbers, the input must be less than any of the numbers in items wi
 #### between
 For use with numbers, the input must be between any of the numbers in items within the `choices` array. Use the `-` character as a delimiter between the lower and upper bounds. For instance:
 
-`“choices”: “1#10 | 20#30”`
+`"choices": "1-10 | 20-30"`
 
 
+****
 
 
-## Cancel
-(Optional) Text
+## 🛑 (Optional) Text
 This text is spoken to the user if the Cancel keyword phrase is spoke. If not included in the Prompt Dictionary, nothing will be spoken.
 
-## No Choice
-(Optional) Text
+## ❓(Optional) Text
 This text is spoken to the user if no successful response was captured. If not included in the Prompt Dictionary, nothing will be spoken.
 
 <span id=“repeat”></span> 
