@@ -1,6 +1,6 @@
 {
 	"English": {
-		"alert_about": "PromptKit is a shortcut library that facilitates creating interactive prompts via speach, menus, dialogs or dictation. It supports multiple languages, numbers, freeform questions, yes/no questions, and questions with specific answers.\n\nIt also can send and receive information from external shortcuts.",
+		"alert_about": "PromptKit is a shortcut library for building interactive prompts with speech, dictation, menus, dialogs, and validation.\n\nPromptKit prompts can translate between languages, store data, and call shortcuts.",
 		"alert_shortcuts_retrieval": "Retrieving a list of installed PromptKit Story shortcuts. This may take a few moments.",
 		"alert_update_none": "You are currently running the latest version of PromptKit.",
 		"alert_update_none_title": "No Update Available",
@@ -101,7 +101,7 @@
 		"prompt_setup_detectLanguages": "Detect Languages\n\nAllow PromptKit to detect the language of prompts so it can speak using the correct voice?\n\nNote: This feature requires your device to be connected to the internet.",
 		"prompt_setup_modeOverride": "Mode Override allows you to use the default mode for all prompts and stories\n\nSetup has disabled Mode Override, but you can enable it from the PromptKit Home screen.",
 		"prompt_setup_translationLanguage": "Automatic Prompt Translation\n\nShould PromptKit automatically translate prompts to a language of your choice?\n\nYou can change this setting and the language from the PromptKit Home screen.",
-		"prompt_setup_welcome": "Welcome to PromptKit, a powerful shortcut library for displaying and interacting with alerts, menus, and dialogs.\n\nThis assistant will walk you through the initial setup process.\n\nLet's get started!",
+		"prompt_setup_welcome": "Welcome to PromptKit, a shortcut library for building interactive prompts with speech, dictation, menus, dialogs, and validation.\n\nPromptKit prompts can translate between languages, store data, and call shortcuts.\n\nThis assistant will walk you through the initial setup process.",
 		"prompt_story_mode": "How would you like this story presented?",
 		"prompt_translationLanguage": "Choose the language used for automatic translation of prompts.",
 		"prompt_unlock": "You will need to unlock this device in order to run this PromptKit prompt."
