@@ -20,7 +20,7 @@ With PromptKit, you can:
 PromptKit supports text and dictionary input. Specifying the PromptKit Dictionary gives you the most control over the look and feel of your prompt.
 
 ## PromptKit Stories
-A PromptKit Story is collection of PromptKit Prompts forms the basis of a PromptKit Story. A story can be build to create simple or complex interactive voice or menu-driven experiences on iOS. PromptKit dictionaries that belong to a story have additional optional attributes. 
+A PromptKit Story is collection of PromptKit Prompts forms the basis of a PromptKit Story. A story can be build to create simple or complex interactive voice or menu-driven experiences on iOS. PromptKit dictionaries that belong to a story have additional attributes. 
 
 ### Exploring a PromptKit Prompt
 A PromptKit Prompt and Scene are dictionaries that contain the following required and option attributes. You can create these within the Shortcuts app or in a text editor. 
@@ -35,13 +35,16 @@ A PromptKit Prompt and Scene are dictionaries that contain the following require
 - [title](#title)
 - [choices](#choices)
 - [decisions](#decisions)
+- [dataKey](#dataKey)
 - [spokenLanguage](#spokenLanguage)
 - [dictationLanguage](#dictationLanguage)
 - [repeat](#repeat)
-- [comparison](#comparison)
+- [validate](#validate)
 - [speakChoices](#decisions)
 - [hideFromHistory](#hideFromHistory)
-- [dataKey](#dataKey)
+- [notificationPlaySound](#notificationPlaySound)
+- [confirmShowCancel](#confirmShowCancel)
+
 
 ### message (Required) Text or Array
 This is the text displayed or spoken to the user. If you supply just one string, it will be used for all repetitions. If you supply multiple strings in an array, the string used will correspond to the loop repeat index. For instance:
@@ -147,9 +150,9 @@ For use with numbers, the input must be greater than any of the numbers in items
 For use with numbers, the input must be less than any of the numbers in items within the `choices` array. 
 
 #### between
-For use with numbers, the input must be between any of the numbers in items within the `choices` array. Use the `-` character as a delimiter between the lower and upper bounds. For instance:
+For use with numbers and dates, the input must be between any of the numbers in items within the `choices` array. Use an en dash `–` character as a delimiter between the lower and upper bounds. For instance:
 
-`"choices": "1-10 | 20-30"`
+`"choices": "1–10 | 20–30"`
 
 
 ****
@@ -213,9 +216,18 @@ The user spoke one of the NO phrases. Used with the `Confirm`  prompts.
 
 Your shortcut should handle each of these cases for completeness. 
 
-<span id=“promptkit-Story-history”></span>
+<span id=“promptkit-story”></span>
+## PromptKit Story
+A PromptKit Story is a collection of related PromptKit Prompts. A story can be used to create an interactive series of prompts. 
+
+<span id=“promptkit-story”></span>
 ### PromptKit Story History
 
+
+## Calling External Shortcut Shortcuts
+
+### Terminating PromptKit From A Shortcut
+If your external shortcut returns ⏹⏹⏹ to PromptKit, execution will stop in the current story.
 
 <span id=“language-codes”></span>
 ### Language Codes
