@@ -1,0 +1,1841 @@
+{
+	"ro": {
+		"👎": [
+			"Nu",
+			"Niciodată",
+			"Negativ."
+		],
+		"phrases": {
+			"say": "Spun:",
+			"or": "Sau"
+		},
+		"code": "ro",
+		"languageRegion": "ro-RO",
+		"🛑": [
+			"🛑",
+			"Anulare"
+		],
+		"🔢": [
+			"Zero",
+			"Unu",
+			"Doi",
+			"Trei",
+			"Patru",
+			"Cinci",
+			"Șase",
+			"Șapte",
+			"Opt",
+			"Nouă",
+			"Zece"
+		],
+		"👍": [
+			"Da",
+			"Bine",
+			"Afirmativ."
+		],
+		"supportedLanguages": [
+			"Arabă",
+			"Cantoneză (tradițională)",
+			"Chineză simplificată",
+			"Chineză tradiţională",
+			"Cehă",
+			"Daneză",
+			"Olandeză",
+			"Engleză",
+			"Finlandeză",
+			"Franceză",
+			"Germană",
+			"Greacă",
+			"Ebraică",
+			"Hindi",
+			"Maghiară",
+			"Indoneziană",
+			"Italiană",
+			"Japoneză",
+			"Coreeană",
+			"Norvegiană",
+			"Poloneză",
+			"Portugheză",
+			"Română",
+			"Rusă",
+			"Slovacă",
+			"Spaniolă",
+			"Suedeză",
+			"Thai",
+			"Turcă"
+		],
+		"regions": [
+			"RO"
+		]
+	},
+	"tr": {
+		"👎": [
+			"Hayır",
+			"Asla",
+			"Negatif"
+		],
+		"phrases": {
+			"say": "Söyle:",
+			"or": "Veya"
+		},
+		"code": "tr",
+		"languageRegion": "tr-TR",
+		"🛑": [
+			"🛑",
+			"Iptal"
+		],
+		"🔢": [
+			"Sıfır",
+			"Bir",
+			"Iki",
+			"Üç",
+			"Dört",
+			"Beş",
+			"Altı",
+			"Yedi",
+			"Sekiz",
+			"Dokuz",
+			"On"
+		],
+		"👍": [
+			"Evet",
+			"Tamam",
+			"Olumlu"
+		],
+		"supportedLanguages": [
+			"Arapça",
+			"Kanton mutfağı (Geleneksel)",
+			"Basitleştirilmiş Çince",
+			"Geleneksel Çince",
+			"Çekçe",
+			"Danca",
+			"Hollanda dili",
+			"İngilizce",
+			"Fince",
+			"Fransızca",
+			"Almanca",
+			"Yunanca",
+			"İbranice",
+			"Hintçe",
+			"Macarca",
+			"Endonezya dili",
+			"İtalyanca",
+			"Japonca",
+			"Kore dili",
+			"Norveç dili",
+			"Lehçe",
+			"Portekizce",
+			"Rumence",
+			"Rusça",
+			"Slovakça",
+			"İspanyolca",
+			"İsveç dili",
+			"Tay dili",
+			"Türkçe"
+		],
+		"regions": [
+			"TR"
+		]
+	},
+	"es": {
+		"👎": [
+			"No",
+			"Nunca",
+			"Negativo"
+		],
+		"phrases": {
+			"say": "Decir:",
+			"or": "O"
+		},
+		"code": "es",
+		"languageRegion": "es-MX",
+		"🛑": [
+			"🛑",
+			"Cancelar"
+		],
+		"🔢": [
+			"Cero",
+			"Uno",
+			"Dos",
+			"Tres",
+			"Cuatro",
+			"Cinco",
+			"Seis",
+			"Siete",
+			"Ocho",
+			"Nueve",
+			"Diez"
+		],
+		"👍": [
+			"Sí",
+			"Vale",
+			"Ok",
+			"Afirmativo"
+		],
+		"supportedLanguages": [
+			"Árabe",
+			"Cantonés (tradicional)",
+			"Chino simplificado",
+			"Chino tradicional",
+			"Checo",
+			"Danés",
+			"Holandés",
+			"Inglés",
+			"Finlandés",
+			"Francés",
+			"Alemán",
+			"Griego",
+			"Hebreo",
+			"Hindi",
+			"Húngaro",
+			"Indonesio",
+			"Italiano",
+			"Japonés",
+			"Coreano",
+			"Noruego",
+			"Polaco",
+			"Portugués",
+			"Rumano",
+			"Ruso",
+			"Eslovaco",
+			"Español",
+			"Sueco",
+			"Tailandés",
+			"Turco"
+		],
+		"regions": [
+			"MX"
+		]
+	},
+	"nb": {
+		"👎": [
+			"Nei",
+			"Aldri",
+			"Negativ"
+		],
+		"phrases": {
+			"say": "Si:",
+			"or": "Eller"
+		},
+		"code": "nb",
+		"languageRegion": "nb-NO",
+		"🛑": [
+			"🛑",
+			"Avbryt"
+		],
+		"🔢": [
+			"Null",
+			"En",
+			"To",
+			"Tre",
+			"Fire",
+			"Fem",
+			"Seks",
+			"Sju",
+			"Åtte",
+			"Ni",
+			"Ti"
+		],
+		"👍": [
+			"Ja",
+			"Greit",
+			"Ok",
+			"Bekreftende"
+		],
+		"supportedLanguages": [
+			"Arabisk",
+			"Kantonesisk (tradisjonell)",
+			"Forenklet kinesisk",
+			"Tradisjonell kinesisk",
+			"Tsjekkisk",
+			"Dansk",
+			"Nederlandsk",
+			"Engelsk",
+			"Finsk",
+			"Fransk",
+			"Tysk",
+			"Gresk",
+			"Hebraisk",
+			"Hindi",
+			"Ungarsk",
+			"Indonesisk",
+			"Italiensk",
+			"Japansk",
+			"Koreansk",
+			"Norsk",
+			"Polsk",
+			"Portugisisk",
+			"Rumensk",
+			"Russisk",
+			"Slovakisk",
+			"Spansk",
+			"Svensk",
+			"Thai",
+			"Tyrkisk"
+		],
+		"regions": [
+			"NO"
+		]
+	},
+	"fi": {
+		"👎": [
+			"Ei",
+			"Ei Koskaan",
+			"Negatiivinen"
+		],
+		"phrases": {
+			"say": "Sanoa:",
+			"or": "Tai"
+		},
+		"code": "fi",
+		"languageRegion": "fi-FI",
+		"🛑": [
+			"🛑",
+			"Peruuta"
+		],
+		"🔢": [
+			"Nolla",
+			"Yksi",
+			"Kaksi",
+			"Kolme",
+			"Neljä",
+			"Viisi",
+			"Kuusi",
+			"Seitsemän",
+			"Kahdeksan",
+			"Yhdeksän",
+			"Kymmenen"
+		],
+		"👍": [
+			"Kyllä",
+			"Okei",
+			"Ok",
+			"Myöntävästi"
+		],
+		"supportedLanguages": [
+			"arabia",
+			"Kantonilainen (perinteinen)",
+			"yksinkertaistettu kiina",
+			"perinteinen kiina",
+			"tšekki",
+			"tanska",
+			"hollanti",
+			"englanti",
+			"suomi",
+			"ranska",
+			"saksa",
+			"kreikka",
+			"heprea",
+			"hindi",
+			"unkari",
+			"indonesia",
+			"italia",
+			"japani",
+			"korea",
+			"norja",
+			"puola",
+			"portugali",
+			"romania",
+			"venäjä",
+			"slovakki",
+			"espanja",
+			"ruotsi",
+			"thai",
+			"turkki"
+		],
+		"regions": [
+			"FI"
+		]
+	},
+	"el": {
+		"👎": [
+			"Όχι",
+			"Ποτέ",
+			"Αρνητικό."
+		],
+		"phrases": {
+			"say": "Πω:",
+			"or": "Ή"
+		},
+		"code": "el",
+		"languageRegion": "el-GR",
+		"🛑": [
+			"🛑",
+			"Άκυρο"
+		],
+		"🔢": [
+			"Μηδέν",
+			"Ένα",
+			"Δύο",
+			"Τρία",
+			"Τέσσερα",
+			"Πέντε",
+			"Έξι",
+			"Εφτά",
+			"Οχτώ",
+			"Εννιά",
+			"Δέκα."
+		],
+		"👍": [
+			"Ναι",
+			"Εντάξει",
+			"Θετικό."
+		],
+		"supportedLanguages": [
+			"Αραβικά",
+			"Καντονέζικη (παραδοσιακή)",
+			"Απλοποιημένα κινεζικά",
+			"Παραδοσιακά κινεζικά",
+			"Τσεχικά",
+			"Δανικά",
+			"Ολλανδικά",
+			"Αγγλικά",
+			"Φινλανδικά",
+			"Γαλλικά",
+			"Γερμανικά",
+			"Ελληνικά",
+			"Εβραϊκά",
+			"Χίντι",
+			"Ουγγρικά",
+			"Ινδονησιακά",
+			"Ιταλικά",
+			"Ιαπωνικά",
+			"Κορεατικά",
+			"Νορβηγικά",
+			"Πολωνικά",
+			"Πορτογαλικά",
+			"Ρουμανικά",
+			"Ρωσικά",
+			"Σλοβακικά",
+			"Ισπανικά",
+			"Σουηδικά",
+			"Ταϊλανδικά",
+			"Τουρκικά"
+		],
+		"regions": [
+			"GR"
+		]
+	},
+	"sv": {
+		"👎": [
+			"Nej",
+			"Aldrig",
+			"Negativt"
+		],
+		"phrases": {
+			"say": "Säga:",
+			"or": "Eller"
+		},
+		"code": "sv",
+		"languageRegion": "sv-SE",
+		"🛑": [
+			"🛑",
+			"Avbryt"
+		],
+		"🔢": [
+			"Noll",
+			"Ett",
+			"Två",
+			"Tre",
+			"Fyra",
+			"Fem",
+			"Sex",
+			"Sju",
+			"Åtta",
+			"Nio",
+			"Tio"
+		],
+		"👍": [
+			"Ja",
+			"Okej",
+			"Ok",
+			"Jakande"
+		],
+		"supportedLanguages": [
+			"Arabiska",
+			"Kantonesiska (traditionell)",
+			"Kinesiska, förenklad",
+			"Kinesiska, traditionell",
+			"Tjeckiska",
+			"Danska",
+			"Nederländska",
+			"Engelska",
+			"Finska",
+			"Franska",
+			"Tyska",
+			"Grekiska",
+			"Hebreiska",
+			"Hindi",
+			"Ungerska",
+			"Indonesiska",
+			"Italienska",
+			"Japanska",
+			"Koreanska",
+			"Norska",
+			"Polska",
+			"Portugisiska",
+			"Rumänska",
+			"Ryska",
+			"Slovakiska",
+			"Spanska",
+			"Svenska",
+			"Thai",
+			"Turkiska"
+		],
+		"regions": [
+			"SE"
+		]
+	},
+	"nl": {
+		"👎": [
+			"Nee",
+			"Nooit",
+			"Negatief"
+		],
+		"phrases": {
+			"say": "Zeggen:",
+			"or": "Of"
+		},
+		"code": "nl",
+		"languageRegion": "nl-NL",
+		"🛑": [
+			"🛑",
+			"Annuleren"
+		],
+		"🔢": [
+			"Nul",
+			"Één",
+			"Twee",
+			"Drie",
+			"Vier",
+			"Vijf",
+			"Zes",
+			"Zeven",
+			"Acht",
+			"Negen",
+			"Tien"
+		],
+		"👍": [
+			"Ja",
+			"Oke",
+			"Ok",
+			"Bevestigend"
+		],
+		"supportedLanguages": [
+			"Arabisch",
+			"Kantonees (traditioneel)",
+			"Vereenvoudigd Chinees",
+			"Traditioneel Chinees",
+			"Tsjechisch",
+			"Deens",
+			"Nederlands",
+			"Engels",
+			"Fins",
+			"Frans",
+			"Duits",
+			"Grieks",
+			"Hebreeuws",
+			"Hindi",
+			"Hongaars",
+			"Indonesisch",
+			"Italiaans",
+			"Japans",
+			"Koreaans",
+			"Noors",
+			"Pools",
+			"Portugees",
+			"Roemeens",
+			"Russisch",
+			"Slowaaks",
+			"Spaans",
+			"Zweeds",
+			"Thais",
+			"Turks"
+		],
+		"regions": [
+			"NL"
+		]
+	},
+	"fr": {
+		"👎": [
+			"Non",
+			"Jamais",
+			"Né Gatif"
+		],
+		"phrases": {
+			"say": "dire:",
+			"or": "ou"
+		},
+		"code": "fr",
+		"languageRegion": "fr-FR",
+		"🛑": [
+			"🛑",
+			"Annuler"
+		],
+		"🔢": [
+			"Zéro",
+			"Un",
+			"Deux",
+			"Trois",
+			"Quatre",
+			"Cinq",
+			"Six",
+			"Sept",
+			"Huit",
+			"Neuf",
+			"Dix"
+		],
+		"👍": [
+			"Oui",
+			"Ok",
+			"Affirmatif"
+		],
+		"supportedLanguages": [
+			"Arabe",
+			"Cantonais (traditionnel)",
+			"Chinois simplifié",
+			"Chinois traditionnel",
+			"Tchèque",
+			"Danois",
+			"Néerlandais",
+			"Anglais",
+			"Finnois",
+			"Français",
+			"Allemand",
+			"Grec",
+			"Hébreu",
+			"Hindi",
+			"Hongrois",
+			"Indonésien",
+			"Italien",
+			"Japonais",
+			"Coréen",
+			"Norvégien",
+			"Polonais",
+			"Portugais",
+			"Roumain",
+			"Russe",
+			"Slovaque",
+			"Espagnol",
+			"Suédois",
+			"Thaï",
+			"Turc"
+		],
+		"regions": [
+			"FR"
+		]
+	},
+	"hu": {
+		"👎": [
+			"Nem",
+			"Soha",
+			"Negatív"
+		],
+		"phrases": {
+			"say": "Mondani:",
+			"or": "Vagy"
+		},
+		"code": "hu",
+		"languageRegion": "hu-HU",
+		"🛑": [
+			"🛑",
+			"Mégse"
+		],
+		"🔢": [
+			"Nulla",
+			"Egy",
+			"Kettő",
+			"Három",
+			"Négy",
+			"Öt",
+			"Hat",
+			"Hét",
+			"Nyolc",
+			"Kilenc",
+			"Tíz"
+		],
+		"👍": [
+			"Igen",
+			"Oké",
+			"Ok",
+			"Megerősítő"
+		],
+		"supportedLanguages": [
+			"arab",
+			"Kantoni (hagyományos)",
+			"kínai (egyszerűsített)",
+			"kínai (hagyományos)",
+			"cseh",
+			"dán",
+			"holland",
+			"angol",
+			"finn",
+			"francia",
+			"német",
+			"görög",
+			"héber",
+			"hindi",
+			"magyar",
+			"indonéz",
+			"olasz",
+			"japán",
+			"koreai",
+			"norvég",
+			"lengyel",
+			"portugál",
+			"román",
+			"orosz",
+			"szlovák",
+			"spanyol",
+			"svéd",
+			"thai",
+			"török"
+		],
+		"regions": [
+			"HU"
+		]
+	},
+	"he": {
+		"👎": [
+			". לא",
+			"לעולם לא",
+			"שלילי"
+		],
+		"phrases": {
+			"say": "ומר",
+			"or": "או"
+		},
+		"code": "he",
+		"languageRegion": "he-IL",
+		"🛑": [
+			"🛑",
+			"ביטול"
+		],
+		"🔢": [
+			"אפס",
+			"אחד",
+			"שתיים",
+			"שלוש",
+			"ארבע",
+			"חמש",
+			"שש",
+			"שבע",
+			"שמונה",
+			"תשע",
+			"עשר"
+		],
+		"👍": [
+			". כן",
+			"בסדר",
+			"כן",
+			"חיובי"
+		],
+		"supportedLanguages": [
+			"ערבית",
+			"קנטונית (מסורתית)",
+			"סינית פשוטה",
+			"סינית מסורתית",
+			"צ\\'כית",
+			"דנית",
+			"הולנדית",
+			"אנגלית",
+			"פינית",
+			"צרפתית",
+			"גרמנית",
+			"יוונית",
+			"עברית",
+			"הינדי",
+			"הונגרית",
+			"אינדונזית",
+			"איטלקית",
+			"יפנית",
+			"קוריאנית",
+			"נורווגית",
+			"פולנית",
+			"פורטוגזית",
+			"רומנית",
+			"רוסית",
+			"סלובקית",
+			"ספרדית",
+			"שוודית",
+			"תאילנדית",
+			"טורקית"
+		],
+		"regions": [
+			"IL"
+		]
+	},
+	"cs": {
+		"👎": [
+			"Ne",
+			"Nikdy",
+			"Negativ"
+		],
+		"phrases": {
+			"say": "Říct:",
+			"or": "Nebo"
+		},
+		"code": "cs",
+		"languageRegion": "cs-CZ",
+		"🛑": [
+			"🛑",
+			"Storno"
+		],
+		"🔢": [
+			"Nula",
+			"Jedna",
+			"Dva",
+			"Tři",
+			"Čtyři",
+			"Pět",
+			"Šest",
+			"Sedm",
+			"Osm",
+			"Devět",
+			"Deset"
+		],
+		"👍": [
+			"Ano",
+			"Dobře",
+			"Potvrzuji"
+		],
+		"supportedLanguages": [
+			"Arabština",
+			"Kantonština (tradiční)",
+			"Zjednodušená čínština",
+			"Tradiční čínština",
+			"Čeština",
+			"Dánština",
+			"Holandština",
+			"Angličtina",
+			"Finština",
+			"Francouzština",
+			"Němčina",
+			"Řečtina",
+			"Hebrejština",
+			"Hindština",
+			"Maďarština",
+			"Indonéština",
+			"Italština",
+			"Japonština",
+			"Korejština",
+			"Norština",
+			"Polština",
+			"Portugalština",
+			"Rumunština",
+			"Ruština",
+			"Slovenština",
+			"Španělština",
+			"Švédština",
+			"Thajština",
+			"Turečtina"
+		],
+		"regions": [
+			"CZ"
+		]
+	},
+	"en": {
+		"👎": [
+			"No",
+			"Never",
+			"Negative"
+		],
+		"phrases": {
+			"say": "Say:",
+			"or": "Or"
+		},
+		"🛑": [
+			"🛑",
+			"Cancel"
+		],
+		"languageRegion": "en-US",
+		"code": "en",
+		"🔢": [
+			"zero",
+			"one",
+			"two",
+			"three",
+			"four",
+			"five",
+			"six",
+			"seven",
+			"eight",
+			"nine",
+			"ten"
+		],
+		"👍": [
+			"Yes",
+			"Okay",
+			"Yeah",
+			"Ok",
+			"Affirmative"
+		],
+		"#️⃣": {
+			"million": "1000000",
+			"billion": "1000000000",
+			"trillion": "1000000000000"
+		},
+		"supportedLanguages": [
+			"Arabic",
+			"Cantonese (Traditional)",
+			"Chinese Simplified",
+			"Chinese Traditional",
+			"Czech",
+			"Danish",
+			"Dutch",
+			"English",
+			"Finnish",
+			"French",
+			"German",
+			"Greek",
+			"Hebrew",
+			"Hindi",
+			"Hungarian",
+			"Indonesian",
+			"Italian",
+			"Japanese",
+			"Korean",
+			"Norwegian",
+			"Polish",
+			"Portuguese",
+			"Romanian",
+			"Russian",
+			"Slovak",
+			"Spanish",
+			"Swedish",
+			"Thai",
+			"Turkish"
+		],
+		"regions": [
+			"US",
+			"GB",
+			"CA"
+		]
+	},
+	"da": {
+		"👎": [
+			"Nej",
+			"Aldrig",
+			"Negativ"
+		],
+		"phrases": {
+			"say": "Sige:",
+			"or": "Eller"
+		},
+		"code": "da",
+		"languageRegion": "da-DK",
+		"🛑": [
+			"🛑",
+			"Annuller"
+		],
+		"🔢": [
+			"Nul",
+			"En",
+			"To",
+			"Tre",
+			"Fire",
+			"Fem",
+			"Seks",
+			"Syv",
+			"Otte",
+			"Ni",
+			"Ti"
+		],
+		"👍": [
+			"Ja",
+			"Okay",
+			"Ok",
+			"Bekræftende"
+		],
+		"supportedLanguages": [
+			"arabisk",
+			"Kantonesisk (traditionelt)",
+			"Kinesisk, forenklet",
+			"Kinesisk, traditionelt",
+			"tjekkisk",
+			"dansk",
+			"nederlandsk",
+			"engelsk",
+			"finsk",
+			"fransk",
+			"tysk",
+			"græsk",
+			"hebraisk",
+			"hindi",
+			"ungarsk",
+			"indonesisk",
+			"italiensk",
+			"japansk",
+			"koreansk",
+			"norsk",
+			"polsk",
+			"portugisisk",
+			"rumænsk",
+			"russisk",
+			"slovakisk",
+			"spansk",
+			"svensk",
+			"thai",
+			"tyrkisk"
+		],
+		"regions": [
+			"DK"
+		]
+	},
+	"it": {
+		"👎": [
+			"No",
+			"Mai",
+			"Negativo"
+		],
+		"phrases": {
+			"say": "dire:",
+			"or": "o"
+		},
+		"code": "it",
+		"languageRegion": "it-IT",
+		"🛑": [
+			"🛑",
+			"Annulla"
+		],
+		"🔢": [
+			"Zero",
+			"Uno",
+			"Due",
+			"Tre",
+			"Quattro",
+			"Cinque",
+			"Sei",
+			"Sette",
+			"Otto",
+			"Nove",
+			"Dieci"
+		],
+		"👍": [
+			"Sì",
+			"Okay",
+			"Ok",
+			"Affermativo."
+		],
+		"supportedLanguages": [
+			"Arabo",
+			"Cucina cantonese (tradizionale)",
+			"Cinese semplificato",
+			"Cinese tradizionale",
+			"Ceco",
+			"Danese",
+			"Olandese",
+			"Inglese",
+			"Finlandese",
+			"Francese",
+			"Tedesco",
+			"Greco",
+			"Ebraico",
+			"Hindi",
+			"Ungherese",
+			"Indonesiano",
+			"Italiano",
+			"Giapponese",
+			"Coreano",
+			"Norvegese",
+			"Polacco",
+			"Portoghese",
+			"Rumeno",
+			"Russo",
+			"Slovacco",
+			"Spagnolo",
+			"Svedese",
+			"Tailandese",
+			"Turco"
+		],
+		"regions": [
+			"IT"
+		]
+	},
+	"ar": {
+		"👎": "لا ، أبدا ، سلبي",
+		"phrases": {
+			"say": "اقول:",
+			"or": "او"
+		},
+		"code": "ar",
+		"languageRegion": "ar-SA",
+		"🛑": "🛑 ، إلغاء الأمر",
+		"🔢": "صفر ، واحد ، اثنان ، ثلاثه ، أربعه ، خمسه ، سته ، سبعه ، ثمانيه ، تسعه ، عشره",
+		"👍": "نعم ، حسنا ، نعم ، حسنا ، بالإيجاب",
+		"supportedLanguages": [
+			"العربية",
+			"الكانتونيه (تقليدي)",
+			"الصينية المبسطة",
+			"الصينية التقليدية",
+			"التشيكية",
+			"الدانماركية",
+			"الهولندية",
+			"الإنكليزية",
+			"الفنلندية",
+			"الفرنسية",
+			"الألمانية",
+			"اليونانية",
+			"العبرية",
+			"الهندية",
+			"المجرية",
+			"الإندونيسية",
+			"الإيطالية",
+			"اليابانية",
+			"الكورية",
+			"النرويجية ‏",
+			"البولندية",
+			"البرتغالية",
+			"الرومانية",
+			"الروسية",
+			"السلوفاكية",
+			"الإسبانية",
+			"السويدية",
+			"التايلندية",
+			"التركية"
+		],
+		"regions": [
+			"SA"
+		]
+	},
+	"id": {
+		"👎": [
+			"Tidak",
+			"Tidak Pernah",
+			"Negatif"
+		],
+		"phrases": {
+			"say": "Mengatakan:",
+			"or": "Atau"
+		},
+		"code": "id",
+		"languageRegion": "id-ID",
+		"🛑": [
+			"🛑",
+			"Batalkan"
+		],
+		"🔢": [
+			"Nol",
+			"Satu",
+			"Dua",
+			"Tiga",
+			"Empat",
+			"Lima",
+			"Enam",
+			"Tujuh",
+			"Delapan",
+			"Sembilan",
+			"Sepuluh"
+		],
+		"👍": [
+			"Ya",
+			"Oke",
+			"Ok",
+			"Afirmatif"
+		],
+		"supportedLanguages": [
+			"Arab",
+			"Kanton (tradisional)",
+			"Cina Sederhana",
+			"Cina Tradisional",
+			"Ceko",
+			"Denmark",
+			"Belanda",
+			"Inggris",
+			"Finlandia",
+			"Prancis",
+			"Jerman",
+			"Yunani",
+			"Ibrani",
+			"Hindi",
+			"Hongaria",
+			"Indonesia",
+			"Italia",
+			"Jepang",
+			"Korea",
+			"Norwegia",
+			"Polandia",
+			"Portugis",
+			"Rumania",
+			"Rusia",
+			"Slovakia",
+			"Spanyol",
+			"Swedia",
+			"Thai",
+			"Turki"
+		],
+		"regions": [
+			"ID"
+		]
+	},
+	"ko": {
+		"👎": [
+			"아니오",
+			"절대",
+			"부정적"
+		],
+		"phrases": {
+			"say": "말할:",
+			"or": "또는"
+		},
+		"code": "ko",
+		"languageRegion": "ko-KR",
+		"🛑": [
+			"🛑",
+			"취소"
+		],
+		"🔢": [
+			"0",
+			"1",
+			"2",
+			"3",
+			"4",
+			"5",
+			"6",
+			"7",
+			"8",
+			"9",
+			"10"
+		],
+		"👍": [
+			"그래",
+			"좋아",
+			"긍정적"
+		],
+		"supportedLanguages": [
+			"아랍어",
+			"광동어 (번체)",
+			"중국어 간체",
+			"중국어 번체",
+			"체코어",
+			"덴마크어",
+			"네덜란드어",
+			"영어",
+			"핀란드어",
+			"프랑스어",
+			"독일어",
+			"그리스어",
+			"히브리어",
+			"힌디어",
+			"헝가리어",
+			"인도네시아어",
+			"이탈리아어",
+			"일본어",
+			"한국어",
+			"노르웨이어",
+			"폴란드어",
+			"포르투갈어",
+			"루마니아어",
+			"러시아어",
+			"슬로바키아어",
+			"스페인어",
+			"스웨덴어",
+			"태국어",
+			"터키어"
+		],
+		"regions": [
+			"KR"
+		]
+	},
+	"ja": {
+		"👎": "いいえ、決して否定的",
+		"phrases": {
+			"say": "言う：",
+			"or": "または"
+		},
+		"code": "ja",
+		"languageRegion": "ja-JP",
+		"🛑": "🛑、キャンセル",
+		"🔢": "ゼロ、1、2、3、4、5、6、7、8、9、10",
+		"👍": "はい、Ok、はい、Ok、肯定",
+		"supportedLanguages": [
+			"アラビア語",
+			"広東語 (繁体字)",
+			"簡体字中国語",
+			"繁体字中国語",
+			"チェコ語",
+			"デンマーク語",
+			"オランダ語",
+			"英語",
+			"フィンランド語",
+			"フランス語",
+			"ドイツ語",
+			"ギリシャ語",
+			"ヘブライ語",
+			"ヒンディー語",
+			"ハンガリー語",
+			"インドネシア語",
+			"イタリア語",
+			"日本語",
+			"韓国語",
+			"ノルウェー語",
+			"ポーランド語",
+			"ポルトガル語",
+			"ルーマニア語",
+			"ロシア語",
+			"スロバキア語",
+			"スペイン語",
+			"スウェーデン語",
+			"タイ語",
+			"トルコ語"
+		],
+		"regions": [
+			"JP"
+		]
+	},
+	"ru": {
+		"👎": [
+			"Нет",
+			"Никогда",
+			"Отрицательный"
+		],
+		"phrases": {
+			"say": "Сказать:",
+			"or": "Или"
+		},
+		"code": "ru",
+		"languageRegion": "ru-RU",
+		"🛑": [
+			"🛑",
+			"Отмена"
+		],
+		"🔢": [
+			"Ноль",
+			"Один",
+			"Два",
+			"Три",
+			"Четыре",
+			"Пять",
+			"Шесть",
+			"Семь",
+			"Восемь",
+			"Девять",
+			"Десять"
+		],
+		"👍": [
+			"Да",
+			"Хорошо",
+			"Утвердительно"
+		],
+		"supportedLanguages": [
+			"арабский",
+			"Кантонский (традиционный)",
+			"китайский упрощенный",
+			"китайский традиционный",
+			"чешский",
+			"датский",
+			"нидерландский",
+			"английский",
+			"финский",
+			"французский",
+			"немецкий",
+			"греческий",
+			"иврит",
+			"хинди",
+			"венгерский",
+			"индонезийский",
+			"итальянский",
+			"японский",
+			"корейский",
+			"норвежский",
+			"польский",
+			"португальский",
+			"румынский",
+			"русский",
+			"словацкий",
+			"испанский",
+			"шведский",
+			"тайский",
+			"турецкий"
+		],
+		"regions": [
+			"RU"
+		]
+	},
+	"th": {
+		"👎": [
+			"ไม่มี",
+			"ไม่เคย",
+			"ลบ"
+		],
+		"phrases": {
+			"say": "พูด:",
+			"or": "หรือ"
+		},
+		"code": "th",
+		"languageRegion": "th-TH",
+		"🛑": [
+			"🛑",
+			"ยกเลิก"
+		],
+		"🔢": [
+			"ศูนย์",
+			"หนึ่ง",
+			"สอง",
+			"สาม",
+			"สี่",
+			"ห้า",
+			"หก",
+			"เจ็ด",
+			"แปด",
+			"เก้า",
+			"สิบ"
+		],
+		"👍": [
+			"ใช่",
+			"โอเค",
+			"ตกลง",
+			"ยืนยัน"
+		],
+		"supportedLanguages": [
+			"อาหรับ",
+			"กวางตุ้ง (ดั้งเดิม)",
+			"จีนประยุกต์",
+			"จีนดั้งเดิม",
+			"เชก",
+			"เดนมาร์ก",
+			"ดัทช์",
+			"อังกฤษ",
+			"ฟินแลนด์",
+			"ฝรั่งเศส",
+			"เยอรมัน",
+			"กรีก",
+			"เฮบรู",
+			"ฮินดี",
+			"ฮังการี",
+			"อินโดนีเซีย",
+			"อิตาลี",
+			"ญี่ปุ่น",
+			"เกาหลี",
+			"นอร์เวย์",
+			"โปแลนด์",
+			"โปรตุเกส",
+			"โรมาเนีย",
+			"รัสเซีย",
+			"สโลวัค",
+			"สเปน",
+			"สวีเดน",
+			"ไทย",
+			"ตุรกี"
+		],
+		"regions": [
+			"TH"
+		]
+	},
+	"hi": {
+		"👎": [
+			"नहीं",
+			"कभी नहीं",
+			"नकारात्मक"
+		],
+		"phrases": {
+			"say": "कहना:",
+			"or": "या"
+		},
+		"code": "hi",
+		"languageRegion": "hi-IN",
+		"🛑": [
+			"🛑",
+			"रद्द करें"
+		],
+		"🔢": [
+			"शून्य",
+			"एक",
+			"दो",
+			"तीन",
+			"चार",
+			"पांच",
+			"छह",
+			"सात",
+			"आठ",
+			"नौ",
+			"दस"
+		],
+		"👍": [
+			"हां",
+			"ठीक है",
+			"सकारात्मक"
+		],
+		"supportedLanguages": [
+			"अरबी",
+			"कैंटोनीज़ (पारंपरिक)",
+			"चीनी सरलीकृत",
+			"चीनी पारंपरिक",
+			"चेक",
+			"डैनिश",
+			"डच",
+			"अंग्रेज़ी",
+			"फ़िनिश",
+			"फ़्रेंच",
+			"जर्मन",
+			"यूनानी",
+			"हिब्रू",
+			"हिंदी",
+			"हंगेरियन",
+			"इंडोनेशियाई",
+			"इटैलियन",
+			"जापानी",
+			"कोरियाई",
+			"नॉर्वेजियन",
+			"पोलिश",
+			"पुर्तगाली",
+			"रोमानियाई",
+			"रूसी",
+			"स्लोवाक",
+			"स्पैनिश",
+			"स्वीडिश",
+			"थाई",
+			"तुर्की"
+		],
+		"regions": [
+			"IN"
+		]
+	},
+	"sk": {
+		"👎": [
+			"Nie",
+			"Nikdy",
+			"Negatívne"
+		],
+		"phrases": {
+			"say": "Povedať:",
+			"or": "Alebo"
+		},
+		"code": "sk",
+		"languageRegion": "sk-SK",
+		"🛑": [
+			"🛑",
+			"Zrušiť"
+		],
+		"🔢": [
+			"Nula",
+			"Jeden",
+			"Dva",
+			"Tri",
+			"Štyri",
+			"Päť",
+			"Šesť",
+			"Sedem",
+			"Osem",
+			"Deväť",
+			"Desať"
+		],
+		"👍": [
+			"Áno",
+			"Dobre",
+			"Ok",
+			"Kladne"
+		],
+		"supportedLanguages": [
+			"arabčina",
+			"Kantonská (tradičná)",
+			"čínština (zjednodušená)",
+			"čínština (tradičná)",
+			"čeština",
+			"dánčina",
+			"holandčina",
+			"angličtina",
+			"fínčina",
+			"francúzština",
+			"nemčina",
+			"gréčtina",
+			"hebrejčina",
+			"hindčina",
+			"maďarčina",
+			"indonézština",
+			"taliančina",
+			"japončina",
+			"kórejčina",
+			"nórčina",
+			"poľština",
+			"portugalčina",
+			"rumunčina",
+			"ruština",
+			"slovenčina",
+			"španielčina",
+			"švédčina",
+			"thajčina",
+			"turečtina"
+		],
+		"regions": [
+			"SK"
+		]
+	},
+	"zh": {
+		"👎": [
+			"不",
+			"永远",
+			"否定"
+		],
+		"phrases": {
+			"say": "说：",
+			"or": "或"
+		},
+		"code": "zh",
+		"languageRegion": "zh-CN",
+		"🛑": [
+			"🛑",
+			"取消"
+		],
+		"🔢": [
+			"領",
+			"一",
+			"二",
+			"三",
+			"四",
+			"五",
+			"六",
+			"七",
+			"八",
+			"九",
+			"十"
+		],
+		"👍": [
+			"是的",
+			"好的"
+		],
+		"supportedLanguages": [
+			"阿拉伯语",
+			"粤语 (繁体)",
+			"简体中文",
+			"繁体中文",
+			"捷克语",
+			"丹麦语",
+			"荷兰语",
+			"英语",
+			"芬兰语",
+			"法语",
+			"德语",
+			"希腊语",
+			"希伯来语",
+			"印地语",
+			"匈牙利语",
+			"印度尼西亚语",
+			"意大利语",
+			"日语",
+			"朝鲜语",
+			"挪威语",
+			"波兰语",
+			"葡萄牙语",
+			"罗马尼亚",
+			"俄语",
+			"斯洛伐克语",
+			"西班牙语",
+			"瑞典语",
+			"泰语",
+			"土耳其语"
+		],
+		"regions": [
+			"CN"
+		]
+	},
+	"pt": {
+		"👎": [
+			"Não",
+			"Nunca",
+			"Negativo"
+		],
+		"phrases": {
+			"say": "Dizer:",
+			"or": "Ou"
+		},
+		"code": "pt",
+		"languageRegion": "pt-BR",
+		"🛑": [
+			"🛑",
+			"Cancelar"
+		],
+		"🔢": [
+			"Zero",
+			"Um",
+			"Dois",
+			"Três",
+			"Quatro",
+			"Cinco",
+			"Seis",
+			"Sete",
+			"Oito",
+			"Nove",
+			"Dez"
+		],
+		"👍": [
+			"Sim",
+			"Ok",
+			"Afirmativo."
+		],
+		"supportedLanguages": [
+			"Árabe",
+			"Cantonês (tradicional)",
+			"Chinês simplificado",
+			"Chinês tradicional",
+			"Tcheco",
+			"Dinamarquês",
+			"Holandês",
+			"Inglês",
+			"Finlandês",
+			"Francês",
+			"Alemão",
+			"Grego",
+			"Hebraico",
+			"Hindi",
+			"Húngaro",
+			"Indonésio",
+			"Italiano",
+			"Japonês",
+			"Coreano",
+			"Norueguês",
+			"Polonês",
+			"Português",
+			"Romeno",
+			"Russo",
+			"Eslovaco",
+			"Espanhol",
+			"Sueco",
+			"Tailandês",
+			"Turco"
+		],
+		"regions": [
+			"BR"
+		]
+	},
+	"pl": {
+		"👎": [
+			"Nie",
+			"Nigdy",
+			"Negatywne"
+		],
+		"phrases": {
+			"say": "Powiedzieć:",
+			"or": "Lub"
+		},
+		"code": "pl",
+		"languageRegion": "pl-PL",
+		"🛑": [
+			"🛑",
+			"Anuluj"
+		],
+		"🔢": [
+			"Zero",
+			"Jeden",
+			"Dwa",
+			"Trzy",
+			"Cztery",
+			"Pięć",
+			"Sześć",
+			"Siedem",
+			"Osiem",
+			"Dziewięć",
+			"Dziesięć"
+		],
+		"👍": [
+			"Tak",
+			"Dobrze",
+			"Ok",
+			"Twierdząco"
+		],
+		"supportedLanguages": [
+			"Arabski",
+			"Kantoński (tradycyjny)",
+			"Chiński uproszczony",
+			"Chiński tradycyjny",
+			"Czeski",
+			"Duński",
+			"Holenderski",
+			"Angielski",
+			"Fiński",
+			"Francuski",
+			"Niemiecki",
+			"Grecki",
+			"Hebrajski",
+			"Hindi",
+			"Węgierski",
+			"Indonezyjski",
+			"Włoski",
+			"Japoński",
+			"Koreański",
+			"Norweski",
+			"Polski",
+			"Portugalski",
+			"Rumuński",
+			"Rosyjski",
+			"Słowacki",
+			"Hiszpański",
+			"Szwedzki",
+			"Tajski",
+			"Turecki"
+		],
+		"regions": [
+			"PL"
+		]
+	},
+	"de": {
+		"👎": [
+			"Nein",
+			"Niemals",
+			"Negativ"
+		],
+		"phrases": {
+			"say": "sagen:",
+			"or": "oder"
+		},
+		"code": "de",
+		"languageRegion": "de-DE",
+		"🛑": [
+			"🛑",
+			"Absagen"
+		],
+		"🔢": [
+			"Null",
+			"Eins",
+			"Zwei",
+			"Drei",
+			"Vier",
+			"Fünf",
+			"Sechs",
+			"Sieben",
+			"Acht",
+			"Neun",
+			"Zehn"
+		],
+		"👍": [
+			"Ja",
+			"Okay",
+			"Ok",
+			"Affirmative"
+		],
+		"supportedLanguages": [
+			"Arabisch",
+			"Kantonesisch (Traditionell)",
+			"Chinesisch (Vereinfacht)",
+			"Chinesisch (Traditionell)",
+			"Tschechisch",
+			"Dänisch",
+			"Holländisch",
+			"Englisch",
+			"Finnisch",
+			"Französisch",
+			"Deutsch",
+			"Griechisch",
+			"Hebräisch",
+			"Hindi",
+			"Ungarisch",
+			"Indonesisch",
+			"Italienisch",
+			"Japanisch",
+			"Koreanisch",
+			"Norwegisch",
+			"Polnisch",
+			"Portugiesisch",
+			"Rumänisch",
+			"Russisch",
+			"Slowakisch",
+			"Spanisch",
+			"Schwedisch",
+			"Thailändisch",
+			"Türkisch"
+		],
+		"regions": [
+			"DE"
+		]
+	}
+}
