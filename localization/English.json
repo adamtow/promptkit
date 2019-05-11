@@ -4,8 +4,7 @@
 		"alert_shortcuts_retrieval": "Retrieving a list of installed PromptKit Story shortcuts. This may take a few moments.",
 	    "alert_update_none": "You are currently running the latest version of PromptKit.",
 	    "alert_update_none_title": "No Update Available",
-	    "default_unlockPrompt": "You will need to unlock this device in order to address this PromptKit prompt/story.",
-	    
+	    "default_unlockPrompt": "PromptKit is requesting your attention. Unlock this device to respond.",
 		"error_function_unknown": "The Return object was not handled properly.",
 		"error_history_none": "There is no history to go back to.",
 		"error_history_oob": "That history item does not exist.",
@@ -95,7 +94,8 @@
 		"prompt_settings_defaultMode": "Choose the mode to use when none is specified or when Mode Override is enabled",
 		"prompt_settings_repeat": "Enter the default number of times PromptKit will re-ask the question before exiting.",
 		"prompt_settings_unlockPrompt": "Enter the prompt that will be spoken when your device is locked.",
-		"prompt_setup_askStoryMode": "Ask Story Mode\n\nPromptKit Stories are collections of prompts that present advanced interaction and experiences on your iOS device.\n\nWhen running a PromptKit Story, do you want to be asked to set the mode for the entire story?",
+		"prompt_setup_askStoryMode": "Ask Story Mode\n\nPromptKit Stories are collections of prompts that present advanced interaction and experiences on your iOS device.\n\nWhen opening a PromptKit Story, do you want the opportunity to set the mode for the entire story?",
+		"prompt_setup_autoUpdate": "Do you want to check for updates to PromptKit automatically?",
 		"prompt_setup_complete": "PromptKit set up complete!\n\nWhat would you like to do next?",
 		"prompt_setup_defaultMode": "Default Mode\n\nPromptKit Prompts can be configured to use speech and dictation, dialogs, or speech and dialogs.\n\nFor those prompts that do not specify a mode, select the mode to be used.",
 		"prompt_setup_detectLanguages": "Detect Languages\n\nAllow PromptKit to detect the language of prompts so it can speak using the correct voice?\n\nNote: This feature requires your device to be connected to the internet.",
@@ -104,18 +104,6 @@
 		"prompt_setup_welcome": "Welcome to PromptKit, a powerful shortcut library for displaying and interacting with alerts, menus, and dialogs.\n\nThis assistant will walk you through the initial setup process.\n\nLet's get started!",
 		"prompt_story_mode": "How would you like this story presented?",
 		"prompt_translationLanguage": "Choose the language used for automatic translation of prompts.",
-		"prompt_unlock": "You will need to unlock this device in order to run this PromptKit prompt."		
-	},
-	"Français": {
-		"alert_about": "PromptKit is a shortcut library that asks for user input via dictation. It handles asking for numbers, freeform questions, and yes/no questions.\n\nYou can restrict responses to a list of answers, and PromptKit repeats the question if it did not understand the user's response.\n\nhttps://tow.com/shortcuts/promptkit/\n\nAdam Tow • tow.com • @atow",
-		"error_function_unknown": "The Return object was not handled properly.",
-		"error_language_unknown": "PromptKit could not detect the inputted language.",
-		"error_locked": "PromptKit requires the device to be unlocked in order to dictate text.",
-		"error_message_missing": "No message text was supplied to PromptKit",
-		"error_shortcut_missing": "The shortcut could not be found on this iOS device: {{shortcut}}",
-		"error_type_unknown": "An unknown prompt type was requested: {{type}}.",
-		"prompt_language_unknown": "The language could not be detected for the inputted text. Continue using the default language?",
-		"prompt_unlock": "You will need to unlock this device in order to dictate text.",
-	    "prompt_update": "PromptKit {{version}} is available. Would you like to download it now?\n\nRelease Notes\n{{notes}}"
+		"prompt_unlock": "You will need to unlock this device in order to run this PromptKit prompt."
 	}
 }
