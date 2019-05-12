@@ -733,7 +733,7 @@
 			"חיובי"
 		],
 		"supportedLanguages": [
-						"איטלקית",
+			"איטלקית",
 			"אינדונזית",
 			"אנגלית",
 			"גרמנית",
@@ -844,12 +844,43 @@
 		],
 		"phrases": {
 			"say": "Say:",
-			"or": "Or"
+			"or": "Or",
+			"no": [
+				"No",
+				"Never",
+				"Negative"
+			],
+			"cancel": [
+				"🛑",
+				"Cancel"
+			],
+			"number": [
+				"zero",
+				"one",
+				"two",
+				"three",
+				"four",
+				"five",
+				"six",
+				"seven",
+				"eight",
+				"nine",
+				"ten"
+			],
+			"unlockPrompt": "PromptKit is requesting your attention. Please unlock your devicd to respond to the prompt.",
+			"yes": [
+				"Yes",
+				"Okay",
+				"Yeah",
+				"Ok",
+				"Affirmative"
+			],
+			"#️⃣": {
+				"million": "1000000",
+				"billion": "1000000000",
+				"trillion": "1000000000000"
+			}
 		},
-		"🛑": [
-			"🛑",
-			"Cancel"
-		],
 		"languageRegion": "en-US",
 		"name": "English",
 		"code": "en",
