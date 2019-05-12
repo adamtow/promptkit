@@ -2,9 +2,9 @@
     "Arabic": "كيف هي احوالك؟",
     "Chinese Simplified": "你好吗？",
     "Chinese Traditional": "你好嗎？",
-    "Czech": "Jak se máš?",
-    "Danish": "Hvordan har du det?",
-    "Dutch": "Hoe gaat het?",
+    "Czech": "Kam chceš jít dnes?",
+    "Danish": "Hvor vil du hen i dag?",
+    "Dutch": "Waar wil je naartoe vandaag?",
     "English": "How are you?",
     "Finnish": "Miten menee?",
     "French": "Comment allez vous?",
@@ -26,5 +26,5 @@
     "Spanish": "¿Como estas?",
     "Swedish": "Hur mår du?",
     "Thai": "เป็นไงบ้าง?",
-    "Turkish": "N'aber?"
+    "Turkish": "Bugün nereye gitmek istersin?"
 }
