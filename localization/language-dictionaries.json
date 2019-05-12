@@ -487,40 +487,41 @@
 		]
 	},
 	"nl": {
-		"👎": [
-			"Nee",
-			"Nooit",
-			"Negatief"
-		],
 		"phrases": {
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"Annuleren"
+			],
+			"no": [
+				"Nee",
+				"Nooit",
+				"Negatief"
+			],
 			"say": "Zeggen:",
-			"or": "Of"
+			"or": "Of",
+			"numbers": [
+				"Nul",
+				"Één",
+				"Twee",
+				"Drie",
+				"Vier",
+				"Vijf",
+				"Zes",
+				"Zeven",
+				"Acht",
+				"Negen",
+				"Tien"
+			],
+			"yes": [
+				"Ja",
+				"Oke",
+				"Ok",
+				"Bevestigend"
+			]
 		},
 		"code": "nl",
 		"languageRegion": "nl-NL",
-		"🛑": [
-			"🛑",
-			"Annuleren"
-		],
-		"🔢": [
-			"Nul",
-			"Één",
-			"Twee",
-			"Drie",
-			"Vier",
-			"Vijf",
-			"Zes",
-			"Zeven",
-			"Acht",
-			"Negen",
-			"Tien"
-		],
-		"👍": [
-			"Ja",
-			"Oke",
-			"Ok",
-			"Bevestigend"
-		],
 		"supportedLanguages": [
 			"Arabisch",
 			"Deens",
@@ -557,41 +558,42 @@
 		]
 	},
 	"fr": {
-		"👎": [
-			"Non",
-			"Jamais",
-			"Négatif"
-		],
 		"phrases": {
-			"say": "dire:",
-			"or": "ou"
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"Annuler"
+			],
+			"no": [
+				"Non",
+				"Jamais",
+				"Négatif"
+			],
+			"numbers": [
+				"zéro",
+				"Un",
+				"Deux",
+				"Trois",
+				"Quatre",
+				"Cinq",
+				"Six",
+				"Sept",
+				"Huit",
+				"Neuf",
+				"Dix"
+			],
+			"or": "ou",
+				"yes": [
+				"Oui",
+				"Ok",
+				"Ouais",
+				"Bien sûr",
+				"Affirmatif"
+			],
+			"say": "Dites:"
 		},
 		"code": "fr",
 		"languageRegion": "fr-FR",
-		"🛑": [
-			"🛑",
-			"Annuler"
-		],
-		"🔢": [
-			"Zéro",
-			"Un",
-			"Deux",
-			"Trois",
-			"Quatre",
-			"Cinq",
-			"Six",
-			"Sept",
-			"Huit",
-			"Neuf",
-			"Dix"
-		],
-		"👍": [
-			"Oui",
-			"Ok",
-			"Ouais",
-			"Bien sûr",
-			"Affirmatif"
-		],
 		"supportedLanguages": [
 			"Allemand",
 			"Anglais",
@@ -837,22 +839,20 @@
 		]
 	},
 	"en": {
-		"👎": [
-			"No",
-			"Never",
-			"Negative"
-		],
 		"phrases": {
-			"say": "Say:",
-			"or": "Or",
+			"bigNumbers": {
+				"million": "1000000",
+				"billion": "1000000000",
+				"trillion": "1000000000000"
+			},
+			"cancel": [
+				"🛑",
+				"Cancel"
+			],
 			"no": [
 				"No",
 				"Never",
 				"Negative"
-			],
-			"cancel": [
-				"🛑",
-				"Cancel"
 			],
 			"number": [
 				"zero",
@@ -867,48 +867,25 @@
 				"nine",
 				"ten"
 			],
-			"unlockPrompt": "PromptKit is requesting your attention. Please unlock your devicd to respond to the prompt.",
+			"or": "Or",
+			"say": [
+				"Say:",
+				"Choose from:",
+				"Pick from:",
+				"You can say:"
+			],
+			"unlockPrompt": "PromptKit is requesting your attention. Please unlock your device to respond to the prompt.",
 			"yes": [
 				"Yes",
 				"Okay",
 				"Yeah",
 				"Ok",
 				"Affirmative"
-			],
-			"#️⃣": {
-				"million": "1000000",
-				"billion": "1000000000",
-				"trillion": "1000000000000"
-			}
+			]
 		},
 		"languageRegion": "en-US",
 		"name": "English",
 		"code": "en",
-		"🔢": [
-			"zero",
-			"one",
-			"two",
-			"three",
-			"four",
-			"five",
-			"six",
-			"seven",
-			"eight",
-			"nine",
-			"ten"
-		],
-		"👍": [
-			"Yes",
-			"Okay",
-			"Yeah",
-			"Ok",
-			"Affirmative"
-		],
-		"#️⃣": {
-			"million": "1000000",
-			"billion": "1000000000",
-			"trillion": "1000000000000"
-		},
 		"supportedLanguages": [
 			"Arabic",
 			"Cantonese (Traditional)",
@@ -1572,38 +1549,39 @@
 		]
 	},
 	"zh": {
-		"👎": [
-			"不",
-			"永远",
-			"否定"
-		],
 		"phrases": {
+			"bigNumbers": {},
 			"say": "说：",
-			"or": "或"
+			"or": "或",
+			"no": [
+				"不",
+				"永远",
+				"否定"
+			],
+			"cancel": [
+				"🛑",
+				"取消"
+			],
+			"numbers": [
+				"零",
+				"一",
+				"二",
+				"三",
+				"四",
+				"五",
+				"六",
+				"七",
+				"八",
+				"九",
+				"十"
+			],
+			"yes": [
+				"是的",
+				"好的"
+			]
 		},
 		"code": "zh",
 		"languageRegion": "zh-CN",
-		"🛑": [
-			"🛑",
-			"取消"
-		],
-		"🔢": [
-			"0",
-			"一",
-			"二",
-			"三",
-			"四",
-			"五",
-			"六",
-			"七",
-			"八",
-			"九",
-			"十"
-		],
-		"👍": [
-			"是的",
-			"好的"
-		],
 		"supportedLanguages": [
 			"丹麥文",
 			"俄文",
@@ -1637,6 +1615,75 @@
 		"name": "简体中文",
 		"regions": [
 			"CN"
+		]
+	},
+	"zh-HK": {
+		"phrases": {
+			"bigNumbers": {},
+			"say": "说：",
+			"or": "或",
+			"no": [
+				"不",
+				"永远",
+				"否定"
+			],
+			"cancel": [
+				"🛑",
+				"取消"
+			],
+			"numbers": [
+				"零",
+				"一",
+				"二",
+				"三",
+				"四",
+				"五",
+				"六",
+				"七",
+				"八",
+				"九",
+				"十"
+			],
+			"yes": [
+				"是的",
+				"好的"
+			]
+		},
+		"code": "zh",
+		"languageRegion": "zh-HK",
+		"supportedLanguages": [
+			"丹麥文",
+			"俄文",
+			"匈牙利文",
+			"印尼文",
+			"印度文",
+			"土耳其文",
+			"希伯來文",
+			"希臘文",
+			"德文",
+			"挪威文",
+			"捷克文",
+			"斯洛伐克文",
+			"日文",
+			"法文",
+			"波蘭文",
+			"泰文",
+			"瑞典文",
+			"簡體中文",
+			"繁體中文",
+			"羅馬尼亞文",
+			"義大利文",
+			"芬蘭文",
+			"英文",
+			"荷蘭文",
+			"葡萄牙文",
+			"西班牙文",
+			"阿拉伯文",
+			"韓文"
+		],
+		"name": "简体中文",
+		"regions": [
+			"HK"
 		]
 	},
 	"pt": {
