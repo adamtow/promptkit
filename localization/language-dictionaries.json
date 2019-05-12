@@ -560,7 +560,7 @@
 		"👎": [
 			"Non",
 			"Jamais",
-			"Né Gatif"
+			"Négatif"
 		],
 		"phrases": {
 			"say": "dire:",
@@ -588,6 +588,8 @@
 		"👍": [
 			"Oui",
 			"Ok",
+			"Ouais",
+			"Bien sûr",
 			"Affirmatif"
 		],
 		"supportedLanguages": [

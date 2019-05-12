@@ -82,9 +82,8 @@
 		"menu_setup_home_alternate": " | Home | Start | Homescreen | Screen",
 		"menu_setup_tutorial": "Run the PromptKit Tutorial…",
 		"menu_setup_tutorial_alternate": " | Tutorial | Run",
-		"menu_translationLanguage_cancel": "Back to Settings",
-		"menu_translationLanguage_enter": "Change Language…",
-		"menu_translationLanguage_view": "View Languages…",
+		"menu_translationLanguage_custom": "Custom…",
+		"menu_translationLanguage_microsoft": "View Available Languages…",
 		"menu_update_cancel": "Don't Update",
 		"menu_update_confirm": "Update Now…",
 		"name": "English",
@@ -106,7 +105,8 @@
 		"prompt_setup_translationLanguage": "Automatic Prompt Translation\n\nShould PromptKit automatically translate prompts to another language?\n\nYou can change this setting and the translation language from the PromptKit Home screen.",
 		"prompt_setup_welcome": "Welcome to PromptKit, a shortcut library for building interactive prompts with speech, dictation, menus, dialogs, and validation.\n\nPromptKit prompts can translate between languages, store data, and call shortcuts.\n\nThis assistant will walk you through the initial setup process.",
 		"prompt_story_mode": "How would you like this story presented?",
-		"prompt_translationLanguage": "Choose the language used for automatic translation of prompts.",
+		"prompt_translationLanguage": "Choose the language used for automatic translation of prompts.\n\nThe name of the language must match what is displayed in the Translate Text with Microsoft action.\n\nUse Custom… to enter a custom language name if you have problems.",
+		"prompt_translationLanguage_custom": "The name of the language must match what is displayed in the Translate Text with Microsoft action.\n\nUse Custom… to enter a custom language name if you have problems.",
 		"prompt_unlock": "You will need to unlock this device in order to run this PromptKit prompt."
 	}
 }
