@@ -1,20 +1,85 @@
 # PromptKit
-PromptKit is a shortcut library for creating powerful, interactive, multilingual prompts featuring speech, dictation, menus, and dialogs.
+PromptKit is a shortcut library for creating powerful, interactive, multilingual prompts featuring speech, dictation, menus, and dialogs. PromptKit makes interacting with your iOS device even better. 
 
-With PromptKit, you can:
+## Quick Links
+- [**Download PromptKit From RoutineHub**](https://routinehub.co/shortcut/2583)
+- [Get PromptKit Tester](https://routinehub.co/shortcut/2628), a shortcut that showcases the ways PromptKit can present and request information.
+- [Find more shortcuts that support PromptKit](https://routinehub.co/search/?q=PromptKit)
 
-- Select between voice or dialog-driven prompts. Not connected to the internet? Your voice-driven prompts will automatically turn into menu and dialog prompts. 
+## Table of Contents
+- Overview
+- Getting Started
+- 
+
+## PromptKit Overview
+PromptKit serves both end-users and developers alike. For users, PromptKit give them the ability to:
+
+- Have richer and more interactive experiences with their iOS devices. 
+- Select between voice or dialog-driven prompts.
+	- Not connected to the internet? Voice-driven prompts will turn into menu and dialog prompts.
 - Automatically translate prompts from one language to another. 
-- Restrict your prompts to accept a list of answers.
-- Use comparison operators such as contains, equals, greater than, less than, before, after and between for text, number, date and time input.
-- Configure the number of times a prompt can be repeated if a decision was not chosen. 
-- Confirmations with yes or no.
-- Asking for numeric input.
-- Freefrom voice input.
-- Cancellation by the user.
-- No response or accepted response from the user.
+	- Over 25 languages supported out of the box. 
+- Configure PromptKit to work exclusively in handsfree mode or dialog-driven mode. 
 
+Developers benefit from an easy-to-use API that gives them the ability to:
 
+- Choose from an extensive list of prompt types, including:
+	- Freeform
+	- Numbers
+	- Dates and times
+	- Yes and no confirmations
+	- Alerts and notifications
+- Restrict prompts to accept a list of answers. Each answer can have multiple alternate responses.
+- Validate user input with comparison operators such as:
+	- contains
+	- equals
+	- exact equality
+	- greater than
+	- less than
+	- between
+	- before
+	- after
+	- between
+- Repeat the prompt once or multiple times if the input is not validated. Optionally change the prompt message or type on each repetition of the prompt. 
+- Detect cancellation, no response, and successful responses by the user.
+
+### PromptKit Stories
+PromptKit Prompts can be bundled together as scenes of a PromptKit Story. Stories extends the power of PromptKit by creating rich, multi-step interactions with your iOS device.
+
+For developers, making a prompt with PromptKit is as easy as sending it some text or a dictionary of options. Learn more about its API to unlock its full potential, including the ability to:
+
+- Send and receive data from external shortcuts. 
+- Store and share data between story scenes. 
+- Access a history of past prompts (i.e. go back to step 4 or start over from the beginning). 
+
+## Getting Started
+Get started by downloading and installing PromptKit. The latest version is available on RoutineHub:
+
+- [**Download PromptKit**](https://routinehub.co/shortcut/2583)
+
+After installing, run PromptKit from the Shortcuts Home screen. It’s a large shortcut with over 3500 actions, so it will take a long time to run from the Edit Shortcut Screen. 
+
+### Setup Assistant
+The first time you run PromptKit, the setup assistant will walk you through the steps of configuring the shortcut. Each of the menus and prompts you see were
+created using PromptKit’s easy to build API. You will learn about:
+
+- **Check for Updates**: Configure PromptKit to check for updates automatically at startup of the main application. It will not happen while running prompts. 
+- **Detect Languages**: Determine the language of a prompt so PromptKit can provide these benefits to you. 
+	- **Auto Translate**: Set PromptKit to translate prompts from one language to another. Choose from over 25 supported languages. 
+	- **Translation Dictation**: For prompts that employ dictation, this setting allows you to provide your response in the dictated languages. If a prompt was originally set to English and you are translating to French, you can respond back in French. 
+- **Default Mode**: for prompts that don’t specify a mode of operation (i.e. dialog or voice driven prompts), PromptKit will use the setting you choose  here. 
+- **Mode Override**: PromptKit allows the user to override all modes and use just one way to interact with PromptKit Prompts. 
+- **Ask Story Mode**: When starting a PromptKit Story, PromptKit can force a story to run temporarily in one mode. 
+
+Once setup is complete, you can [find more PromptKit compatible shortcuts](https://routinehub.co/search/?q=PKS) on RoutineHub, read the documentation, or go to the PromptKit Home screen. 
+
+## Using PromptKit
+
+## Exploring PromptKits Interface
+
+## PromptKit Settings
+
+## Developer API
 
 ## PromptKit Dictionary
 PromptKit supports text and dictionary input. Specifying the PromptKit Dictionary gives you the most control over the look and feel of your prompt.
@@ -34,20 +99,25 @@ A PromptKit Prompt and Scene are dictionaries that contain the following require
 - [mode](#mode)
 - [title](#title)
 - [choices](#choices)
-- [decisions](#decisions)
-- [dataKey](#dataKey)
 - [spokenLanguage](#spokenLanguage)
 - [dictationLanguage](#dictationLanguage)
 - [repeat](#repeat)
 - [validate](#validate)
+
+**Additional Options**
 - [speakChoices](#decisions)
 - [hideFromHistory](#hideFromHistory)
 - [notificationPlaySound](#notificationPlaySound)
 - [confirmShowCancel](#confirmShowCancel)
+- [allowTranslationDictation](#allowTranslationDictation)
+- [returnResponseOnly](#returnResponseOnly)
 
+**Story-Specific Options**
+- [decisions](#decisions)
+- [dataKey](#dataKey)
 
 ### message (Required) Text or Array
-This is the text displayed or spoken to the user. If you supply just one string, it will be used for all repetitions. If you supply multiple strings in an array, the string used will correspond to the loop repeat index. For instance:
+This is the information displayed or spoken to the user. If you supply just one string, it will be used for all repetitions. If you supply multiple strings in an array, the string used will correspond to the loop repeat index. For instance:
 
 ```
 "message":
@@ -62,20 +132,20 @@ This is the text displayed or spoken to the user. If you supply just one string,
 The first time PromptKit is called, it will speak the first question string. If a successful response is not given, it will speak the second question, followed by the third and fourth. If the user did not provide a successful response after the fourth, the function will return with a ❓ response.
 
 ## type (Optional) Text
-Specifies how the message will be interpreted and presented to the user. Valid values are:
+Specifies how the message will be interpreted and presented to the user. Valid values include:
 
-- **text** (default): For manual prompts, the message is displayed in an Ask For Input action dialogue. For handsfree prompts, the message is spoken to the user and Dictate Text Action is used to capture the user’s input. This type can be combined with the `choices` array to accept only certain responses.
-- **confirm**: Prompts the user for a Yes or No response.
-- **number**: Prompts the user to enter a number. Verifies that the user entered a valid number. 
+- **text** (default): For manual prompts, the message is displayed in an Ask For Input action dialog. For handsfree prompts, the message is spoken to the user and Dictate Text action captures the user’s input. This type can be combined with the `choices` array to accept only certain responses.
+- **confirm**: Prompts the user for a Yes, No, or optional Cancel response.
+- **number**: Prompts the user to enter a number. Verifies that the user entered a valid number. Supports validation tests of equality, less than, greater than, and between. 
 - **list**: Prompts the user to choose from a list of choices.
 - **date**: Prompts the user to enter a date. Manual prompts will display the standard iOS Date picker. Voice prompts will use the Get Dates From Input action to convert dictated text into a date. 
 - **dateTime**: Prompts the user to enter a date and time. Manual prompts will display the standard iOS Date and Time picker. Voice prompts will use the Get Dates From Input action to convert dictated text into a date and time. 
 - **time**: Prompts the user to enter a time. Manual prompts will display the standard iOS Time picker. Voice prompts will use the Get Dates From Input and Format Dates actions to convert dictated text into a time. 
-- **history**: in PromptKit Stories, this Prompt type allows the user to go back to a certain point in a Story. For both manual and handsfree prompts, it displays a menu of available scenes to return to. More information on how history works can be found in the [PromptKit Story History](#promptkit-Story-History) section. 
+- **history**: in PromptKit Stories, this Prompt type allows the user to go back to a certain point in a Story. For both manual and handsfree prompts, it displays a menu of available scenes to return to. More information on how history works can be found in the [PromptKit Story History](#promptkit-story-history) section. 
 - **quickLook**: Displays the message in a Quick Look window for manual prompts. For handsfree prompts, the message is spoken back to the user. 
 - **markdown**: Interprets the message as markdown. For manual prompts, it converts the markdown to HTML and displays a webpage to the user. For handsfree prompts, it converts the markdown to Rich Text and speaks it to the user. 
-- **html**: Interprets the message as HTML, converts it to a webpage and displays in a Quick Look window. 
-- **http**: Opens a Quick Look window for manual prompts. Opens Safari for handsfree prompts and returns the user back to the Shortcuts app to continue execution. 
+- **html**: Interprets the message as HTML, converts it to a webpage and displays in a Quick Look window or Safari window. Specify `useSafari` to true to open the URL in Safari. 
+- **url**: Opens a Quick Look window or Safari to the supplies URL. Specify `useSafari` to true to open the URL in Safari. 
 - **alert**: Displays the message in a modal alert dialog for manual prompts. If specified, the `title` of the prompt will be used as the title of the alert. Otherwise “PromptKit” will be used. Tapping OK will continue the execution of PromptKit. Tapping Cancel will terminate the shortcut. For handsfree prompts, the message is spoken to the user. 
 - **notification**: Displays the message in a notification banner with manual driven prompts. If specified, the `title` of the prompt will be used as the title of the notification. Otherwise “PromptKit” will be used. Specify `notificationSound` to true to display a sound during the notification (default is no sound). For handsfree prompts, the message is spoken to the user. 
 - **result**: Displays the message in a modal dialog for manual prompts. For handsfree prompts, the message is spoken to the user. 
@@ -102,17 +172,17 @@ When run, the user will be prompted to choose a default maps app. The user could
 
 You can use the | delimiter with both Freeform and Number prompts. Confirm prompts make use of the Localized Strings dictionary to determine yes or no responses.
 
-### comparison (Optional) String
-By default, your response will be matched to possible answers in the `choices` array using a contains comparison. You can specify the following values for `comparison`:
+### validate (Optional) String
+By default, your response will be matched to possible answers in the `choices` array using a contains comparison. You can specify the following values for `validate`:
 
-- contains (default for text)
-- equals (default for numbers)
-- exact
-- greaterThan (numbers only)
-- lessThan (numbers only)
-- between (numbers only)
-
-**Note**: *PromptKit currently does not support using comparison operators with the date, dateTime, and time prompt types. *
+- **contains** (default for text)
+- **equals** (default for numbers)
+- **exact**
+- **greaterThan** (numbers only)
+- **lessThan** (numbers only)
+- **between** (dates, times, and numbers only)
+- **before** (dates and times only)
+- **after** (dates and times only)
 
 #### contains
 If you said, “I really like brownies.” and the `choices` has the following:
@@ -154,16 +224,6 @@ For use with numbers and dates, the input must be between any of the numbers in 
 
 `"choices": "1–10 | 20–30"`
 
-
-****
-
-
-## 🛑 (Optional) Text
-This text is spoken to the user if the Cancel keyword phrase is spoke. If not included in the Prompt Dictionary, nothing will be spoken.
-
-## ❓(Optional) Text
-This text is spoken to the user if no successful response was captured. If not included in the Prompt Dictionary, nothing will be spoken.
-
 <span id=“repeat”></span> 
 ### repeat
 (Optional) Number
@@ -172,35 +232,91 @@ You can specify how many times PromptKit will ask the user your question. The de
 <span id=“spokenLanguage”></span> 
 ### spokenLanguage 
 (Optional) Text
-Setting the language will determine the language used to speak the prompt’s message. It also controls how the Yes, No, and Cancel choices in confirm prompts are displayed.
+Setting the language will determine the language used to speak the prompt’s message. It also controls how the Yes, No, and Cancel choices in Confirm prompts are displayed.
 
 The format of the dictation language is (language code)-(language region). For instance:
 
-- en-US: English (USA)
-- en-GB: English (United Kingdom)
-- fr-FR: French (France)
-
-A complete list of [supported languages and codes](#language-codes) can be found here. 
+- **en-US**: English (USA)
+- **en-GB**: English (United Kingdom)
+- **fr-FR**: French (France)
 
 <span id=“dictationLanguage”></span> 
 ### dictationLanguage 
 (Optional) Text
 Setting the dictationLanguage will determine how Dictate Text Action interprets user input. If not specified, the dictation language will be the same as the spoken language. 
 
-The format of the dictation language is the same as for spokenLanguage. 
+The format of the dictation language differs from the of spokenLanguage in that you can also specify just the two letter language code. Region is optional:
+
+- **en**: English
+- **en-US**: English (USA)
+- **en-GB**: English (United Kingdom)
+- **fr**: French
+- **fr-FR**: French (France)
+
+A complete list of [supported languages and codes](#language-codes) can be found here. 
+
+### Additional Options
+
+<span id=“speakChoices”></span> 
+#### speakChoices
+If a prompt type has a list of possible choices, setting this value to true in the Prompt Dictionary will cause PromptKit to list out the choices audibly in `handsfree` mode. 
+
+<span id=“hideFromHistory”></span> 
+#### hideFromHistory
+For use with PromptKit Scenes and Stories, this will prevent the scene from being added to the history list. 
+
+<span id=“notificationPlaySound”></span>
+#### notificationPlaySound
+For notification prompts, setting this value to true will play a sound when the notification banner appears. 
+
+<span id=“alertShowCancel”></span>
+#### alertShowCancel
+For alert prompts, this will add the Cancel button to the alert. 
+
+NOTE: Tapping Cancel will terminate shortcut execution. 
+
+<span id=“confirmShowCancel”></span>
+#### confirmShowCancel
+For confirm prompts, this adds a PromptKit Cancel 🛑 option. Choosing this allows developers to handle cases other than Yes or No. 
+
+<span id=“allowTranslationDictation”></span>
+#### allowTranslationDictation
+When Auto Translate is on, it may be difficult to translate the list of possible choices into the translation language. Some words may not translate very well, for instance. By default, PromptKit will switch to `manual` mode and raise dialogs and menus when Auto Translate is active. 
+
+Setting `allowTranslationDictation` to true allows your handsfree prompt to continue in handsfree mode. Possible responses will be translated and be available, along with the original responses. For instance:
+
+- Driving | Car | Drive | Auto
+
+Will gain additional matching responses in French:
+
+- La conduite | Voiture | Disque dur | auto
+
+As you can see, the translation performed by Microsoft Cognitive Services sometimes makes mistakes. 
+
+Remember that you can specify multiple modes in the mode attribute by separating the modes with a | character. If you set your mode to handsfree, you may want to consider supplying a manual mode at the end:
+
+`"mode": "handsfree | handsfree | manual"`
+
+For the first two attempts, handsfree mode will be used. Afterwards, manual mode will be employed. 
+
+<span id=“returnResponseOnly”></span>
+#### returnResponseOnly
+By default, PromptKit returns the response chosen by the system. Setting this flag to false will return the entire PromptKit Response Dictionary. 
 
 ***
 
 ## Response Dictionary
-The Response Dictionary is what PromptKit returns to your shortcut. It had the following components:
+If `returnResponseOnly` is false, PromptKit will return a PromptKit Response Dictionary. This dictionary contains more information about the PromptKit interaction the user had with your shortcut. It includes the following components:
 
-- **response**: The accepted response from the user or one of the four emoji symbols: 🛑, 👍, 👎, or ❓.
+- **response**: The accepted response from the user or one of control emoji symbols, such as 🛑 or ❓.
 - **responses**: Each response from the user is recorded in this array.
 - **original**: What the user said (as interpreted by iOS) to produce the Response value.
+- **lowercase**: A lowercased version of the response. 
+- **cleaned**: the response stripped of whitespace from the beginning and end of the response. 
 - **repeatIndex**: The index from the repeat loop when PromptKit exited.
 
 ### Understanding the Emoji Symbols in Responses
-If the response contained of the four emoji symbols, you should interpret the response as follows:
+If the response contains the following emoji symbols, you should interpret the response as follows:
 
 🛑
 The user spoke one of the Cancel phrases.
@@ -208,10 +324,10 @@ The user spoke one of the Cancel phrases.
 ❓
 The user did not speak anything that led to a successful response.
 
-👍
+1
 The user spoke one of the YES phrases. Used with the `Confirm` prompts.
 
-👎
+0
 The user spoke one of the NO phrases. Used with the `Confirm`  prompts.
 
 Your shortcut should handle each of these cases for completeness. 
