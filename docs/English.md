@@ -7,10 +7,19 @@ PromptKit is a shortcut library for creating powerful, interactive, multilingual
 - [Find more shortcuts that support PromptKit](https://routinehub.co/search/?q=PromptKit)
 
 ## Table of Contents
-- Overview
-- Getting Started
-- 
+- [Overview](#overview)
+- [Download](#download)
+- [Getting Started](#getting-started)
+- [Using PromptKit](#using-promptkit)
+- [Exploring PromptKits Interface](#interface)
+- [Settings](#settings)
+- [Developer for PromptKit](#developer)
+- [Localization](#localization)
+- [App Framework](#app-framework)
+- [Troubleshooting](#troubleshooting)
+- [License](#license)
 
+<span id="overview"></span> 
 ## PromptKit Overview
 PromptKit serves both end-users and developers alike. For users, PromptKit give them the ability to:
 
@@ -52,9 +61,11 @@ For developers, making a prompt with PromptKit is as easy as sending it some tex
 - Store and share data between story scenes. 
 - Access a history of past prompts (i.e. go back to step 4 or start over from the beginning). 
 
+<span id="getting-started"></span>
 ## Getting Started
 Get started by downloading and installing PromptKit. The latest version is available on RoutineHub:
 
+<span id="download"></span> 
 - [**Download PromptKit**](https://routinehub.co/shortcut/2583)
 
 After installing, run PromptKit from the Shortcuts Home screen. It’s a large shortcut with over 3500 actions, so it will take a long time to run from the Edit Shortcut Screen. 
@@ -73,12 +84,16 @@ created using PromptKit’s easy to build API. You will learn about:
 
 Once setup is complete, you can [find more PromptKit compatible shortcuts](https://routinehub.co/search/?q=PKS) on RoutineHub, read the documentation, or go to the PromptKit Home screen. 
 
+<span id="using-promptkit"></span>
 ## Using PromptKit
 
+<span id="interface"></span>
 ## Exploring PromptKits Interface
 
+<span id="settings"></span>
 ## PromptKit Settings
 
+<span id="developer"></span>
 ## Developer API
 
 ## PromptKit Dictionary
@@ -383,7 +398,39 @@ If your external shortcut returns ⏹⏹⏹ to PromptKit, execution will stop in
 - **th-TH**: Thai (Thailand)
 - **tr-TR**: Turkish (Turkey)
 
+****
 
+<span id="localization"></span> 
+## Localization
+PromptKit is available in English, but the application is fully ready to be localized. Use the Localization Helper shortcut to assist with localizing PromptKit into your language.
+
+> [**Download Localization Helper from RoutineHub &raquo;**](https://routinehub.co/shortcut/1931)
+
+- When the localization file is complete, submit a pull request on [the Record Text to Speech GitHub page](https://github.com/adamtow/promptkit).
+
+You can also inspect the files for each supported language's language dictionary in the `localization` directory. This contains information such as alternate phrases for Yes, No, and Cancel, numbers, localized version of support translation languages (for the Translate Text with Microsoft action), and more. Help make PromptKit more accurate and more universal for all iOS users!
+
+****
+
+<span id="app-framework"></span>
+## App Framework
+GeoCuts was developed using the [Shortcut App Framework](https://routinehub.co/shortcut/1510) approach to developing application-like shortcuts. This framework was also used to develop:
+
+- [**Cronios**](https://routinehub.co/shortcut/1267): The shortcuts scheduler for iOS.
+- [**Inspector**](https://routinehub.co/shortcut/1106): View and modify objects at runtime in your shortcuts.
+- [**LaunchCuts**](https://routinehub.co/shortcut/959): Folders and tags for your organizing and launching your shortcuts.
+- [**WatchCuts**](https://routinehub.co/shortcut/1864): Trigger shortcuts on your iPhone and iPad using any of your iCloud-connected devices: iPhone, iPad, Mac, Apple Watch, or iCloud.com!
+
+Learn more how you can create your own [shortcut applications with App Framework here](https://tow.com/shortcuts/framework).
+
+****
+
+<span id="troubleshooting"></span> 
+## Troubleshooting
+
+****
+
+<span id="license"></span>
 ## License
 
 >Copyright (c) 2019 Adam Tow • tow.com • @atow
