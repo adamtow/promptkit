@@ -76,7 +76,7 @@
 		"menu_settings_translate": "Translate Prompts Automatically",
 		"menu_settings_translate_description": "Dynamically translate prompts on-the-fly",
 		"menu_settings_translate_description_off": "",
-		"menu_settings_translationDictation": "Translation Dictation",
+		"menu_settings_translationDictation": "Allow Translation Dictation",
 		"menu_settings_translationDictation_description": "Allow dictation with translated prompts.",
 		"menu_settings_translationDictation_description_off": "Dictation will be limited with translated prompts.",
 		"menu_settings_translationLanguage": "Translation Language…",
