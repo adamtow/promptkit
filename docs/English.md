@@ -1,17 +1,14 @@
 # PromptKit
 PromptKit is a shortcut library for creating powerful, interactive, multilingual prompts featuring speech, dictation, menus, and dialogs. PromptKit makes interacting with your iOS device even better. 
 
-## Quick Links
 - [**Download PromptKit From RoutineHub**](https://routinehub.co/shortcut/2583)
-- [Get PromptKit Tester](https://routinehub.co/shortcut/2628), a shortcut that showcases the ways PromptKit can present and request information.
-- [Find more shortcuts that support PromptKit](https://routinehub.co/search/?q=PromptKit)
 
 ## Table of Contents
 - [Overview](#overview)
 - [Download](#download)
 - [Getting Started](#getting-started)
 - [Using PromptKit](#using-promptkit)
-- [Exploring PromptKits Interface](#interface)
+- [Exploring PromptKit](#interface)
 - [Settings](#settings)
 - [Developer for PromptKit](#developer)
 - [Localization](#localization)
@@ -86,9 +83,21 @@ Once setup is complete, you can [find more PromptKit compatible shortcuts](https
 
 <span id="using-promptkit"></span>
 ## Using PromptKit
+Once you've installed and set up PromptKit, you'll want to test it out. You can either download the PromptKit Tester shortcut or look for PromptKit-aware shortcuts or PromptKit Stories on RoutineHub:
+
+- [PromptKit Tester](https://routinehub.co/shortcut/2628), a shortcut that showcases the ways PromptKit can present and request information.
+- [PromptKit-Aware Shortcuts](https://routinehub.co/search/?q=PromptKit)
+- [PromptKit Stories on RoutineHub](https://routinehub.co/search/?q=PKS)
+
+If you are getting starter, install and run PromptKit Tester:
+
+![PromptKit Tester](https://adamtow.github.io/promptkit/images/promptkit-tester.png)
+
+![WatchCuts](https://adamtow.github.io/watchcuts/images/watchcuts-hero.png)
+
 
 <span id="interface"></span>
-## Exploring PromptKits Interface
+## Exploring PromptKit
 
 <span id="settings"></span>
 ## PromptKit Settings
@@ -414,9 +423,10 @@ You can also inspect the files for each supported language's language dictionary
 
 <span id="app-framework"></span>
 ## App Framework
-GeoCuts was developed using the [Shortcut App Framework](https://routinehub.co/shortcut/1510) approach to developing application-like shortcuts. This framework was also used to develop:
+PromptKit was developed using the [Shortcut App Framework](https://routinehub.co/shortcut/1510) approach to developing application-like shortcuts. This framework was also used to develop:
 
 - [**Cronios**](https://routinehub.co/shortcut/1267): The shortcuts scheduler for iOS.
+- [**GeoCuts**](https://routinehub.co/shortcut/1732): Run your shortcuts automatically based on location triggers.
 - [**Inspector**](https://routinehub.co/shortcut/1106): View and modify objects at runtime in your shortcuts.
 - [**LaunchCuts**](https://routinehub.co/shortcut/959): Folders and tags for your organizing and launching your shortcuts.
 - [**WatchCuts**](https://routinehub.co/shortcut/1864): Trigger shortcuts on your iPhone and iPad using any of your iCloud-connected devices: iPhone, iPad, Mac, Apple Watch, or iCloud.com!
