@@ -1,5 +1,5 @@
 # PromptKit
-PromptKit is a shortcut library for creating powerful, interactive, multilingual prompts featuring speech, dictation, menus, and dialogs. PromptKit makes interacting with your iOS device even better. 
+PromptKit is a shortcut library for creating powerful, interactive, multilingual, and multi-step prompts featuring speech, dictation, menus, and dialogs. PromptKit makes interacting with your iOS device even better. 
 
 - [**Download PromptKit From RoutineHub**](https://routinehub.co/shortcut/2583)
 
@@ -15,6 +15,8 @@ PromptKit is a shortcut library for creating powerful, interactive, multilingual
 - [App Framework](#app-framework)
 - [Troubleshooting](#troubleshooting)
 - [License](#license)
+
+****
 
 <span id="overview"></span> 
 ## PromptKit Overview
@@ -58,6 +60,8 @@ For developers, making a prompt with PromptKit is as easy as sending it some tex
 - Store and share data between story scenes. 
 - Access a history of past prompts (i.e. go back to step 4 or start over from the beginning). 
 
+****
+
 <span id="getting-started"></span>
 ## Getting Started
 Get started by downloading and installing PromptKit. The latest version is available on RoutineHub:
@@ -81,6 +85,8 @@ created using PromptKit’s easy to build API. You will learn about:
 
 Once setup is complete, you can [find more PromptKit compatible shortcuts](https://routinehub.co/search/?q=PKS) on RoutineHub, read the documentation, or go to the PromptKit Home screen. 
 
+****
+
 <span id="using-promptkit"></span>
 ## Using PromptKit
 Once you've installed and set up PromptKit, you'll want to test it out. You can either download the PromptKit Tester shortcut or look for PromptKit-aware shortcuts or PromptKit Stories on RoutineHub:
@@ -95,15 +101,158 @@ If you are getting starter, install and run PromptKit Tester:
 
 ![WatchCuts](https://adamtow.github.io/watchcuts/images/watchcuts-hero.png)
 
+****
 
 <span id="interface"></span>
 ## Exploring PromptKit
+PromptKit is typically run from other shortcuts. You would launch PromptKit from the Shortcuts Home if you want to adjust its settings or have a quick way to access your list of installed PromptKit Stories. 
+
+Here is an overview of the menu items you will see in the PromptKit Home screen. 
+
+### Run Controls
+
+#### Run PromptKit Story
+Searches for and displays any shortcut that contains “PKS” in your library. Tapping on an entry runs the shortcut. You can also tap the Find menu item to search for more PromptKit-award shortcuts on RoutineHub.
+
+#### Run from Text File
+Displays a text Input dialog where you can copy and paste text that will be interpreted as either a PromptKit Prompt or a PromptKit Story. 
+
+### Mode Controls
+
+#### Default Mode
+If a PromptKit Prompt does not specify a mode to use, it will adopt whatever mode you choose in this setting.
+
+- **Use Dialogs**: Displays dialogs, alerts, and menus to display information and ask for user input. 
+- **Use Speech and Dialogs**: Speaks information to be displayed to the user, followed by prompting for user input via dialogs and menus. 
+- **Use Speech and Dictation**: Speaks information to be displayed to the user and employs dictation to capture user input. 
+
+#### Override Mode
+This setting forces all PromptKit Prompts and Stories to use one of the three modes listed above, regardless of the mode setting in the either the Prompt or Story. 
+
+Mode Override lets the user control exactly how they want to receive and interact with Prompts and Stories on their iOS devices. For developers, overriding the mode makes it easy to test how their Prompts and Stories work across all three modes. 
+
+If you leave Override Mode disabled, Prompts and Stories will be able to switch freely between using dialogs, speech with dialogs and speech with dictation. 
+
+#### Ask Story Mode
+This setting prompts you to choose a mode before running a PromptKit Story. It is only available when Override Mode is disabled. It effectively functions as a temporary Override Mode setting for Stories. 
+
+### Translation
+
+This section unlocks the power of auto translating prompts from one language to another. 
+
+#### Detect Languages 
+If you encounter a prompt in another language but does not specify a spoken language, this setting allows PromptKit to detect the language via the Detect Language Action in Shortcuts. This feature is powered by Microsoft Cognitive Services. 
+
+> NOTE: Currently all translation features require a connection to the internet. If your network connection is slow, you may experience slowdowns and  difficulties running Prompts and Stories. Should this occur, disable Detect Languages. 
+
+If your internet connection is off, dictation will be disabled and prompts will run in either manual or manual with speech mode. 
+
+#### Auto Translate
+
+Turn on this setting to automatically convert prompts from one language to another. 
+
+Suppose you speak French. Setting the Translation Language to French and turning on Auto Translate will translate any Prompt that does not directly specify its spoken or dictation language to French
+
+> A Prompt that lists out its spoken language or dictation language will use specified language, not the translated language. Prompt messages are still translated but spoken messages and user input remain in the specified language. 
+
+#### Translation Language 
+
+PromptKit currently supports 25 languages:
+
+- Arabic
+- Chinese Traditional
+- Cantonese (Traditional)
+- Chinese Simplified
+- Czech
+- Danish
+- Dutch
+- English
+- Finnish
+- French
+- German
+- Greek
+- Hebrew
+- Hindi
+- Hungarian
+- Indonesian
+- Italian
+- Japanese
+- Korean
+- Norwegian
+- Polish
+- Portuguese
+- Romanian
+- Russian
+- Slovak
+- Spanish
+- Swedish
+- Thai
+- Turkish
+
+PromptKit uses the Translate Text with Microsoft action to convert from one language to another. It require an active internet connection to work. 
+
+> If you are a native speaker of any of these languages, help make PromptKit more accurate by contributing to improving a language dictionary. See the [developer section on language dictionaries](#language-dictionary) for more information. 
+
+#### Allow Translation Dictation
+This setting allows the user to use dictation with translated Prompts. When disabled, dictation is turned off for those Prompts that require a specific response. 
+
+This is because of several reasons:
+
+1. The responses are not able to be translated to another language. This is common for proper names or technical terms. 
+2. Responses are incorrectly translated by the Translate Text with Microsoft action. 
+3. The user can not speak the translation language and cannot get past the prompt. 
+
+Developers of Prompts and Stories can follow several best practices to assist users who may have Translation Dictation enabled. For instance:
+
+- Make use of the `speakChoices` option to have PromptKit speak what choices are available in Speech with Dictation mode. 
+- Switch to manual mode on the the last attempt at getting user input. In the `mode` parameter, you can specify multiple modes with pipes. For instance: `handsfree | handsfree | mode` will cause dictation to be used for the first two attempts. On the third and final attempt, PromptKit will display a dialog. 
+- Provide alternate responses for each choice. Adding more terms for choices gives the translation engine more of a chance to find a word it can translate. For instance, if you are asking the user for driving, walking, or transit directions, you can specify your choices as:
+	- `Driving | Drive | Auto | Car | Automobile`
+	- `Walking | Walk | By Foot | Hike | Hiking | Bike | Cycle | Biking`
+	- `Transit | Public | Transportation | Bus | Subway | Metro | Train`
+
+#### Display Original Message
+When enabled, this option displays the original message alongside the translated version. Disable it to only show the translated version in prompts, dialogs, alerts and notifications. 
+
+### PromptKit
+
+- **About**: Displays the PromptKit About dialog. Shows the current version and build number. 
+- **Donate**: Enjoy using PromptKit? Consider making a [donation](https://paypal.me/adamtow) to support its future development. 
+- **Help**: Displays the documentation you are reading now. 
+- **Settings**: Opens the [PromptKit Settings](#settings) page. 
+
+****
 
 <span id="settings"></span>
 ## PromptKit Settings
+PromptKit is highly configurable from the PromptKit Home screen, but there are a few more tweaks you can make to its operation from the Settings page.
+
+- **Default Prompt Repetitions**: For Prompts that do not specify a `repeat` attribute, this is the number of times a Prompt will repeat before returning the ❓ response value. 
+- **Check for Updates Automatically**: Check for updates to PromptKit whenever  you launch PromptKit from the Shortcuts Home screen. Requires an internet connection for this to work. This does not affect the speed at which PromptKit runs when evaluating prompts. 
+- **Lock Detection**: If you use PromptKit with [Cronios, the shortcuts scheduler for iOS](http://cronios.com), you can alert the user before displaying a Prompt if it [detects that the device may be locked](#lock-detection). 
+	- **Unlock Prompt**: Change what is spoken to you when PromptKit is running in the background when the screen is off.  
+- **Debug Level**: For developers, enable this and set a level of alerting to see how your Prompts and Stories are being interpreted by PromptKit. 
+- **Check for Updates**: Manually check to see if there is an update PromptKit on RoutineHub. 
+- **Change Language**: Change the PromptKit application language. Visit the section on localizing PromptKit if [you want to see PromptKit localized in your language](localization). 
+- **Run Setup Assistant**: Re-runs the assistant that you used when you first installed PromptKit. 
+
+<span id=“lock-detection”></span> 
+### Lock Detection
+If you are running PromptKit-aware shortcuts in the background with [Cronios, the shortcuts scheduler for iOS](http://cronios.com), you will want to have this setting enabled. 
+
+The shortcut will check if the device may be off by inspecting the brightness value of the screen. If it’s 0, it’s likely that the device is off and locked. It will then audible alert the user to unlock the device before displaying the Prompt. 
+
+> NOTE: PromptKit can not determine if the device is locked if the screen is on. PromptKit will try to display the Prompt but will error out, terminating any shortcuts that may have been running in the background like Cronios. 
+
+****
 
 <span id="developer"></span>
-## Developer API
+## Developer for PromptKit
+Whether you are making a simple or complex, interactive, multilingual, and multi-step prompt, the process of creating a prompt is very easy. 
+
+All you have to do is supply PromptKit with a PromptKit Dictionary in either JSON, Dictionary, or text format. 
+
+
 
 ## PromptKit Dictionary
 PromptKit supports text and dictionary input. Specifying the PromptKit Dictionary gives you the most control over the look and feel of your prompt.
