@@ -247,15 +247,40 @@ The shortcut will check if the device may be off by inspecting the brightness va
 ****
 
 <span id="developer"></span>
-## Developer for PromptKit
+## Developing for PromptKit
 Whether you are making a simple or complex, interactive, multilingual, and multi-step prompt, the process of creating a prompt is very easy. 
 
-All you have to do is supply PromptKit with a PromptKit Dictionary in either JSON, Dictionary, or text format. 
+### PromptKit Prompt Format
+All you have to do is supply PromptKit with a PromptKit Dictionary in either JSON, Dictionary, or text format. The screenshot below shows the exact same prompt written in three different ways:
+
+![PromptKit Prompt Format](https://adamtow.github.io/promptkit/images/prompt-format.png)
+
+#### Dictionary
+Specifying the PromptKit Dictionary gives you the most control over the look and feel of your prompt.
 
 
 
-## PromptKit Dictionary
-PromptKit supports text and dictionary input. Specifying the PromptKit Dictionary gives you the most control over the look and feel of your prompt.
+#### JSON
+If you are making Prompts and Stories from a desktop or laptop computer, you may be more comfortable making your story in JSON. 
+
+```
+{
+	"type": "text",
+	"mode": "handsfree",
+	"message": "How are you doing?"
+}
+```
+
+#### Text
+
+```
+🔑 type 🗝 text 🔑
+
+🔑 mode 🗝 manual 🔑
+
+🔑 message 🗝 How are you doing?🔑
+```
+
 
 ## PromptKit Stories
 A PromptKit Story is collection of PromptKit Prompts forms the basis of a PromptKit Story. A story can be build to create simple or complex interactive voice or menu-driven experiences on iOS. PromptKit dictionaries that belong to a story have additional attributes. 
