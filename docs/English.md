@@ -36,19 +36,33 @@ For users of PromptKit-powered shortcuts, PromptKit gives them the ability to:
 
 ### Developers 
 
-Developers benefit from an [easy-to-use API](#developer) that lets them:
+Shortcut developers benefit from an [easy-to-use API](#developer) that lets them create interactive prompts without writing a lot of code.
 
-![PromptKit Prompt Formats](https://adamtow.github.io/promptkit/images/promptkit-format.png)
+![PromptKit Prompt Formats](https://adamtow.github.io/promptkit/images/prompt-format.png)
+ 
+PromptKit handles all the heavy lifting and allows developers to: 
 
 - Choose from an extensive list of prompt types, including:
-	- Freeform text
-	- Lists
-	- Numbers
-	- Dates and times
-	- Yes and no confirmations
-	- Alerts and notifications
+	- Alert
+	- Confirm
+	- Date
+	- Date and Time
+	- HTML
+	- List
+	- Markdown
+	- Notification
+	- Number
+	- Quick Look
+	- Result
+	- Speak
+	- Text
+	- Time
+	- URL
+
+![PromptKit Tester](https://adamtow.github.io/promptkit/images/promptkit-tester.png)
+
 - Restrict prompts to accept a list of answers. Each answer can have multiple alternate responses.
-- Validate user input with comparison operators such as:
+- Validate user input with operators such as:
 	- contains
 	- equals
 	- exact equality
@@ -59,7 +73,8 @@ Developers benefit from an [easy-to-use API](#developer) that lets them:
 	- after
 	- between
 - Repeat the prompt once or multiple times if the input is not validated. Optionally change the prompt message or type on each repetition of the prompt. 
-- Detect cancellation, no response, and successful responses by the user.
+- Access every response the user provided or just the final response.
+- Detect and return user cancelled 🛑, no response ❓, and successful responses by the user.
 
 ### PromptKit Stories
 
@@ -150,7 +165,9 @@ If a PromptKit Prompt does not specify a mode to use, it will adopt whatever mod
 
 <span id="mode-override"></span>
 #### Override Mode
-This setting forces all PromptKit Prompts and Stories to use one of the three modes listed above, regardless of the mode setting in the either the Prompt or Story. 
+This setting forces PromptKit Prompts and Stories to use one of the three modes listed above, regardless of the mode setting in the either the Prompt or Story.
+
+> Note: Prompts can still set the `allowModeOverride` setting to false to prevent Override Mode.
 
 Mode Override lets the user control exactly how they want to receive and interact with Prompts and Stories on their iOS devices. For developers, overriding the mode makes it easy to test how their Prompts and Stories work across all three modes. 
 
@@ -171,6 +188,9 @@ If you encounter a prompt in another language but does not specify a spoken lang
 > NOTE: Currently all translation features require a connection to the internet. If your network connection is slow, you may experience slowdowns and  difficulties running Prompts and Stories. Should this occur, disable Detect Languages. 
 
 If your internet connection is off, dictation will be disabled and prompts will run in either manual or manual with speech mode. 
+
+![Translation Settings](https://adamtow.github.io/promptkit/images/translation-settings.png)
+
 
 <span id="auto-translate"></span>
 #### Auto Translate
@@ -256,6 +276,8 @@ When enabled, this option displays the original message alongside the translated
 ## PromptKit Settings
 PromptKit is highly configurable from the PromptKit Home screen, but there are a few more tweaks you can make to its operation from the Settings page.
 
+![Settings and Lock Detection](https://adamtow.github.io/promptkit/images/lock-detection.png)
+
 - **Default Prompt Repetitions**: For Prompts that do not specify a `repeat` attribute, this is the number of times a Prompt will repeat before returning the ❓ response value. 
 - **Check for Updates Automatically**: Check for updates to PromptKit whenever  you launch PromptKit from the Shortcuts Home screen. Requires an internet connection for this to work. This does not affect the speed at which PromptKit runs when evaluating prompts. 
 - **Lock Detection**: If you use PromptKit with [Cronios, the shortcuts scheduler for iOS](http://cronios.com), you can alert the user before displaying a Prompt if it [detects that the device may be locked](#lock-detection). 
@@ -272,6 +294,8 @@ If you are running PromptKit-aware shortcuts in the background with [Cronios, th
 The shortcut will check if the device may be off by inspecting the brightness value of the screen. If it's 0, it's likely that the device is off and locked. It will then audible alert the user to unlock the device before displaying the Prompt. 
 
 > NOTE: PromptKit can not determine if the device is locked if the screen is on. PromptKit will try to display the Prompt but will error out, terminating any shortcuts that may have been running in the background like Cronios. 
+
+To change the unlock prompt, tap Unlock Prompt from the Settings screen. The language that will be used is your system language and will not be translated by PromptKit.
 
 ****
 
@@ -692,10 +716,53 @@ In order to present alerts, prompts, and the dictation screen to the user, Short
 #### Lock Detection
 If you have enabled [Lock Detection](#lock-detection), PromptKit will audibly prompt the user to unlock his or her device prior to displaying the prompt. If disabled, PromptKit will silently exit and the prompt will not be presented.
 
+****
+
+<span id="languages"></span>
+## Languages
+PromptKit natively supports translating between the following languages:
+
+- Arabic
+- Chinese Traditional
+- Cantonese (Traditional)
+- Chinese Simplified
+- Czech
+- Danish
+- Dutch
+- English
+- Finnish
+- French
+- German
+- Greek
+- Hebrew
+- Hindi
+- Hungarian
+- Indonesian
+- Italian
+- Japanese
+- Korean
+- Norwegian
+- Polish
+- Portuguese
+- Romanian
+- Russian
+- Slovak
+- Spanish
+- Swedish
+- Thai
+- Turkish
+
+The strings here match exactly with those presented by the **Translate Text with Microsoft** action.
+
+![Languages: Translate, Dictate, and Speak](https://adamtow.github.io/promptkit/images/languages.png)
+
+
 <span id="language-codes"></span>
 ### Language Codes
 
 The following language codes are supported for `spokenLanguage` and `dictationLanguage` attributes respectively within a PromptKit Prompt or Story dictionary.
+
+> You'll note that there are more dictation languages than are supported by PromptKit. This is because there is no corresponding spoken language support for the dictation language. When Apple adds support for these, PromptKit will support them too!
 
 #### Spoken Languages
 
@@ -707,6 +774,7 @@ The following language codes are supported for `spokenLanguage` and `dictationLa
 - **da-DK**: Danish (Denmark)
 - **nl-BE**: Dutch (Belgium)
 - **nl-NL**: Dutch (Netherlands)
+- **en-AU**: English (Australia)
 - **en-AU**: English (Australia)
 - **en-IE**: English (Ireland)
 - **en-ZA**: English (South Africa)
@@ -727,6 +795,7 @@ The following language codes are supported for `spokenLanguage` and `dictationLa
 - **nb-NO**: Norwegian (Norway)
 - **pl-PL**: Polish (Poland)
 - **pt-BR**: Portuguese (Brazil)
+- **pt-PT**: Portuguese (Portugal) 
 - **ro-RO**: Romanian (Romania)
 - **ru-RU**: Russian (Russia)
 - **sk-SK**: Slovak (Slovakia)
@@ -734,6 +803,100 @@ The following language codes are supported for `spokenLanguage` and `dictationLa
 - **sv-SE**: Swedish (Sweden)
 - **th-TH**: Thai (Thailand)
 - **tr-TR**: Turkish (Turkey)
+
+#### Dictation Languages:
+
+- **ar**: Arabic
+- **ar-SA**: Arabic (Saudi Arabia)
+- **zh**: Chinese
+- **zh-Hant-HK**: Cantonese (China Mainland)
+- **ca**: Catalan
+- **ca-ES**: Catalan (Spain)
+- **zh-CN**: Chinese (China Mainland)
+- **zh-HK**: Chinese (Hong Kong)
+- **zh-TW**: Chinese (Taiwan)
+- **hr**: Croatian
+- **hr-HR**: Croatian (Croatian)
+- **cs**: Czech
+- **cs-CZ**: Czech (Czechia)
+- **da**: Danish
+- **da-DK**: Danish (Denmark)
+- **nl**: Dutch
+- **nl-BE**: Dutch (Belgium)
+- **nl-NL**: Dutch (Netherlands)
+- **en**: English
+- **en-AU**: English (Australia)
+- **en-CA**: English (Canada)
+- **en-IN**: English (India)
+- **en-ID**: English (Indonesia)
+- **en-IE**: English (Ireland)
+- **en-NZ**: English (New Zealand)
+- **en-PH**: English (Philippines)
+- **en-SA**: English (Saudi Arabia)
+- **en-SG**: English (Singapore)
+- **en-ZA**: English (South Africa)
+- **en-AE**: English (United Arab Emirates)
+- **en-GB**: English (United Kingdom)
+- **en-US**: English (United States)
+- **fi**: Finnish
+- **fi-FI**: Finnish (Finland)
+- **fr**: French
+- **fr-BE**: French (Belgium)
+- **fr-CA**: French (Canada)
+- **fr-FR**: French (France)
+- **fr-CH**: French (Switzerland)
+- **de**: German
+- **de-AT**: German (Austria)
+- **de-DE**: German (Germany)
+- **de-CH**: German (Switzerland)
+- **el**: Greek
+- **el-GR**: Greek (Greece)
+- **he**: Hebrew
+- **he-IL**: Hebrew (Israel)
+- **hi**: Hindi
+- **hi-IN**: Hindi (India)
+- **hu**: Hungarian
+- **hu-HU**: Hungarian (Hungary)
+- **id**: Indonesian
+- **id-ID**: Indonesian (Indonesia)
+- **it**: Italian
+- **it-IT**: Italian (Italy)
+- **it-CH**: Italian (Switzerland)
+- **ja**: Japanese
+- **ja-JP**: Japanese (Japan)
+- **ko**: Korean
+- **ko-KR**: Korean (South Korea)
+- **ms**: Malay
+- **ms-MY**: Malay (Malaysia)
+- **nb**: Norwegian
+- **nb-NO**: Norwegian Bokmål (Norway)
+- **pl**: Polish
+- **pl-PL**: Polish (Poland)
+- **pt**: Portuguese
+- **pt-BR**: Portuguese (Brazil)
+- **pt-PT**: Portuguese (Portugal)
+- **ro**: Romanian
+- **ro-RO**: Romanian (Romania)
+- **ru**: Russia
+- **ru-RU**: Russia (Russian)
+- **sk**: Slovak
+- **sk-SK**: Slovak (Slovakia)
+- **es**: Spanish
+- **es-CL**: Spanish (Chile)
+- **es-CO**: Spanish (Colombia)
+- **es-MX**: Spanish (Mexico)
+- **es-ES**: Spanish (Spain)
+- **es-US**: Spanish (United States)
+- **sv**: Swedish
+- **sv-SE**: Swedish (Sweden)
+- **th**: Thai
+- **th-TH**: Thai (Thailand)
+- **tr**: Turkish
+- **tr-TR**: Turkish (Turkey)
+- **uk**: Ukrainian
+- **uk-UA**: Ukrainian (Ukraine)
+- **vi**: Vietnamese
+- **vi-VN**: Vietnamese Vietnam)
 
 ****
 
