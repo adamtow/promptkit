@@ -1,9 +1,9 @@
 {
 	"ro": {
 		"name": "Română",
-		"code": "ro",
-		"languageRegion": "ro-RO",
-		"regions": [
+		"language": "ro",
+		"languageCode": "ro-RO",
+		"countries": [
 			"RO"
 		],
 		"phrases": {
@@ -72,9 +72,9 @@
 	},
 	"tr": {
 		"name": "Türkçe",
-		"code": "tr",
-		"languageRegion": "tr-TR",
-		"regions": [
+		"language": "tr",
+		"languageCode": "tr-TR",
+		"countries": [
 			"TR"
 		],
 		"phrases": {
@@ -143,9 +143,9 @@
 	},
 	"es": {
 		"name": "Español",
-		"code": "es",
-		"languageRegion": "es-MX",
-		"regions": [
+		"language": "es",
+		"languageCode": "es-MX",
+		"countries": [
 			"ES",
 			"MX"
 		],
@@ -216,9 +216,9 @@
 	},
 	"nb": {
 		"name": "Norsk",
-		"code": "nb",
-		"languageRegion": "nb-NO",
-		"regions": [
+		"language": "nb",
+		"languageCode": "nb-NO",
+		"countries": [
 			"NO"
 		],
 		"phrases": {
@@ -288,9 +288,9 @@
 	},
 	"fi": {
 		"name": "suomi",
-		"code": "fi",
-		"languageRegion": "fi-FI",
-		"regions": [
+		"language": "fi",
+		"languageCode": "fi-FI",
+		"countries": [
 			"FI"
 		],
 		"phrases": {
@@ -360,9 +360,9 @@
 	},
 	"el": {
 		"name": "Ελληνικά",
-		"code": "el",
-		"languageRegion": "el-GR",
-		"regions": [
+		"language": "el",
+		"languageCode": "el-GR",
+		"countries": [
 			"GR"
 		],
 		"phrases": {
@@ -431,9 +431,9 @@
 	},
 	"sv": {
 		"name": "Svenska",
-		"code": "sv",
-		"languageRegion": "sv-SE",
-		"regions": [
+		"language": "sv",
+		"languageCode": "sv-SE",
+		"countries": [
 			"SE"
 		],
 		"phrases": {
@@ -503,9 +503,9 @@
 	},
 	"nl": {
 		"name": "Nederlands",
-		"code": "nl",
-		"languageRegion": "nl-NL",
-		"regions": [
+		"language": "nl",
+		"languageCode": "nl-NL",
+		"countries": [
 			"NL"
 		],
 		"phrases": {
@@ -575,9 +575,9 @@
 	},
 	"fr": {
 		"name": "Français",
-		"code": "fr",
-		"languageRegion": "fr-FR",
-		"regions": [
+		"language": "fr",
+		"languageCode": "fr-FR",
+		"countries": [
 			"FR"
 		],
 		"phrases": {
@@ -648,9 +648,9 @@
 	},
 	"hu": {
 		"name": "magyar",
-		"code": "hu",
-		"languageRegion": "hu-HU",
-		"regions": [
+		"language": "hu",
+		"languageCode": "hu-HU",
+		"countries": [
 			"HU"
 		],
 		"phrases": {
@@ -720,9 +720,9 @@
 	},
 	"cs": {
 		"name": "Čeština",
-		"code": "cs",
-		"languageRegion": "cs-CZ",
-		"regions": [
+		"language": "cs",
+		"languageCode": "cs-CZ",
+		"countries": [
 			"CZ"
 		],
 		"phrases": {
@@ -791,9 +791,9 @@
 	},
 	"en": {
 		"name": "English",
-		"code": "en",
-		"languageRegion": "en-US",
-		"regions": [
+		"language": "en",
+		"languageCode": "en-US",
+		"countries": [
 			"US",
 			"GB",
 			"CA"
@@ -876,9 +876,9 @@
 	},
 	"da": {
 		"name": "dansk",
-		"code": "da",
-		"languageRegion": "da-DK",
-		"regions": [
+		"language": "da",
+		"languageCode": "da-DK",
+		"countries": [
 			"DK"
 		],
 		"phrases": {
@@ -948,9 +948,9 @@
 	},
 	"it": {
 		"name": "Italiano",
-		"code": "it",
-		"languageRegion": "it-IT",
-		"regions": [
+		"language": "it",
+		"languageCode": "it-IT",
+		"countries": [
 			"IT"
 		],
 		"phrases": {
@@ -1020,9 +1020,9 @@
 	},
 	"id": {
 		"name": "Indonesia",
-		"code": "id",
-		"languageRegion": "id-ID",
-		"regions": [
+		"language": "id",
+		"languageCode": "id-ID",
+		"countries": [
 			"ID"
 		],
 		"phrases": {
@@ -1092,9 +1092,9 @@
 	},
 	"ko": {
 		"name": "한국어",
-		"code": "ko",
-		"languageRegion": "ko-KR",
-		"regions": [
+		"language": "ko",
+		"languageCode": "ko-KR",
+		"countries": [
 			"KR"
 		],
 		"phrases": {
@@ -1163,9 +1163,9 @@
 	},
 	"ja": {
 		"name": "日本語",
-		"code": "ja",
-		"languageRegion": "ja-JP",
-		"regions": [
+		"language": "ja",
+		"languageCode": "ja-JP",
+		"countries": [
 			"JP"
 		],
 		"phrases": {
@@ -1233,9 +1233,9 @@
 	},
 	"ru": {
 		"name": "русский",
-		"code": "ru",
-		"languageRegion": "ru-RU",
-		"regions": [
+		"language": "ru",
+		"languageCode": "ru-RU",
+		"countries": [
 			"RU"
 		],
 		"phrases": {
@@ -1304,9 +1304,9 @@
 	},
 	"th": {
 		"name": "ไทย",
-		"code": "th",
-		"languageRegion": "th-TH",
-		"regions": [
+		"language": "th",
+		"languageCode": "th-TH",
+		"countries": [
 			"TH"
 		],
 		"phrases": {
@@ -1376,9 +1376,9 @@
 	},
 	"hi": {
 		"name": "हिंदी",
-		"code": "hi",
-		"languageRegion": "hi-IN",
-		"regions": [
+		"language": "hi",
+		"languageCode": "hi-IN",
+		"countries": [
 			"IN"
 		],
 		"phrases": {
@@ -1447,9 +1447,9 @@
 	},
 	"sk": {
 		"name": "slovenčina",
-		"code": "sk",
-		"languageRegion": "sk-SK",
-		"regions": [
+		"language": "sk",
+		"languageCode": "sk-SK",
+		"countries": [
 			"SK"
 		],
 		"phrases": {
@@ -1519,11 +1519,11 @@
 	},
 	"zh": {
 		"name": "简体中文",
-		"regions": [
+		"countries": [
 			"CN"
 		],
-		"code": "zh",
-		"languageRegion": "zh-CN",
+		"language": "zh",
+		"languageCode": "zh-CN",
 		"phrases": {
 			"bigNumbers": {},
 			"cancel": [
@@ -1589,11 +1589,11 @@
 	},
 	"zh-HK": {
 		"name": "粵語 (繁體)",
-		"regions": [
+		"countries": [
 			"HK"
 		],
-		"code": "zh",
-		"languageRegion": "zh-HK",
+		"language": "zh",
+		"languageCode": "zh-HK",
 		"phrases": {
 			"bigNumbers": {},
 			"cancel": [
@@ -1659,11 +1659,11 @@
 	},
 	"zh-TW": {
 		"name": "繁體中文",
-		"regions": [
+		"countries": [
 			"TW"
 		],
-		"code": "zh",
-		"languageRegion": "zh-TW",
+		"language": "zh",
+		"languageCode": "zh-TW",
 		"phrases": {
 			"bigNumbers": {},
 			"cancel": [
@@ -1729,9 +1729,9 @@
 	},
 	"pt": {
 		"name": "Português",
-		"code": "pt",
-		"languageRegion": "pt-BR",
-		"regions": [
+		"language": "pt",
+		"languageCode": "pt-BR",
+		"countries": [
 			"BR"
 		],
 		"phrases": {
@@ -1800,9 +1800,9 @@
 	},
 	"pl": {
 		"name": "Polski",
-		"code": "pl",
-		"languageRegion": "pl-PL",
-		"regions": [
+		"language": "pl",
+		"languageCode": "pl-PL",
+		"countries": [
 			"PL"
 		],
 		"phrases": {
@@ -1872,9 +1872,9 @@
 	},
 	"de": {
 		"name": "Deutsch",
-		"code": "de",
-		"languageRegion": "de-DE",
-		"regions": [
+		"language": "de",
+		"languageCode": "de-DE",
+		"countries": [
 			"DE"
 		],
 		"phrases": {
@@ -1944,9 +1944,9 @@
 	},
 	"ar": {
 		"name": "العربية",
-		"code": "ar",
-		"languageRegion": "ar-SA",
-		"regions": [
+		"language": "ar",
+		"languageCode": "ar-SA",
+		"countries": [
 			"SA"
 		],
 		"phrases": {
@@ -2020,9 +2020,9 @@
 	},
 	"he": {
 		"name": "עברית",
-		"code": "he",
-		"languageRegion": "he-IL",
-		"regions": [
+		"language": "he",
+		"languageCode": "he-IL",
+		"countries": [
 			"IL"
 		],
 		"phrases": {
