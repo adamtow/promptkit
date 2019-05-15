@@ -147,11 +147,15 @@ Here is an overview of the menu items you will see in the PromptKit Home screen.
 
 ### Run Controls
 
+These two menu items give you access to your PromptKit Stories or to testing prompts that you write in JSON or text.
+
 #### Run PromptKit Story
 Searches for and displays any shortcut that contains "PKS" in your library. Tapping on an entry runs the shortcut. You can also tap the Find menu item to search for more PromptKit-award shortcuts on RoutineHub.
 
 #### Run from Text File
 Displays a text Input dialog where you can copy and paste text that will be interpreted as either a PromptKit Prompt or a PromptKit Story. 
+
+![Ways to run PromptKit: From a shortcut, Shortcuts Home, PromptKit's Run a PromptKit Story Shortcut, and PromptKit's Run from Text File](https://adamtow.github.io/promptkit/images/ways-to-run-promptkit.png)
 
 ### Mode Controls
 
@@ -167,15 +171,19 @@ If a PromptKit Prompt does not specify a mode to use, it will adopt whatever mod
 #### Override Mode
 This setting forces PromptKit Prompts and Stories to use one of the three modes listed above, regardless of the mode setting in the either the Prompt or Story.
 
-> Note: Prompts can still set the `allowModeOverride` setting to false to prevent Override Mode.
+> Note: Prompts can still set the `allowModeOverride` setting to false to prevent Mode Override .
 
 Mode Override lets the user control exactly how they want to receive and interact with Prompts and Stories on their iOS devices. For developers, overriding the mode makes it easy to test how their Prompts and Stories work across all three modes. 
 
-If you leave Override Mode disabled, Prompts and Stories will be able to switch freely between using dialogs, speech with dialogs and speech with dictation. 
+If you leave Mode Override disabled, Prompts and Stories will be able to switch freely between using dialogs, speech with dialogs and speech with dictation. 
 
 <span id="ask-story-mode"></span>
 #### Ask Story Mode
-This setting prompts you to choose a mode before running a PromptKit Story. It is only available when Override Mode is disabled. It effectively functions as a temporary Override Mode setting for Stories. 
+This setting prompts you to choose a mode before running a PromptKit Story. It is only available when Mode Override is disabled. It effectively functions as a temporary Mode Override setting for Stories. 
+
+![Ask Story Mode](https://adamtow.github.io/promptkit/images/ask-story-mode.png)
+
+> Note: Individual Prompts can still override both Mode Override and Ask Story Mode by setting the `allowModeOverride` too false.
 
 ### Translation
 
@@ -599,9 +607,16 @@ By default, PromptKit returns the response chosen by the system. Setting this fl
 
 <span id="handling-responses"></span>
 ## Handling Responses
+When PromptKit has finished processing your prompt it will return either a string representing the prompt's response or a PromptKit Response dictionary object.
+
+![PromptKit Response Only](https://adamtow.github.io/promptkit/images/response-only.png)
+
+By default, a string response will be returned. In the screenshot below, a confirm prompt is displayed and the returned value is 1 because Yes was tapped.
 
 ## Response Dictionary
 If `returnResponseOnly` is false, PromptKit will return a PromptKit Response Dictionary. This dictionary contains more information about the PromptKit interaction the user had with your shortcut. It includes the following components:
+
+![PromptKit Response Dictionary](https://adamtow.github.io/promptkit/images/response-dictionary.png)
 
 - **response**: The accepted response from the user or one of control emoji symbols, such as 🛑 or ❓.
 - **responses**: Each response from the user is recorded in this array.
@@ -610,20 +625,19 @@ If `returnResponseOnly` is false, PromptKit will return a PromptKit Response Dic
 - **cleaned**: the response stripped of whitespace from the beginning and end of the response. 
 - **repeatIndex**: The index from the repeat loop when PromptKit exited.
 
-### Understanding the Emoji Symbols in Responses
-If the response contains the following emoji symbols, you should interpret the response as follows:
+### Understanding the Emoji and Confirmation Responses
+If the response contains the following emoji symbols, you should interpret them as follows:
 
-🛑
-The user spoke one of the Cancel phrases.
+- 🛑: The user spoke one of the Cancel phrases.
+- ❓: The user did not speak anything that led to a successful response.
 
-❓
-The user did not speak anything that led to a successful response.
+Prompts of the `confirm` type will return either 1, 0, or 🛑.
 
-1
-The user spoke one of the YES phrases. Used with the `Confirm` prompts.
+- 1: The user spoke one of the YES phrases. Used with the `Confirm` prompts.
+- 0: The user spoke one of the NO phrases. Used with the `Confirm`  prompts.
+- 🛑: The user tapped the special 🛑 menu item. This can be enabled by specifying true to the `confirmShowCancel` Prompt attribute.
 
-0
-The user spoke one of the NO phrases. Used with the `Confirm`  prompts.
+> Pressing the large Cancel button in Alert, Choose From Menu, and Choose From List menus terminates shortcuts, so the 🛑 is added as a way to provide a user cancel option without cancelling the shortcut.
 
 Your shortcut should handle each of these cases for completeness. 
 
