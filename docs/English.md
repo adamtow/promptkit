@@ -540,7 +540,7 @@ You can specify how many times PromptKit will ask the user your question. The de
 (Optional) Text
 Setting the language will determine the language used to speak the prompt's message. It also controls how the Yes, No, and Cancel choices in Confirm prompts are displayed.
 
-The format of the dictation language is (language code)-(language region). For instance:
+The format of the dictation language is (language code)-(country code). For instance:
 
 - **en-US**: English (USA)
 - **en-GB**: English (United Kingdom)
@@ -846,6 +846,8 @@ The following language codes are supported for `spokenLanguage` and `dictationLa
 
 > You'll note that there are more dictation languages than are supported by PromptKit. This is because there is no corresponding spoken language support for the dictation language. When Apple adds support for these, PromptKit will support them too!
 
+For language code in the format of `xx-YY` where `xx` is the [ISO-649-1](https://en.m.wikipedia.org/wiki/List_of_ISO_639-1_codes) language code and `YY` is the [ISO-3166](https://en.m.wikipedia.org/wiki/ISO_3166-1) 2-letter country code. 
+
 #### Spoken Languages
 
 - **ar-SA**: Arabic (Saudi Arabia)
@@ -993,7 +995,7 @@ Improve the performance and accuracy of PromptKit by contributing to a language 
 
 You can find the current set of [language dictionaries on GitHub here](https://github.com/adamtow/promptkit/blob/master/localization/language-dictionaries.json).
 
-Each language dictionary is a dictionary object whose primary key within the root dictionaries object is the language code or code + region.
+Each language dictionary is a dictionary object whose primary key within the root dictionaries object is the language code or language + country.
 
 ```
 {
