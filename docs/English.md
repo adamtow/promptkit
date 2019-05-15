@@ -374,12 +374,9 @@ You can replicate a PromptKit Dictionary with plaintext by separating key/value 
 <span id="prompt-attributes"></span>
 ### PromptKit Prompt Attributes
 
-A PromptKit Prompt and Scene are dictionaries that contain the following required and option attributes. You can create these within the Shortcuts app or in a text editor. 
+A PromptKit Prompt and Scene are dictionaries that contain the following attributes. You can create these within the Shortcuts app or in a text editor. 
 
-**Required**
 - [message](#message)
-
-**Optional**
 - [key](#key)
 - [type](#type)
 - [mode](#mode)
@@ -394,7 +391,8 @@ A PromptKit Prompt and Scene are dictionaries that contain the following require
 - [speakChoices](#speakChoices)
 - [notificationPlaySound](#notificationPlaySound)
 - [confirmShowCancel](#confirmShowCancel)
-- [allowTranslations](#allowTranslation)
+- [allowEmptyResponse](#allowEmptyResponse)
+- [allowTranslations](#allowTranslations)
 - [allowTranslationDictation](#allowTranslationDictation)
 - [returnResponseOnly](#returnResponseOnly)
 
@@ -404,7 +402,7 @@ A PromptKit Prompt and Scene are dictionaries that contain the following require
 - [hideFromHistory](#hideFromHistory)
 
 
-### message (Required) Text or Array
+### message - Text or Array
 This is the information displayed or spoken to the user. If you supply just one string, it will be used for all repetitions. If you supply multiple strings in an array, the string used will correspond to the loop repeat index. For instance:
 
 ```
@@ -422,22 +420,24 @@ The first time PromptKit is called, it will speak the first question string. If 
 ## type (Optional) Text
 Specifies how the message will be interpreted and presented to the user. Valid values include:
 
-- **text** (default): For manual prompts, the message is displayed in an Ask For Input action dialog. For handsfree prompts, the message is spoken to the user and Dictate Text action captures the user's input. This type can be combined with the `choices` array to accept only certain responses.
+- **alert**: Displays the message in a modal alert dialog for manual prompts. If specified, the `title` of the prompt will be used as the title of the alert. Otherwise "PromptKit" will be used. Tapping OK will continue the execution of PromptKit. Tapping Cancel will terminate the shortcut. For handsfree prompts, the message is spoken to the user. 
 - **confirm**: Prompts the user for a Yes, No, or optional Cancel response.
-- **number**: Prompts the user to enter a number. Verifies that the user entered a valid number. Supports validation tests of equality, less than, greater than, and between. 
-- **list**: Prompts the user to choose from a list of choices.
 - **date**: Prompts the user to enter a date. Manual prompts will display the standard iOS Date picker. Voice prompts will use the Get Dates From Input action to convert dictated text into a date. 
 - **dateTime**: Prompts the user to enter a date and time. Manual prompts will display the standard iOS Date and Time picker. Voice prompts will use the Get Dates From Input action to convert dictated text into a date and time. 
-- **time**: Prompts the user to enter a time. Manual prompts will display the standard iOS Time picker. Voice prompts will use the Get Dates From Input and Format Dates actions to convert dictated text into a time. 
-- **history**: in PromptKit Stories, this Prompt type allows the user to go back to a certain point in a Story. For both manual and handsfree prompts, it displays a menu of available scenes to return to. More information on how history works can be found in the [PromptKit Story History](#promptkit-story-history) section. 
-- **quickLook**: Displays the message in a Quick Look window for manual prompts. For handsfree prompts, the message is spoken back to the user. 
-- **markdown**: Interprets the message as markdown. For manual prompts, it converts the markdown to HTML and displays a webpage to the user. For handsfree prompts, it converts the markdown to Rich Text and speaks it to the user. 
+- **list**: Prompts the user to choose from a list of choices.
+- **history**: in PromptKit Stories, this Prompt type allows the user to go back to a previous point in a Story. For both manual and handsfree prompts, it displays a menu of available scenes to return to. More information on how history works can be found in the [PromptKit Story History](#promptkit-story-history) section. 
 - **html**: Interprets the message as HTML, converts it to a webpage and displays in a Quick Look window or Safari window. Specify `useSafari` to true to open the URL in Safari. 
-- **url**: Opens a Quick Look window or Safari to the supplies URL. Specify `useSafari` to true to open the URL in Safari. 
-- **alert**: Displays the message in a modal alert dialog for manual prompts. If specified, the `title` of the prompt will be used as the title of the alert. Otherwise "PromptKit" will be used. Tapping OK will continue the execution of PromptKit. Tapping Cancel will terminate the shortcut. For handsfree prompts, the message is spoken to the user. 
-- **notification**: Displays the message in a notification banner with manual driven prompts. If specified, the `title` of the prompt will be used as the title of the notification. Otherwise "PromptKit" will be used. Specify `notificationSound` to true to display a sound during the notification (default is no sound). For handsfree prompts, the message is spoken to the user. 
-- **result**: Displays the message in a modal dialog for manual prompts. For handsfree prompts, the message is spoken to the user. 
 - **none**: No message is displayed to the user. This type is used commonly in PromptKit Stories as a separator between scenes. 
+- **notification**: Displays the message in a notification banner with manual driven prompts. If specified, the `title` of the prompt will be used as the title of the notification. Otherwise "PromptKit" will be used. Specify `notificationSound` to true to display a sound during the notification (default is no sound). For handsfree prompts, the message is spoken to the user. 
+- **number**: Prompts the user to enter a number. Verifies that the user entered a valid number. Supports validation tests of equality, less than, greater than, and between. 
+- **quickLook**: Displays the message in a Quick Look window for manual prompts. For handsfree prompts, the message is spoken back to the user. 
+- **result**: Displays the message in a modal dialog for manual prompts. For handsfree prompts, the message is spoken to the user. 
+- **speak**: Speaks the message to the user.
+- **text** (default): For manual prompts, the message is displayed in an Ask For Input action dialog. For handsfree prompts, the message is spoken to the user and Dictate Text action captures the user's input. This type can be combined with the `choices` array to accept only certain responses.
+- **time**: Prompts the user to enter a time. Manual prompts will display the standard iOS Time picker. Voice prompts will use the Get Dates From Input and Format Dates actions to convert dictated text into a time. 
+- **url**: Opens a Quick Look window or Safari to the supplies URL. Specify `useSafari` to true to open the URL in Safari. 
+
+
 
 Voice-driven prompts can specify the `speakChoices` option to verbally list out the choices after speaking the message. 
 
@@ -572,6 +572,12 @@ NOTE: Tapping Cancel will terminate shortcut execution.
 
 For confirm prompts, this adds a PromptKit Cancel 🛑 option. Choosing this allows developers to handle cases other than Yes or No. 
 
+<span id="allowEmptyResponse"></span>
+#### allowEmptyResponse
+If true, an empty response can be returned back to the calling shortcut. Otherwise, PromptKit will repeat the prompt until a response is provided or the repeat count is reached.
+
+The default value for allowEmptyResponse is false.
+
 <span id="allowTranslations"></span>
 #### allowTranslations
 
@@ -681,7 +687,7 @@ This is a text string or an array of [PromptKit Decision](#handling-decisions) t
 <span id="hideFromHistory"></span>
 #### hideFromHistory
 
-Hide this scene from the [PromptKit History object](#promptkit-history). 
+Hide this scene from the [PromptKit History object](#promptkit-story-history). 
 
 <span id="handling-decisions"></span>
 ### Handling Decisions
@@ -716,6 +722,8 @@ Following the scene name is an optional series of key/value pairs. The dataKey i
 #### PromptKit Story History
 
 PromptKit keeps track of where the user is while going through a Story, and provides the ability to go back to any previous point in the Story.
+
+You can use the `history` Prompt type to display a history menu. The Story date will be restored to the exact point in the history. Data that was captured after the restore point will be lost.
 
 ### Calling External Shortcut Shortcuts
 
