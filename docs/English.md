@@ -543,48 +543,30 @@ The format of the dictation language differs from the of spokenLanguage in that 
 
 A complete list of [supported languages and codes](#language-codes) can be found here. 
 
-### Additional Options
+### Additional Boolean Options
 
-<span id="speakChoices"></span> 
-#### speakChoices
-
-If a prompt type has a list of possible choices, setting this value to true in the Prompt Dictionary will cause PromptKit to list out the choices audibly in `handsfree` mode. 
-
-<span id="hideFromHistory"></span> 
-#### hideFromHistory (PromptKit Scene only)
-
-For use with PromptKit Scenes and Stories, this will prevent the scene from being added to the history list. 
-
-<span id="notificationPlaySound"></span>
-#### notificationPlaySound
-
-For notification prompts, setting this value to true will play a sound when the notification banner appears. 
+The following attributes are boolean values that provide additional options for Prompts.
 
 <span id="alertShowCancel"></span>
-#### alertShowCancel
+#### alertShowCancel (default: false)
 
 For alert prompts, this will add the Cancel button to the alert. 
 
 NOTE: Tapping Cancel will terminate shortcut execution. 
 
-<span id="confirmShowCancel"></span>
-#### confirmShowCancel
-
-For confirm prompts, this adds a PromptKit Cancel 🛑 option. Choosing this allows developers to handle cases other than Yes or No. 
-
 <span id="allowEmptyResponse"></span>
-#### allowEmptyResponse
+#### allowEmptyResponse (default: false)
 If true, an empty response can be returned back to the calling shortcut. Otherwise, PromptKit will repeat the prompt until a response is provided or the repeat count is reached.
 
 The default value for allowEmptyResponse is false.
 
 <span id="allowTranslations"></span>
-#### allowTranslations
+#### allowTranslations (default: true)
 
 By default, this option is set to true for all Prompts. Setting it to false will prevent a message from being translated. Use this if you want your prompt to be spoken in the specified language, rather than the translated language.
 
 <span id="allowTranslationDictation"></span>
-#### allowTranslationDictation
+#### allowTranslationDictation (default: true)
 
 When Auto Translate is on, it may be difficult to translate the list of possible choices into the translation language. Some words may not translate very well, for instance. By default, PromptKit will switch to `manual` mode and raise dialogs and menus when Auto Translate is active. 
 
@@ -604,12 +586,32 @@ Remember that you can specify multiple modes in the mode attribute by separating
 
 For the first two attempts, handsfree mode will be used. Afterwards, manual mode will be employed. 
 
+<span id="confirmShowCancel"></span>
+#### confirmShowCancel (default: false)
+
+For confirm prompts, this adds a PromptKit Cancel 🛑 option. Choosing this allows developers to handle cases other than Yes or No. 
+
+<span id="hideFromHistory"></span> 
+#### hideFromHistory  (default: false)
+
+For use with PromptKit Scenes and Stories, this will prevent the scene from being added to the history list. 
+
+<span id="notificationPlaySound"></span>
+#### notificationPlaySound (default: false)
+
+For notification prompts, setting this value to true will play a sound when the notification banner appears. 
+
 <span id="returnResponseOnly"></span>
-#### returnResponseOnly
+#### returnResponseOnly (default: true)
 
 By default, PromptKit returns the response chosen by the system. Setting this flag to false will return the entire PromptKit Response Dictionary. 
 
-***
+<span id="speakChoices"></span> 
+#### speakChoices (default: false)
+
+If a prompt type has a list of possible choices, setting this value to true in the Prompt Dictionary will cause PromptKit to list out the choices audibly in `handsfree` mode. 
+
+****
 
 <span id="handling-responses"></span>
 ## Handling Responses
