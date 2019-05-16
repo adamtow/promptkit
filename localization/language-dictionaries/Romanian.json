@@ -1,0 +1,74 @@
+{
+	"ro": {
+		"name": "Română",
+		"language": "ro",
+		"languageCode": "ro-RO",
+		"countries": [
+			"RO"
+		],
+		"phrases": {
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"Anulare"
+			],
+			"localization_notice": "Acesta este un fișier de localizare generat automat.\n\nÎmbunătățiți-l vizitând:",
+			"no": [
+				"Nu",
+				"Niciodată",
+				"Negativ."
+			],
+			"numbers": [
+				"Zero",
+				"Unu",
+				"Doi",
+				"Trei",
+				"Patru",
+				"Cinci",
+				"Șase",
+				"Șapte",
+				"Opt",
+				"Nouă",
+				"Zece"
+			],
+			"or": "Sau",
+			"say": "Spun:",
+			"unlockPrompt": "",
+			"yes": [
+				"Da",
+				"Bine",
+				"Afirmativ."
+			]
+		},
+		"supportedLanguages": [
+			"Arabă",
+			"Cehă",
+			"Chineză simplificată",
+			"Chineză tradiţională",
+			"Coreeană",
+			"Daneză",
+			"Ebraică",
+			"Engleză",
+			"Finlandeză",
+			"Franceză",
+			"Germană",
+			"Greacă",
+			"Hindi",
+			"Indoneziană",
+			"Italiană",
+			"Japoneză",
+			"Maghiară",
+			"Norvegiană",
+			"Olandeză",
+			"Poloneză",
+			"Portugheză",
+			"Română",
+			"Rusă",
+			"Slovacă",
+			"Spaniolă",
+			"Suedeză",
+			"Thai",
+			"Turcă"
+		]
+	}
+}

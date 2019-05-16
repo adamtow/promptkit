@@ -1,0 +1,75 @@
+{
+	"de": {
+		"name": "Deutsch",
+		"language": "de",
+		"languageCode": "de-DE",
+		"countries": [
+			"DE"
+		],
+		"phrases": {
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"Absagen"
+			],
+			"localization_notice": "Dies ist eine automatisch generierte Lokalisierungsdatei.\n\nVerbessere es, indem du besuchst:",
+			"no": [
+				"Nein",
+				"Niemals",
+				"Negativ"
+			],
+			"numbers": [
+				"Null",
+				"Eins",
+				"Zwei",
+				"Drei",
+				"Vier",
+				"Fünf",
+				"Sechs",
+				"Sieben",
+				"Acht",
+				"Neun",
+				"Zehn"
+			],
+			"or": "oder",
+			"say": "sagen:",
+			"unlockPrompt": "",
+			"yes": [
+				"Ja",
+				"Okay",
+				"Ok",
+				"Affirmative"
+			]
+		},
+		"supportedLanguages": [
+			"Arabisch",
+			"Chinesisch (Traditionell)",
+			"Chinesisch (Vereinfacht)",
+			"Dänisch",
+			"Deutsch",
+			"Englisch",
+			"Finnisch",
+			"Französisch",
+			"Griechisch",
+			"Hebräisch",
+			"Hindi",
+			"Indonesisch",
+			"Italienisch",
+			"Japanisch",
+			"Koreanisch",
+			"Niederländisch",
+			"Norwegisch",
+			"Polnisch",
+			"Portugiesisch",
+			"Rumänisch",
+			"Russisch",
+			"Schwedisch",
+			"Slowakisch",
+			"Spanisch",
+			"Thailändisch",
+			"Tschechisch",
+			"Türkisch",
+			"Ungarisch"
+		]
+	}
+}

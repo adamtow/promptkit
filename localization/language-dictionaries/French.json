@@ -1,0 +1,76 @@
+{
+	"fr": {
+		"name": "Français",
+		"language": "fr",
+		"languageCode": "fr-FR",
+		"countries": [
+			"FR"
+		],
+		"phrases": {
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"Annuler"
+			],
+			"localization_notice": "C'est un fichier de localisation généré automatiquement.\n\nAméliorez-le en visitant:",
+			"no": [
+				"Non",
+				"Jamais",
+				"Négatif"
+			],
+			"numbers": [
+				"zéro",
+				"Un",
+				"Deux",
+				"Trois",
+				"Quatre",
+				"Cinq",
+				"Six",
+				"Sept",
+				"Huit",
+				"Neuf",
+				"Dix"
+			],
+			"or": "ou",
+			"say": "Dites:",
+			"unlockPrompt": "",
+			"yes": [
+				"Oui",
+				"Ok",
+				"Ouais",
+				"Bien sûr",
+				"Affirmatif"
+			]
+		},
+		"supportedLanguages": [
+			"Allemand",
+			"Anglais",
+			"Arabe",
+			"Chinois simplifié",
+			"Chinois traditionnel",
+			"Coréen",
+			"Danois",
+			"Espagnol",
+			"Finnois",
+			"Français",
+			"Grec",
+			"Hébreu",
+			"Hindi",
+			"Hongrois",
+			"Indonésien",
+			"Italien",
+			"Japonais",
+			"Néerlandais",
+			"Norvégien",
+			"Polonais",
+			"Portugais",
+			"Roumain",
+			"Russe",
+			"Slovaque",
+			"Suédois",
+			"Tchèque",
+			"Thaï",
+			"Turc"
+		]
+	}
+}

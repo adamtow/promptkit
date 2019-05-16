@@ -1,0 +1,74 @@
+{
+	"tr": {
+		"name": "Türkçe",
+		"language": "tr",
+		"languageCode": "tr-TR",
+		"countries": [
+			"TR"
+		],
+		"phrases": {
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"Iptal"
+			],
+			"localization_notice": "Bu otomatik olarak oluşturulan bir yerelleştirme dosyasıdır.\n\nZiyaret ederek geliştirin:",
+			"no": [
+				"Hayır",
+				"Asla",
+				"Negatif"
+			],
+			"numbers": [
+				"Sıfır",
+				"Bir",
+				"Iki",
+				"Üç",
+				"Dört",
+				"Beş",
+				"Altı",
+				"Yedi",
+				"Sekiz",
+				"Dokuz",
+				"On"
+			],
+			"or": "Veya",
+			"unlockPrompt": "",
+			"say": "Söyle:",
+			"yes": [
+				"Evet",
+				"Tamam",
+				"Olumlu"
+			]
+		},
+		"supportedLanguages": [
+			"Almanca",
+			"Arapça",
+			"Basitleştirilmiş Çince",
+			"Çekçe",
+			"Danca",
+			"Endonezya dili",
+			"Fince",
+			"Fransızca",
+			"Geleneksel Çince",
+			"Hintçe",
+			"Hollanda dili",
+			"İbranice",
+			"İngilizce",
+			"İspanyolca",
+			"İsveç dili",
+			"İtalyanca",
+			"Japonca",
+			"Kore dili",
+			"Lehçe",
+			"Macarca",
+			"Norveç dili",
+			"Portekizce",
+			"Rumence",
+			"Rusça",
+			"Slovakça",
+			"Tay dili",
+			"Türkçe",
+			"Yunanca"
+		]
+	}
+}

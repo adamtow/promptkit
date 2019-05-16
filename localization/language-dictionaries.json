@@ -1,1560 +1,98 @@
 {
-	"ro": {
-		"name": "Română",
-		"language": "ro",
-		"languageCode": "ro-RO",
+	"ar": {
+		"name": "العربية",
+		"language": "ar",
+		"languageCode": "ar-SA",
 		"countries": [
-			"RO"
+			"SA"
 		],
 		"phrases": {
 			"bigNumbers": {},
 			"cancel": [
 				"🛑",
-				"Anulare"
+				"إلغاء",
+				"الأمر"
 			],
-			"localization_notice": "Acesta este un fișier de localizare generat automat.\n\nÎmbunătățiți-l vizitând:",
+			"localization_notice": "هذا ملف تعريب تم إنشاؤه تلقائيًا.\n\nتحسينه من خلال زيارة:",
 			"no": [
-				"Nu",
-				"Niciodată",
-				"Negativ."
+				"لا",
+				"أبدا",
+				"سلبي"
 			],
 			"numbers": [
-				"Zero",
-				"Unu",
-				"Doi",
-				"Trei",
-				"Patru",
-				"Cinci",
-				"Șase",
-				"Șapte",
-				"Opt",
-				"Nouă",
-				"Zece"
+				"صفر",
+				"واحد",
+				"اثنان",
+				"ثلاثه",
+				"أربعه",
+				"خمسه",
+				"سته",
+				"سبعه",
+				"ثمانيه",
+				"تسعه",
+				"عشره"
 			],
-			"or": "Sau",
-			"say": "Spun:",
+			"or": "او",
+			"say": "اقول:",
 			"unlockPrompt": "",
 			"yes": [
-				"Da",
-				"Bine",
-				"Afirmativ."
+				"نعم",
+				"حسنا",
+				"نعم",
+				"حسنا",
+				"بال",
+				"يجاب"
 			]
 		},
 		"supportedLanguages": [
-			"Arabă",
-			"Cehă",
-			"Chineză simplificată",
-			"Chineză tradiţională",
-			"Coreeană",
-			"Daneză",
-			"Ebraică",
-			"Engleză",
-			"Finlandeză",
-			"Franceză",
-			"Germană",
-			"Greacă",
-			"Hindi",
-			"Indoneziană",
-			"Italiană",
-			"Japoneză",
-			"Maghiară",
-			"Norvegiană",
-			"Olandeză",
-			"Poloneză",
-			"Portugheză",
-			"Română",
-			"Rusă",
-			"Slovacă",
-			"Spaniolă",
-			"Suedeză",
-			"Thai",
-			"Turcă"
+			"العربية",
+			"الكانتونيه (تقليدي)",
+			"الصينية المبسطة",
+			"الصينية التقليدية",
+			"التشيكية",
+			"الدانماركية",
+			"الهولندية",
+			"الإنكليزية",
+			"الفنلندية",
+			"الفرنسية",
+			"الألمانية",
+			"اليونانية",
+			"العبرية",
+			"لا",
+			"المجرية",
+			"الإندونيسية",
+			"الإيطالية",
+			"اليابانية",
+			"الكورية",
+			"النرويجية ‏",
+			"البولندية",
+			"البرتغالية",
+			"الرومانية",
+			"الروسية",
+			"السلوفاكية",
+			"الإسبانية",
+			"السويدية",
+			"التايلندية",
+			"التركية"
 		]
 	},
-	"tr": {
-		"name": "Türkçe",
-		"language": "tr",
-		"languageCode": "tr-TR",
+	"zh-HK": {
+		"name": "粵語 (繁體)",
 		"countries": [
-			"TR"
-		],
-		"phrases": {
-			"bigNumbers": {},
-			"cancel": [
-				"🛑",
-				"Iptal"
-			],
-			"localization_notice": "Bu otomatik olarak oluşturulan bir yerelleştirme dosyasıdır.\n\nZiyaret ederek geliştirin:",
-			"no": [
-				"Hayır",
-				"Asla",
-				"Negatif"
-			],
-			"numbers": [
-				"Sıfır",
-				"Bir",
-				"Iki",
-				"Üç",
-				"Dört",
-				"Beş",
-				"Altı",
-				"Yedi",
-				"Sekiz",
-				"Dokuz",
-				"On"
-			],
-			"or": "Veya",
-			"unlockPrompt": "",
-			"say": "Söyle:",
-			"yes": [
-				"Evet",
-				"Tamam",
-				"Olumlu"
-			]
-		},
-		"supportedLanguages": [
-			"Almanca",
-			"Arapça",
-			"Basitleştirilmiş Çince",
-			"Çekçe",
-			"Danca",
-			"Endonezya dili",
-			"Fince",
-			"Fransızca",
-			"Geleneksel Çince",
-			"Hintçe",
-			"Hollanda dili",
-			"İbranice",
-			"İngilizce",
-			"İspanyolca",
-			"İsveç dili",
-			"İtalyanca",
-			"Japonca",
-			"Kore dili",
-			"Lehçe",
-			"Macarca",
-			"Norveç dili",
-			"Portekizce",
-			"Rumence",
-			"Rusça",
-			"Slovakça",
-			"Tay dili",
-			"Türkçe",
-			"Yunanca"
-		]
-	},
-	"es": {
-		"name": "Español",
-		"language": "es",
-		"languageCode": "es-MX",
-		"countries": [
-			"ES",
-			"MX"
-		],
-		"phrases": {
-			"bigNumbers": {},
-			"cancel": [
-				"🛑",
-				"Cancelar"
-			],
-			"localization_notice": "Este es un archivo de localización generado automáticamente.\n\nMejóralo visitando:",
-			"no": [
-				"No",
-				"Nunca",
-				"Negativo"
-			],
-			"numbers": [
-				"Cero",
-				"Uno",
-				"Dos",
-				"Tres",
-				"Cuatro",
-				"Cinco",
-				"Seis",
-				"Siete",
-				"Ocho",
-				"Nueve",
-				"Diez"
-			],
-			"or": "O",
-			"unlockPrompt": "",
-			"say": "Decir:",
-			"yes": [
-				"Sí",
-				"Vale",
-				"Ok",
-				"Afirmativo"
-			]
-		},
-		"supportedLanguages": [
-			"Arabic",
-			"Cantonese (Traditional)",
-			"Chinese Simplified",
-			"Chinese Traditional",
-			"Czech",
-			"Danish",
-			"Dutch",
-			"English",
-			"Finnish",
-			"French",
-			"German",
-			"Greek",
-			"Hebrew",
-			"Hindi",
-			"Hungarian",
-			"Indonesian",
-			"Italian",
-			"Japanese",
-			"Korean",
-			"Norwegian",
-			"Polish",
-			"Portuguese",
-			"Romanian",
-			"Russian",
-			"Slovak",
-			"Spanish",
-			"Swedish",
-			"Thai",
-			"Turkish"
-		]
-	},
-	"nb": {
-		"name": "Norsk",
-		"language": "nb",
-		"languageCode": "nb-NO",
-		"countries": [
-			"NO"
-		],
-		"phrases": {
-			"bigNumbers": {},
-			"cancel": [
-				"🛑",
-				"Avbryt"
-			],
-			"localization_notice": "Dette er en automatisk generert lokaliseringsfil.\n\nForbedre det ved å besøke:",
-			"no": [
-				"Nei",
-				"Aldri",
-				"Negativ"
-			],
-			"numbers": [
-				"Null",
-				"En",
-				"To",
-				"Tre",
-				"Fire",
-				"Fem",
-				"Seks",
-				"Sju",
-				"Åtte",
-				"Ni",
-				"Ti"
-			],
-			"or": "Eller",
-			"unlockPrompt": "",
-			"say": "Si:",
-			"yes": [
-				"Ja",
-				"Greit",
-				"Ok",
-				"Bekreftende"
-			]
-		},
-		"supportedLanguages": [
-			"Arabisk",
-			"Dansk",
-			"Engelsk",
-			"Finsk",
-			"Fransk",
-			"Gresk",
-			"Hebraisk",
-			"Hindi",
-			"Indonesisk",
-			"Italiensk",
-			"Japansk",
-			"Kinesisk, forenklet",
-			"Kinesisk, tradisjonell",
-			"Koreansk",
-			"Nederlandsk",
-			"Norsk",
-			"Polsk",
-			"Portugisisk",
-			"Rumensk",
-			"Russisk",
-			"Slovakisk",
-			"Spansk",
-			"Svensk",
-			"Thai",
-			"Tsjekkisk",
-			"Tyrkisk",
-			"Tysk",
-			"Ungarsk"
-		]
-	},
-	"fi": {
-		"name": "Suomi",
-		"language": "fi",
-		"languageCode": "fi-FI",
-		"countries": [
-			"FI"
-		],
-		"phrases": {
-			"bigNumbers": {},
-			"cancel": [
-				"🛑",
-				"Peruuta"
-			],
-			"localization_notice": "Tämä on automaattisesti luotu lokalisointitiedosto.\n\nParanna sitä vierailemalla:",
-			"no": [
-				"Ei",
-				"Ei Koskaan",
-				"Negatiivinen"
-			],
-			"numbers": [
-				"Nolla",
-				"Yksi",
-				"Kaksi",
-				"Kolme",
-				"Neljä",
-				"Viisi",
-				"Kuusi",
-				"Seitsemän",
-				"Kahdeksan",
-				"Yhdeksän",
-				"Kymmenen"
-			],
-			"or": "Tai",
-			"say": "Sanoa:",
-			"unlockPrompt": "",
-			"yes": [
-				"Kyllä",
-				"Okei",
-				"Ok",
-				"Myöntävästi"
-			]
-		},
-		"supportedLanguages": [
-			"Arabia",
-			"Englanti",
-			"Espanja",
-			"Heprea",
-			"Hindi",
-			"Hollanti",
-			"Indonesia",
-			"Italia",
-			"Japani",
-			"Korea",
-			"Kreikka",
-			"Norja",
-			"Perinteinen kiina",
-			"Portugali",
-			"Puola",
-			"Ranska",
-			"Romania",
-			"Ruotsi",
-			"Saksa",
-			"Slovakki",
-			"Suomi",
-			"Tanska",
-			"Thai",
-			"Tšekki",
-			"Turkki",
-			"Unkari",
-			"Venäjä",
-			"Yksinkertaistettu kiina"
-		]
-	},
-	"el": {
-		"name": "Ελληνικά",
-		"language": "el",
-		"languageCode": "el-GR",
-		"countries": [
-			"GR"
-		],
-		"phrases": {
-			"bigNumbers": {},
-			"cancel": [
-				"🛑",
-				"Άκυρο"
-			],
-			"localization_notice": "Αυτό είναι ένα αρχείο εντοπισμού που δημιουργείται αυτόματα.\n\nΒελτιώστε το με την επίσκεψη:",
-			"no": [
-				"Όχι",
-				"Ποτέ",
-				"Αρνητικό."
-			],
-			"numbers": [
-				"Μηδέν",
-				"Ένα",
-				"Δύο",
-				"Τρία",
-				"Τέσσερα",
-				"Πέντε",
-				"Έξι",
-				"Εφτά",
-				"Οχτώ",
-				"Εννιά",
-				"Δέκα."
-			],
-			"or": "Ή",
-			"say": "Πω:",
-			"unlockPrompt": "",
-			"yes": [
-				"Ναι",
-				"Εντάξει",
-				"Θετικό."
-			]
-		},
-		"supportedLanguages": [
-			"Αγγλικά",
-			"Αραβικά",
-			"Γαλλικά",
-			"Γερμανικά",
-			"Δανικά",
-			"Εβραϊκά",
-			"Ελληνικά",
-			"Ιαπωνικά",
-			"Ινδονησιακά",
-			"Ισπανικά",
-			"Ιταλικά",
-			"Κινεζικά (Απ)",
-			"Κινεζικά (Πα)",
-			"Κορεατικά",
-			"Νορβηγικά",
-			"Ολλανδικά",
-			"Ουγγρικά",
-			"Πολωνικά",
-			"Πορτογαλικά",
-			"Ρουμανικά",
-			"Ρωσικά",
-			"Σλοβακικά",
-			"Σουηδικά",
-			"Ταϊλανδικά",
-			"Τουρκικά",
-			"Τσεχικά",
-			"Φινλανδικά",
-			"Χίντι"
-		]
-	},
-	"sv": {
-		"name": "Svenska",
-		"language": "sv",
-		"languageCode": "sv-SE",
-		"countries": [
-			"SE"
-		],
-		"phrases": {
-			"bigNumbers": {},
-			"cancel": [
-				"🛑",
-				"Avbryt"
-			],
-			"localization_notice": "Det här är en automatiskt genererad lokaliseringsfil.\n\nFörbättra det genom att besöka:",
-			"no": [
-				"Nej",
-				"Aldrig",
-				"Negativt"
-			],
-			"numbers": [
-				"Noll",
-				"Ett",
-				"Två",
-				"Tre",
-				"Fyra",
-				"Fem",
-				"Sex",
-				"Sju",
-				"Åtta",
-				"Nio",
-				"Tio"
-			],
-			"or": "Eller",
-			"say": "Säga:",
-			"unlockPrompt": "",
-			"yes": [
-				"Ja",
-				"Okej",
-				"Ok",
-				"Jakande"
-			]
-		},
-		"supportedLanguages": [
-			"Arabiska",
-			"Danska",
-			"Engelska",
-			"Finska",
-			"Franska",
-			"Grekiska",
-			"Hebreiska",
-			"Hindi",
-			"Indonesiska",
-			"Italienska",
-			"Japanska",
-			"Kinesiska, förenklad",
-			"Kinesiska, traditionell",
-			"Koreanska",
-			"Nederländska",
-			"Norska",
-			"Polska",
-			"Portugisiska",
-			"Rumänska",
-			"Ryska",
-			"Slovakiska",
-			"Spanska",
-			"Svenska",
-			"Thai",
-			"Tjeckiska",
-			"Turkiska",
-			"Tyska",
-			"Ungerska"
-		]
-	},
-	"nl": {
-		"name": "Nederlands",
-		"language": "nl",
-		"languageCode": "nl-NL",
-		"countries": [
-			"NL"
-		],
-		"phrases": {
-			"bigNumbers": {},
-			"cancel": [
-				"🛑",
-				"Annuleren"
-			],
-			"localization_notice": "Dit is een automatisch gegenereerd lokaliseringsbestand.\n\nVerbeter het door een bezoek te brengen aan:",
-			"no": [
-				"Nee",
-				"Nooit",
-				"Negatief"
-			],
-			"numbers": [
-				"Nul",
-				"Één",
-				"Twee",
-				"Drie",
-				"Vier",
-				"Vijf",
-				"Zes",
-				"Zeven",
-				"Acht",
-				"Negen",
-				"Tien"
-			],
-			"or": "Of",
-			"say": "Zeggen:",
-			"unlockPrompt": "",
-			"yes": [
-				"Ja",
-				"Oke",
-				"Ok",
-				"Bevestigend"
-			]
-		},
-		"supportedLanguages": [
-			"Arabisch",
-			"Deens",
-			"Duits",
-			"Engels",
-			"Fins",
-			"Frans",
-			"Grieks",
-			"Hebreeuws",
-			"Hindi",
-			"Hongaars",
-			"Indonesisch",
-			"Italiaans",
-			"Japans",
-			"Koreaans",
-			"Nederlands",
-			"Noors",
-			"Pools",
-			"Portugees",
-			"Roemeens",
-			"Russisch",
-			"Slowaaks",
-			"Spaans",
-			"Thais",
-			"Traditioneel Chinees",
-			"Tsjechisch",
-			"Turks",
-			"Vereenvoudigd Chinees",
-			"Zweeds"
-		]
-	},
-	"fr": {
-		"name": "Français",
-		"language": "fr",
-		"languageCode": "fr-FR",
-		"countries": [
-			"FR"
-		],
-		"phrases": {
-			"bigNumbers": {},
-			"cancel": [
-				"🛑",
-				"Annuler"
-			],
-			"localization_notice": "C'est un fichier de localisation généré automatiquement.\n\nAméliorez-le en visitant:",
-			"no": [
-				"Non",
-				"Jamais",
-				"Négatif"
-			],
-			"numbers": [
-				"zéro",
-				"Un",
-				"Deux",
-				"Trois",
-				"Quatre",
-				"Cinq",
-				"Six",
-				"Sept",
-				"Huit",
-				"Neuf",
-				"Dix"
-			],
-			"or": "ou",
-			"say": "Dites:",
-			"unlockPrompt": "",
-			"yes": [
-				"Oui",
-				"Ok",
-				"Ouais",
-				"Bien sûr",
-				"Affirmatif"
-			]
-		},
-		"supportedLanguages": [
-			"Allemand",
-			"Anglais",
-			"Arabe",
-			"Chinois simplifié",
-			"Chinois traditionnel",
-			"Coréen",
-			"Danois",
-			"Espagnol",
-			"Finnois",
-			"Français",
-			"Grec",
-			"Hébreu",
-			"Hindi",
-			"Hongrois",
-			"Indonésien",
-			"Italien",
-			"Japonais",
-			"Néerlandais",
-			"Norvégien",
-			"Polonais",
-			"Portugais",
-			"Roumain",
-			"Russe",
-			"Slovaque",
-			"Suédois",
-			"Tchèque",
-			"Thaï",
-			"Turc"
-		]
-	},
-	"hu": {
-		"name": "Magyar",
-		"language": "hu",
-		"languageCode": "hu-HU",
-		"countries": [
-			"HU"
-		],
-		"phrases": {
-			"bigNumbers": {},
-			"cancel": [
-				"🛑",
-				"Mégse"
-			],
-			"localization_notice": "Ez egy automatikusan létrehozott lokalizációs fájl.\n\nJavítsa meg a következőt:",
-			"no": [
-				"Nem",
-				"Soha",
-				"Negatív"
-			],
-			"numbers": [
-				"Nulla",
-				"Egy",
-				"Kettő",
-				"Három",
-				"Négy",
-				"Öt",
-				"Hat",
-				"Hét",
-				"Nyolc",
-				"Kilenc",
-				"Tíz"
-			],
-			"or": "Vagy",
-			"say": "Mondani:",
-			"unlockPrompt": "",
-			"yes": [
-				"Igen",
-				"Oké",
-				"Ok",
-				"Megerősítő"
-			]
-		},
-		"supportedLanguages": [
-			"Angol",
-			"Arab",
-			"Cseh",
-			"Dán",
-			"Finn",
-			"Francia",
-			"Görög",
-			"Héber",
-			"Hindi",
-			"Holland",
-			"Indonéz",
-			"Japán",
-			"Kínai (egyszerűsített)",
-			"Kínai (hagyományos)",
-			"Koreai",
-			"Lengyel",
-			"Magyar",
-			"Német",
-			"Norvég",
-			"Olasz",
-			"Orosz",
-			"Portugál",
-			"Román",
-			"Spanyol",
-			"Svéd",
-			"Szlovák",
-			"Thai",
-			"Török"
-		]
-	},
-	"cs": {
-		"name": "Čeština",
-		"language": "cs",
-		"languageCode": "cs-CZ",
-		"countries": [
-			"CZ"
-		],
-		"phrases": {
-			"bigNumbers": {},
-			"cancel": [
-				"🛑",
-				"Storno"
-			],
-			"localization_notice": "Jedná se o automaticky generovaný lokalizační soubor.\n\nVylepšete ji návštěvou:",
-			"no": [
-				"Ne",
-				"Nikdy",
-				"Negativ"
-			],
-			"numbers": [
-				"Nula",
-				"Jedna",
-				"Dva",
-				"Tři",
-				"Čtyři",
-				"Pět",
-				"Šest",
-				"Sedm",
-				"Osm",
-				"Devět",
-				"Deset"
-			],
-			"or": "Nebo",
-			"say": "Říct:",
-			"unlockPrompt": "",
-			"yes": [
-				"Ano",
-				"Dobře",
-				"Potvrzuji"
-			]
-		},
-		"supportedLanguages": [
-			"Angličtina",
-			"Arabština",
-			"Čeština",
-			"Dánština",
-			"Finština",
-			"Francouzština",
-			"Hebrejština",
-			"Hindština",
-			"Holandština",
-			"Indonéština",
-			"Italština",
-			"Japonština",
-			"Korejština",
-			"Maďarština",
-			"Němčina",
-			"Norština",
-			"Polština",
-			"Portugalština",
-			"Rumunština",
-			"Ruština",
-			"Řečtina",
-			"Slovenština",
-			"Španělština",
-			"Švédština",
-			"Thajština",
-			"Tradiční čínština",
-			"Turečtina",
-			"Zjednodušená čínština"
-		]
-	},
-	"en": {
-		"name": "English",
-		"language": "en",
-		"languageCode": "en-US",
-		"countries": [
-			"US",
-			"GB",
-			"CA"
-		],
-		"phrases": {
-			"bigNumbers": {
-				"million": "1000000",
-				"billion": "1000000000",
-				"trillion": "1000000000000"
-			},
-			"cancel": [
-				"🛑",
-				"Cancel"
-			],
-			"no": [
-				"No",
-				"Never",
-				"Negative"
-			],
-			"numbers": [
-				"zero",
-				"one",
-				"two",
-				"three",
-				"four",
-				"five",
-				"six",
-				"seven",
-				"eight",
-				"nine",
-				"ten"
-			],
-			"or": "Or",
-			"say": [
-				"Say:",
-				"Choose from:",
-				"Pick from:",
-				"You can say:"
-			],
-			"unlockPrompt": "PromptKit is requesting your attention. Please unlock your device to respond to the prompt.",
-			"yes": [
-				"Yes",
-				"Okay",
-				"Yeah",
-				"Ok",
-				"Affirmative"
-			]
-		},
-		"supportedLanguages": [
-			"Arabic",
-			"Cantonese (Traditional)",
-			"Chinese Simplified",
-			"Chinese Traditional",
-			"Czech",
-			"Danish",
-			"Dutch",
-			"English",
-			"Finnish",
-			"French",
-			"German",
-			"Greek",
-			"Hebrew",
-			"Hindi",
-			"Hungarian",
-			"Indonesian",
-			"Italian",
-			"Japanese",
-			"Korean",
-			"Norwegian",
-			"Polish",
-			"Portuguese",
-			"Romanian",
-			"Russian",
-			"Slovak",
-			"Spanish",
-			"Swedish",
-			"Thai",
-			"Turkish"
-		]
-	},
-	"da": {
-		"name": "Dansk",
-		"language": "da",
-		"languageCode": "da-DK",
-		"countries": [
-			"DK"
-		],
-		"phrases": {
-			"bigNumbers": {},
-			"cancel": [
-				"🛑",
-				"Annuller"
-			],
-			"localization_notice": "Dette er en automatisk genereret lokaliseringsfil.\n\nForbedre det ved at besøge:",
-			"no": [
-				"Nej",
-				"Aldrig",
-				"Negativ"
-			],
-			"numbers": [
-				"Nul",
-				"En",
-				"To",
-				"Tre",
-				"Fire",
-				"Fem",
-				"Seks",
-				"Syv",
-				"Otte",
-				"Ni",
-				"Ti"
-			],
-			"or": "Eller",
-			"say": "Sige:",
-			"unlockPrompt": "",
-			"yes": [
-				"Ja",
-				"Okay",
-				"Ok",
-				"Bekræftende"
-			]
-		},
-		"supportedLanguages": [
-			"Arabisk",
-			"Dansk",
-			"Engelsk",
-			"Finsk",
-			"Fransk",
-			"Græsk",
-			"Hebraisk",
-			"Hindi",
-			"Indonesisk",
-			"Italiensk",
-			"Japansk",
-			"Kinesisk, forenklet",
-			"Kinesisk, traditionelt",
-			"Koreansk",
-			"Nederlandsk",
-			"Norsk",
-			"Polsk",
-			"Portugisisk",
-			"Rumænsk",
-			"Russisk",
-			"Slovakisk",
-			"Spansk",
-			"Svensk",
-			"Thai",
-			"Tjekkisk",
-			"Tyrkisk",
-			"Tysk",
-			"Ungarsk"
-		]
-	},
-	"it": {
-		"name": "Italiano",
-		"language": "it",
-		"languageCode": "it-IT",
-		"countries": [
-			"IT"
-		],
-		"phrases": {
-			"bigNumbers": {},
-			"cancel": [
-				"🛑",
-				"Annulla"
-			],
-			"localization_notice": "Questo è un file di localizzazione generato automaticamente.\n\nMiglioralo visitando:",
-			"no": [
-				"No",
-				"Mai",
-				"Negativo"
-			],
-			"numbers": [
-				"Zero",
-				"Uno",
-				"Due",
-				"Tre",
-				"Quattro",
-				"Cinque",
-				"Sei",
-				"Sette",
-				"Otto",
-				"Nove",
-				"Dieci"
-			],
-			"or": "o",
-			"say": "dire:",
-			"unlockPrompt": "",
-			"yes": [
-				"Sì",
-				"Okay",
-				"Ok",
-				"Affermativo."
-			]
-		},
-		"supportedLanguages": [
-			"Arabo",
-			"Ceco",
-			"Cinese semplificato",
-			"Cinese tradizionale",
-			"Coreano",
-			"Danese",
-			"Ebraico",
-			"Finlandese",
-			"Francese",
-			"Giapponese",
-			"Greco",
-			"Hindi",
-			"Indonesiano",
-			"Inglese",
-			"Italiano",
-			"Norvegese",
-			"Olandese",
-			"Polacco",
-			"Portoghese",
-			"Rumeno",
-			"Russo",
-			"Slovacco",
-			"Spagnolo",
-			"Svedese",
-			"Tailandese",
-			"Tedesco",
-			"Turco",
-			"Ungherese"
-		]
-	},
-	"id": {
-		"name": "Indonesia",
-		"language": "id",
-		"languageCode": "id-ID",
-		"countries": [
-			"ID"
-		],
-		"phrases": {
-			"bigNumbers": {},
-			"cancel": [
-				"🛑",
-				"Batalkan"
-			],
-			"localization_notice": "Ini adalah file lokalisasi yang dibuat secara otomatis.\n\nTingkatkan dengan mengunjungi:",
-			"no": [
-				"Tidak",
-				"Tidak Pernah",
-				"Negatif"
-			],
-			"numbers": [
-				"Nol",
-				"Satu",
-				"Dua",
-				"Tiga",
-				"Empat",
-				"Lima",
-				"Enam",
-				"Tujuh",
-				"Delapan",
-				"Sembilan",
-				"Sepuluh"
-			],
-			"or": "Atau",
-			"say": "Mengatakan:",
-			"unlockPrompt": "",
-			"yes": [
-				"Ya",
-				"Oke",
-				"Ok",
-				"Afirmatif"
-			]
-		},
-		"supportedLanguages": [
-			"Arab",
-			"Belanda",
-			"Ceko",
-			"Cina Sederhana",
-			"Cina Tradisional",
-			"Denmark",
-			"Finlandia",
-			"Hindi",
-			"Hongaria",
-			"Ibrani",
-			"Indonesia",
-			"Inggris",
-			"Italia",
-			"Jepang",
-			"Jerman",
-			"Korea",
-			"Norwegia",
-			"Polandia",
-			"Portugis",
-			"Prancis",
-			"Rumania",
-			"Rusia",
-			"Slovakia",
-			"Spanyol",
-			"Swedia",
-			"Thai",
-			"Turki",
-			"Yunani"
-		]
-	},
-	"ko": {
-		"name": "한국어",
-		"language": "ko",
-		"languageCode": "ko-KR",
-		"countries": [
-			"KR"
-		],
-		"phrases": {
-			"bigNumbers": {},
-			"cancel": [
-				"🛑",
-				"취소"
-			],
-			"localization_notice": "이것은 자동으로 생성 된 현지화 파일입니다.\n\n방문하여 개선하십시오.",
-			"no": [
-				"아니오",
-				"절대",
-				"부정적"
-			],
-			"numbers": [
-				"0",
-				"1",
-				"2",
-				"3",
-				"4",
-				"5",
-				"6",
-				"7",
-				"8",
-				"9",
-				"10"
-			],
-			"or": "또는",
-			"say": "말할:",
-			"unlockPrompt": "",
-			"yes": [
-				"그래",
-				"좋아",
-				"긍정적"
-			]
-		},
-		"supportedLanguages": [
-			"그리스어",
-			"네덜란드어",
-			"노르웨이어",
-			"덴마크어",
-			"독일어",
-			"러시아어",
-			"루마니아어",
-			"스페인어",
-			"슬로바키아어",
-			"스웨덴어",
-			"아랍어",
-			"영어",
-			"이탈리아어",
-			"인도네시아어",
-			"일본어",
-			"중국어 간체",
-			"중국어 번체",
-			"체코어",
-			"태국어",
-			"터키어",
-			"포르투갈어",
-			"폴란드어",
-			"프랑스어",
-			"핀란드어",
-			"한국어",
-			"헝가리어",
-			"힌디어",
-			"히브리어"
-		]
-	},
-	"ja": {
-		"name": "日本語",
-		"language": "ja",
-		"languageCode": "ja-JP",
-		"countries": [
-			"JP"
-		],
-		"phrases": {
-			"bigNumbers": {},
-			"cancel": [
-				"🛑",
-				"キャンセル"
-			],
-			"localization_notice": "これは自動生成されたローカライゼーションファイルです。\n\n訪問してそれを改善する：",
-			"no": [
-				"いいえ",
-				"決して否定的"
-			],
-			"numbers": [
-				"ゼロ",
-				"1",
-				"2",
-				"3",
-				"4",
-				"5",
-				"6",
-				"7",
-				"8",
-				"9",
-				"10"
-			],
-			"or": "または",
-			"say": "言う：",
-			"unlockPrompt": "",
-			"yes": [
-				"はい",
-				"Ok",
-				"肯定"
-			]
-		},
-		"supportedLanguages": [
-			"アラビア語",
-			"イタリア語",
-			"インドネシア語",
-			"オランダ語",
-			"ギリシャ語",
-			"スウェーデン語",
-			"スペイン語",
-			"スロバキア語",
-			"タイ語",
-			"チェコ語",
-			"デンマーク語",
-			"ドイツ語",
-			"トルコ語",
-			"ノルウェー語",
-			"ハンガリー語",
-			"ヒンディー語",
-			"フィンランド語",
-			"フランス語",
-			"ヘブライ語",
-			"ポルトガル語",
-			"ポーランド語",
-			"ルーマニア語",
-			"ロシア語",
-			"日本語",
-			"簡体字中国語",
-			"繁体字中国語",
-			"英語",
-			"韓国語"
-		]
-	},
-	"ru": {
-		"name": "русский",
-		"language": "ru",
-		"languageCode": "ru-RU",
-		"countries": [
-			"RU"
-		],
-		"phrases": {
-			"bigNumbers": {},
-			"cancel": [
-				"🛑",
-				"Отмена"
-			],
-			"localization_notice": "Это автоматически сгенерированный файл локализации.\n\nУлучшите это, посетив:",
-			"no": [
-				"Нет",
-				"Никогда",
-				"Отрицательный"
-			],
-			"numbers": [
-				"Ноль",
-				"Один",
-				"Два",
-				"Три",
-				"Четыре",
-				"Пять",
-				"Шесть",
-				"Семь",
-				"Восемь",
-				"Девять",
-				"Десять"
-			],
-			"or": "Или",
-			"say": "Сказать:",
-			"unlockPrompt": "",
-			"yes": [
-				"Да",
-				"Хорошо",
-				"Утвердительно"
-			]
-		},
-		"supportedLanguages": [
-			"Английский",
-			"Арабский",
-			"Венгерский",
-			"Голландский",
-			"Греческий",
-			"Датский",
-			"Иврит",
-			"Индонезийский",
-			"Испанский",
-			"Итальянский",
-			"Китайский традиционный",
-			"Китайский упрощенный",
-			"Корейский",
-			"Немецкий",
-			"Норвежский",
-			"Польский",
-			"Португальский",
-			"Румынский",
-			"Русский",
-			"Словацкий",
-			"Тайский",
-			"Турецкий",
-			"Финский",
-			"Французский",
-			"Хинди",
-			"Чешский",
-			"Шведский",
-			"Японский"
-		]
-	},
-	"th": {
-		"name": "ไทย",
-		"language": "th",
-		"languageCode": "th-TH",
-		"countries": [
-			"TH"
-		],
-		"phrases": {
-			"bigNumbers": {},
-			"cancel": [
-				"🛑",
-				"ยกเลิก"
-			],
-			"localization_notice": "นี่คือไฟล์การแปลที่สร้างขึ้นโดยอัตโนมัติ\n\nปรับปรุงโดยไปที่:",
-			"no": [
-				"ไม่มี",
-				"ไม่เคย",
-				"ลบ"
-			],
-			"numbers": [
-				"ศูนย์",
-				"หนึ่ง",
-				"สอง",
-				"สาม",
-				"สี่",
-				"ห้า",
-				"หก",
-				"เจ็ด",
-				"แปด",
-				"เก้า",
-				"สิบ"
-			],
-			"or": "หรือ",
-			"say": "พูด:",
-			"unlockPrompt": "",
-			"yes": [
-				"ใช่",
-				"โอเค",
-				"ตกลง",
-				"ยืนยัน"
-			]
-		},
-		"supportedLanguages": [
-			"กรีก",
-			"จีนดั้งเดิม",
-			"จีนประยุกต์",
-			"ญี่ปุ่น",
-			"ดัทช์",
-			"ตุรกี",
-			"นอร์เวย์",
-			"ฝรั่งเศส",
-			"ฟินแลนด์",
-			"รัสเซีย",
-			"สวีเดน",
-			"สเปน",
-			"สโลวัค",
-			"อังกฤษ",
-			"อาหรับ",
-			"อิตาลี",
-			"อินโดนีเซีย",
-			"ฮังการี",
-			"ฮินดี",
-			"เกาหลี",
-			"เชก",
-			"เดนมาร์ก",
-			"เยอรมัน",
-			"เฮบรู",
-			"โปรตุเกส",
-			"โปแลนด์",
-			"โรมาเนีย",
-			"ไทย"
-		]
-	},
-	"hi": {
-		"name": "हिंदी",
-		"language": "hi",
-		"languageCode": "hi-IN",
-		"countries": [
-			"IN"
-		],
-		"phrases": {
-			"bigNumbers": {},
-			"cancel": [
-				"🛑",
-				"रद्द करें"
-			],
-			"localization_notice": "यह स्वचालित रूप से बनाई गई स्थानीयकरण फ़ाइल है।\n\nपर जाकर इसे सुधारें:",
-			"no": [
-				"नहीं",
-				"कभी नहीं",
-				"नकारात्मक"
-			],
-			"numbers": [
-				"शून्य",
-				"एक",
-				"दो",
-				"तीन",
-				"चार",
-				"पांच",
-				"छह",
-				"सात",
-				"आठ",
-				"नौ",
-				"दस"
-			],
-			"or": "या",
-			"say": "कहना:",
-			"unlockPrompt": "",
-			"yes": [
-				"हां",
-				"ठीक है",
-				"सकारात्मक"
-			]
-		},
-		"supportedLanguages": [
-			"กรีก",
-			"จีนดั้งเดิม",
-			"จีนประยุกต์",
-			"ญี่ปุ่น",
-			"ดัทช์",
-			"ตุรกี",
-			"นอร์เวย์",
-			"ฝรั่งเศส",
-			"ฟินแลนด์",
-			"รัสเซีย",
-			"สวีเดน",
-			"สเปน",
-			"สโลวัค",
-			"อังกฤษ",
-			"อาหรับ",
-			"อิตาลี",
-			"อินโดนีเซีย",
-			"ฮังการี",
-			"ฮินดี",
-			"เกาหลี",
-			"เชก",
-			"เดนมาร์ก",
-			"เยอรมัน",
-			"เฮบรู",
-			"โปรตุเกส",
-			"โปแลนด์",
-			"โรมาเนีย",
-			"ไทย"
-		]
-	},
-	"sk": {
-		"name": "Slovenčina",
-		"language": "sk",
-		"languageCode": "sk-SK",
-		"countries": [
-			"SK"
-		],
-		"phrases": {
-			"bigNumbers": {},
-			"cancel": [
-				"🛑",
-				"Zrušiť"
-			],
-			"localization_notice": "Toto je automaticky generovaný lokalizačný súbor.\n\nVylepšite ho návštevou:",
-			"no": [
-				"Nie",
-				"Nikdy",
-				"Negatívne"
-			],
-			"numbers": [
-				"Nula",
-				"Jeden",
-				"Dva",
-				"Tri",
-				"Štyri",
-				"Päť",
-				"Šesť",
-				"Sedem",
-				"Osem",
-				"Deväť",
-				"Desať"
-			],
-			"or": "Alebo",
-			"say": "Povedať:",
-			"unlockPrompt": "",
-			"yes": [
-				"Áno",
-				"Dobre",
-				"Ok",
-				"Kladne"
-			]
-		},
-		"supportedLanguages": [
-			"Angličtina",
-			"Arabčina",
-			"Čeština",
-			"Čínština (tradičná)",
-			"Čínština (zjednodušená)",
-			"Dánčina",
-			"Fínčina",
-			"Francúzština",
-			"Gréčtina",
-			"Hebrejčina",
-			"Hindčina",
-			"Holandčina",
-			"Indonézština",
-			"Japončina",
-			"Kórejčina",
-			"Maďarčina",
-			"Nemčina",
-			"Nórčina",
-			"Poľština",
-			"Portugalčina",
-			"Rumunčina",
-			"Ruština",
-			"Slovenčina",
-			"Španielčina",
-			"Švédčina",
-			"Taliančina",
-			"Thajčina",
-			"Turečtina"
-		]
-	},
-	"zh": {
-		"name": "简体中文",
-		"countries": [
-			"CN"
+			"HK"
 		],
 		"language": "zh",
-		"languageCode": "zh-CN",
+		"languageCode": "zh-HK",
 		"phrases": {
 			"bigNumbers": {},
 			"cancel": [
 				"🛑",
 				"取消"
 			],
-			"localization_notice": "这是一个自动生成的本地化文件。\n\n通过访问改进它：",
+			"localization_notice": "這是一個自動生成的本地化文件。\n\n通過訪問改進它：",
 			"no": [
 				"不",
-				"永远",
+				"永遠",
 				"否定"
 			],
 			"numbers": [
@@ -1571,7 +109,7 @@
 				"十"
 			],
 			"or": "或",
-			"say": "说：",
+			"say": "說：",
 			"unlockPrompt": "",
 			"yes": [
 				"是的",
@@ -1609,23 +147,23 @@
 			"韓文"
 		]
 	},
-	"zh-HK": {
-		"name": "粵語 (繁體)",
+	"zh": {
+		"name": "简体中文",
 		"countries": [
-			"HK"
+			"CN"
 		],
 		"language": "zh",
-		"languageCode": "zh-HK",
+		"languageCode": "zh-CN",
 		"phrases": {
 			"bigNumbers": {},
 			"cancel": [
 				"🛑",
 				"取消"
 			],
-			"localization_notice": "這是一個自動生成的本地化文件。\n\n通過訪問改進它：",
+			"localization_notice": "这是一个自动生成的本地化文件。\n\n通过访问改进它：",
 			"no": [
 				"不",
-				"永遠",
+				"永远",
 				"否定"
 			],
 			"numbers": [
@@ -1642,7 +180,7 @@
 				"十"
 			],
 			"or": "或",
-			"say": "說：",
+			"say": "说：",
 			"unlockPrompt": "",
 			"yes": [
 				"是的",
@@ -1751,149 +289,454 @@
 			"韓文"
 		]
 	},
-	"pt": {
-		"name": "Português",
-		"language": "pt",
-		"languageCode": "pt-BR",
+	"cs": {
+		"name": "Čeština",
+		"language": "cs",
+		"languageCode": "cs-CZ",
 		"countries": [
-			"BR"
+			"CZ"
 		],
 		"phrases": {
 			"bigNumbers": {},
 			"cancel": [
 				"🛑",
-				"Cancelar"
+				"Storno"
 			],
-			"localization_notice": "Este é um arquivo de localização gerado automaticamente.\n\nMelhorá-lo visitando:",
+			"localization_notice": "Jedná se o automaticky generovaný lokalizační soubor.\n\nVylepšete ji návštěvou:",
 			"no": [
-				"Não",
-				"Nunca",
-				"Negativo"
+				"Ne",
+				"Nikdy",
+				"Negativ"
 			],
 			"numbers": [
-				"Zero",
-				"Um",
-				"Dois",
-				"Três",
-				"Quatro",
-				"Cinco",
-				"Seis",
-				"Sete",
-				"Oito",
-				"Nove",
-				"Dez"
+				"Nula",
+				"Jedna",
+				"Dva",
+				"Tři",
+				"Čtyři",
+				"Pět",
+				"Šest",
+				"Sedm",
+				"Osm",
+				"Devět",
+				"Deset"
 			],
-			"or": "Ou",
-			"say": "Dizer:",
+			"or": "Nebo",
+			"say": "Říct:",
 			"unlockPrompt": "",
 			"yes": [
-				"Sim",
-				"Ok",
-				"Afirmativo."
+				"Ano",
+				"Dobře",
+				"Potvrzuji"
 			]
 		},
 		"supportedLanguages": [
-			"Alemão",
-			"Árabe",
-			"Chinês simplificado",
-			"Chinês tradicional",
-			"Coreano",
-			"Dinamarquês",
-			"Eslovaco",
-			"Espanhol",
-			"Finlandês",
-			"Francês",
-			"Grego",
-			"Hebraico",
-			"Hindi",
-			"Holandês",
-			"Húngaro",
-			"Indonésio",
-			"Inglês",
-			"Italiano",
-			"Japonês",
-			"Norueguês",
-			"Polonês",
-			"Português",
-			"Romeno",
-			"Russo",
-			"Sueco",
-			"Tailandês",
-			"Tcheco",
-			"Turco"
+			"Angličtina",
+			"Arabština",
+			"Čeština",
+			"Dánština",
+			"Finština",
+			"Francouzština",
+			"Hebrejština",
+			"Hindština",
+			"Holandština",
+			"Indonéština",
+			"Italština",
+			"Japonština",
+			"Korejština",
+			"Maďarština",
+			"Němčina",
+			"Norština",
+			"Polština",
+			"Portugalština",
+			"Rumunština",
+			"Ruština",
+			"Řečtina",
+			"Slovenština",
+			"Španělština",
+			"Švédština",
+			"Thajština",
+			"Tradiční čínština",
+			"Turečtina",
+			"Zjednodušená čínština"
 		]
 	},
-	"pl": {
-		"name": "Polski",
-		"language": "pl",
-		"languageCode": "pl-PL",
+	"da": {
+		"name": "Dansk",
+		"language": "da",
+		"languageCode": "da-DK",
 		"countries": [
-			"PL"
+			"DK"
 		],
 		"phrases": {
 			"bigNumbers": {},
 			"cancel": [
 				"🛑",
-				"Anuluj"
+				"Annuller"
 			],
-			"localization_notice": "Jest to automatycznie generowany plik lokalizacji.\n\nPopraw to, odwiedzając:",
+			"localization_notice": "Dette er en automatisk genereret lokaliseringsfil.\n\nForbedre det ved at besøge:",
 			"no": [
-				"Nie",
-				"Nigdy",
-				"Negatywne"
+				"Nej",
+				"Aldrig",
+				"Negativ"
 			],
 			"numbers": [
-				"Zero",
-				"Jeden",
-				"Dwa",
-				"Trzy",
-				"Cztery",
-				"Pięć",
-				"Sześć",
-				"Siedem",
-				"Osiem",
-				"Dziewięć",
-				"Dziesięć"
+				"Nul",
+				"En",
+				"To",
+				"Tre",
+				"Fire",
+				"Fem",
+				"Seks",
+				"Syv",
+				"Otte",
+				"Ni",
+				"Ti"
 			],
-			"or": "Lub",
-			"say": "Powiedzieć:",
+			"or": "Eller",
+			"say": "Sige:",
 			"unlockPrompt": "",
 			"yes": [
-				"Tak",
-				"Dobrze",
+				"Ja",
+				"Okay",
 				"Ok",
-				"Twierdząco"
+				"Bekræftende"
 			]
 		},
 		"supportedLanguages": [
-			"Angielski",
-			"Arabski",
-			"Chiński tradycyjny",
-			"Chiński uproszczony",
-			"Czeski",
-			"Duński",
-			"Fiński",
-			"Francuski",
-			"Grecki",
-			"Hebrajski",
+			"Arabisk",
+			"Dansk",
+			"Engelsk",
+			"Finsk",
+			"Fransk",
+			"Græsk",
+			"Hebraisk",
 			"Hindi",
-			"Hiszpański",
-			"Holenderski",
-			"Indonezyjski",
-			"Japoński",
-			"Koreański",
-			"Niemiecki",
-			"Norweski",
-			"Polski",
-			"Portugalski",
-			"Rosyjski",
-			"Rumuński",
-			"Szwedzki",
-			"Słowacki",
-			"Tajski",
-			"Turecki",
-			"Węgierski",
-			"Włoski"
+			"Indonesisk",
+			"Italiensk",
+			"Japansk",
+			"Kinesisk, forenklet",
+			"Kinesisk, traditionelt",
+			"Koreansk",
+			"Nederlandsk",
+			"Norsk",
+			"Polsk",
+			"Portugisisk",
+			"Rumænsk",
+			"Russisk",
+			"Slovakisk",
+			"Spansk",
+			"Svensk",
+			"Thai",
+			"Tjekkisk",
+			"Tyrkisk",
+			"Tysk",
+			"Ungarsk"
+		]
+	},
+	"nl": {
+		"name": "Nederlands",
+		"language": "nl",
+		"languageCode": "nl-NL",
+		"countries": [
+			"NL"
+		],
+		"phrases": {
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"Annuleren"
+			],
+			"localization_notice": "Dit is een automatisch gegenereerd lokaliseringsbestand.\n\nVerbeter het door een bezoek te brengen aan:",
+			"no": [
+				"Nee",
+				"Nooit",
+				"Negatief"
+			],
+			"numbers": [
+				"Nul",
+				"Één",
+				"Twee",
+				"Drie",
+				"Vier",
+				"Vijf",
+				"Zes",
+				"Zeven",
+				"Acht",
+				"Negen",
+				"Tien"
+			],
+			"or": "Of",
+			"say": "Zeggen:",
+			"unlockPrompt": "",
+			"yes": [
+				"Ja",
+				"Oke",
+				"Ok",
+				"Bevestigend"
+			]
+		},
+		"supportedLanguages": [
+			"Arabisch",
+			"Deens",
+			"Duits",
+			"Engels",
+			"Fins",
+			"Frans",
+			"Grieks",
+			"Hebreeuws",
+			"Hindi",
+			"Hongaars",
+			"Indonesisch",
+			"Italiaans",
+			"Japans",
+			"Koreaans",
+			"Nederlands",
+			"Noors",
+			"Pools",
+			"Portugees",
+			"Roemeens",
+			"Russisch",
+			"Slowaaks",
+			"Spaans",
+			"Thais",
+			"Traditioneel Chinees",
+			"Tsjechisch",
+			"Turks",
+			"Vereenvoudigd Chinees",
+			"Zweeds"
+		]
+	},
+	"en": {
+		"name": "English",
+		"language": "en",
+		"languageCode": "en-US",
+		"countries": [
+			"US",
+			"GB",
+			"CA"
+		],
+		"phrases": {
+			"bigNumbers": {
+				"million": "1000000",
+				"billion": "1000000000",
+				"trillion": "1000000000000"
+			},
+			"cancel": [
+				"🛑",
+				"Cancel"
+			],
+			"no": [
+				"No",
+				"Never",
+				"Negative"
+			],
+			"numbers": [
+				"zero",
+				"one",
+				"two",
+				"three",
+				"four",
+				"five",
+				"six",
+				"seven",
+				"eight",
+				"nine",
+				"ten"
+			],
+			"or": "Or",
+			"say": [
+				"Say:",
+				"Choose from:",
+				"Pick from:",
+				"You can say:"
+			],
+			"unlockPrompt": "PromptKit is requesting your attention. Please unlock your device to respond to the prompt.",
+			"yes": [
+				"Yes",
+				"Okay",
+				"Yeah",
+				"Ok",
+				"Affirmative"
+			]
+		},
+		"supportedLanguages": [
+			"Arabic",
+			"Cantonese (Traditional)",
+			"Chinese Simplified",
+			"Chinese Traditional",
+			"Czech",
+			"Danish",
+			"Dutch",
+			"English",
+			"Finnish",
+			"French",
+			"German",
+			"Greek",
+			"Hebrew",
+			"Hindi",
+			"Hungarian",
+			"Indonesian",
+			"Italian",
+			"Japanese",
+			"Korean",
+			"Norwegian",
+			"Polish",
+			"Portuguese",
+			"Romanian",
+			"Russian",
+			"Slovak",
+			"Spanish",
+			"Swedish",
+			"Thai",
+			"Turkish"
+		]
+	},
+	"fi": {
+		"name": "Suomi",
+		"language": "fi",
+		"languageCode": "fi-FI",
+		"countries": [
+			"FI"
+		],
+		"phrases": {
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"Peruuta"
+			],
+			"localization_notice": "Tämä on automaattisesti luotu lokalisointitiedosto.\n\nParanna sitä vierailemalla:",
+			"no": [
+				"Ei",
+				"Ei Koskaan",
+				"Negatiivinen"
+			],
+			"numbers": [
+				"Nolla",
+				"Yksi",
+				"Kaksi",
+				"Kolme",
+				"Neljä",
+				"Viisi",
+				"Kuusi",
+				"Seitsemän",
+				"Kahdeksan",
+				"Yhdeksän",
+				"Kymmenen"
+			],
+			"or": "Tai",
+			"say": "Sanoa:",
+			"unlockPrompt": "",
+			"yes": [
+				"Kyllä",
+				"Okei",
+				"Ok",
+				"Myöntävästi"
+			]
+		},
+		"supportedLanguages": [
+			"Arabia",
+			"Englanti",
+			"Espanja",
+			"Heprea",
+			"Hindi",
+			"Hollanti",
+			"Indonesia",
+			"Italia",
+			"Japani",
+			"Korea",
+			"Kreikka",
+			"Norja",
+			"Perinteinen kiina",
+			"Portugali",
+			"Puola",
+			"Ranska",
+			"Romania",
+			"Ruotsi",
+			"Saksa",
+			"Slovakki",
+			"Suomi",
+			"Tanska",
+			"Thai",
+			"Tšekki",
+			"Turkki",
+			"Unkari",
+			"Venäjä",
+			"Yksinkertaistettu kiina"
+		]
+	},
+	"fr": {
+		"name": "Français",
+		"language": "fr",
+		"languageCode": "fr-FR",
+		"countries": [
+			"FR"
+		],
+		"phrases": {
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"Annuler"
+			],
+			"localization_notice": "C'est un fichier de localisation généré automatiquement.\n\nAméliorez-le en visitant:",
+			"no": [
+				"Non",
+				"Jamais",
+				"Négatif"
+			],
+			"numbers": [
+				"zéro",
+				"Un",
+				"Deux",
+				"Trois",
+				"Quatre",
+				"Cinq",
+				"Six",
+				"Sept",
+				"Huit",
+				"Neuf",
+				"Dix"
+			],
+			"or": "ou",
+			"say": "Dites:",
+			"unlockPrompt": "",
+			"yes": [
+				"Oui",
+				"Ok",
+				"Ouais",
+				"Bien sûr",
+				"Affirmatif"
+			]
+		},
+		"supportedLanguages": [
+			"Allemand",
+			"Anglais",
+			"Arabe",
+			"Chinois simplifié",
+			"Chinois traditionnel",
+			"Coréen",
+			"Danois",
+			"Espagnol",
+			"Finnois",
+			"Français",
+			"Grec",
+			"Hébreu",
+			"Hindi",
+			"Hongrois",
+			"Indonésien",
+			"Italien",
+			"Japonais",
+			"Néerlandais",
+			"Norvégien",
+			"Polonais",
+			"Portugais",
+			"Roumain",
+			"Russe",
+			"Slovaque",
+			"Suédois",
+			"Tchèque",
+			"Thaï",
+			"Turc"
 		]
 	},
 	"de": {
@@ -1969,81 +812,76 @@
 			"Ungarisch"
 		]
 	},
-	"ar": {
-		"name": "العربية",
-		"language": "ar",
-		"languageCode": "ar-SA",
+	"el": {
+		"name": "Ελληνικά",
+		"language": "el",
+		"languageCode": "el-GR",
 		"countries": [
-			"SA"
+			"GR"
 		],
 		"phrases": {
 			"bigNumbers": {},
 			"cancel": [
 				"🛑",
-				"إلغاء",
-				"الأمر"
+				"Άκυρο"
 			],
-			"localization_notice": "هذا ملف تعريب تم إنشاؤه تلقائيًا.\n\nتحسينه من خلال زيارة:",
+			"localization_notice": "Αυτό είναι ένα αρχείο εντοπισμού που δημιουργείται αυτόματα.\n\nΒελτιώστε το με την επίσκεψη:",
 			"no": [
-				"لا",
-				"أبدا",
-				"سلبي"
+				"Όχι",
+				"Ποτέ",
+				"Αρνητικό."
 			],
 			"numbers": [
-				"صفر",
-				"واحد",
-				"اثنان",
-				"ثلاثه",
-				"أربعه",
-				"خمسه",
-				"سته",
-				"سبعه",
-				"ثمانيه",
-				"تسعه",
-				"عشره"
+				"Μηδέν",
+				"Ένα",
+				"Δύο",
+				"Τρία",
+				"Τέσσερα",
+				"Πέντε",
+				"Έξι",
+				"Εφτά",
+				"Οχτώ",
+				"Εννιά",
+				"Δέκα."
 			],
-			"or": "او",
-			"say": "اقول:",
+			"or": "Ή",
+			"say": "Πω:",
 			"unlockPrompt": "",
 			"yes": [
-				"نعم",
-				"حسنا",
-				"نعم",
-				"حسنا",
-				"بال",
-				"يجاب"
+				"Ναι",
+				"Εντάξει",
+				"Θετικό."
 			]
 		},
 		"supportedLanguages": [
-			"العربية",
-			"الكانتونيه (تقليدي)",
-			"الصينية المبسطة",
-			"الصينية التقليدية",
-			"التشيكية",
-			"الدانماركية",
-			"الهولندية",
-			"الإنكليزية",
-			"الفنلندية",
-			"الفرنسية",
-			"الألمانية",
-			"اليونانية",
-			"العبرية",
-			"لا",
-			"المجرية",
-			"الإندونيسية",
-			"الإيطالية",
-			"اليابانية",
-			"الكورية",
-			"النرويجية ‏",
-			"البولندية",
-			"البرتغالية",
-			"الرومانية",
-			"الروسية",
-			"السلوفاكية",
-			"الإسبانية",
-			"السويدية",
-			"التايلندية",
-			"التركية"
+			"Αγγλικά",
+			"Αραβικά",
+			"Γαλλικά",
+			"Γερμανικά",
+			"Δανικά",
+			"Εβραϊκά",
+			"Ελληνικά",
+			"Ιαπωνικά",
+			"Ινδονησιακά",
+			"Ισπανικά",
+			"Ιταλικά",
+			"Κινεζικά (Απ)",
+			"Κινεζικά (Πα)",
+			"Κορεατικά",
+			"Νορβηγικά",
+			"Ολλανδικά",
+			"Ουγγρικά",
+			"Πολωνικά",
+			"Πορτογαλικά",
+			"Ρουμανικά",
+			"Ρωσικά",
+			"Σλοβακικά",
+			"Σουηδικά",
+			"Ταϊλανδικά",
+			"Τουρκικά",
+			"Τσεχικά",
+			"Φινλανδικά",
+			"Χίντι"
 		]
 	},
 	"he": {
@@ -2117,6 +955,1138 @@
 			"רוסית",
 			"שוודית",
 			"תאילנדית"
+		]
+	},
+	"hi": {
+		"name": "हिंदी",
+		"language": "hi",
+		"languageCode": "hi-IN",
+		"countries": [
+			"IN"
+		],
+		"phrases": {
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"रद्द करें"
+			],
+			"localization_notice": "यह स्वचालित रूप से बनाई गई स्थानीयकरण फ़ाइल है।\n\nपर जाकर इसे सुधारें:",
+			"no": [
+				"नहीं",
+				"कभी नहीं",
+				"नकारात्मक"
+			],
+			"numbers": [
+				"शून्य",
+				"एक",
+				"दो",
+				"तीन",
+				"चार",
+				"पांच",
+				"छह",
+				"सात",
+				"आठ",
+				"नौ",
+				"दस"
+			],
+			"or": "या",
+			"say": "कहना:",
+			"unlockPrompt": "",
+			"yes": [
+				"हां",
+				"ठीक है",
+				"सकारात्मक"
+			]
+		},
+		"supportedLanguages": [
+			"กรีก",
+			"จีนดั้งเดิม",
+			"จีนประยุกต์",
+			"ญี่ปุ่น",
+			"ดัทช์",
+			"ตุรกี",
+			"นอร์เวย์",
+			"ฝรั่งเศส",
+			"ฟินแลนด์",
+			"รัสเซีย",
+			"สวีเดน",
+			"สเปน",
+			"สโลวัค",
+			"อังกฤษ",
+			"อาหรับ",
+			"อิตาลี",
+			"อินโดนีเซีย",
+			"ฮังการี",
+			"ฮินดี",
+			"เกาหลี",
+			"เชก",
+			"เดนมาร์ก",
+			"เยอรมัน",
+			"เฮบรู",
+			"โปรตุเกส",
+			"โปแลนด์",
+			"โรมาเนีย",
+			"ไทย"
+		]
+	},
+	"hu": {
+		"name": "Magyar",
+		"language": "hu",
+		"languageCode": "hu-HU",
+		"countries": [
+			"HU"
+		],
+		"phrases": {
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"Mégse"
+			],
+			"localization_notice": "Ez egy automatikusan létrehozott lokalizációs fájl.\n\nJavítsa meg a következőt:",
+			"no": [
+				"Nem",
+				"Soha",
+				"Negatív"
+			],
+			"numbers": [
+				"Nulla",
+				"Egy",
+				"Kettő",
+				"Három",
+				"Négy",
+				"Öt",
+				"Hat",
+				"Hét",
+				"Nyolc",
+				"Kilenc",
+				"Tíz"
+			],
+			"or": "Vagy",
+			"say": "Mondani:",
+			"unlockPrompt": "",
+			"yes": [
+				"Igen",
+				"Oké",
+				"Ok",
+				"Megerősítő"
+			]
+		},
+		"supportedLanguages": [
+			"Angol",
+			"Arab",
+			"Cseh",
+			"Dán",
+			"Finn",
+			"Francia",
+			"Görög",
+			"Héber",
+			"Hindi",
+			"Holland",
+			"Indonéz",
+			"Japán",
+			"Kínai (egyszerűsített)",
+			"Kínai (hagyományos)",
+			"Koreai",
+			"Lengyel",
+			"Magyar",
+			"Német",
+			"Norvég",
+			"Olasz",
+			"Orosz",
+			"Portugál",
+			"Román",
+			"Spanyol",
+			"Svéd",
+			"Szlovák",
+			"Thai",
+			"Török"
+		]
+	},
+	"id": {
+		"name": "Indonesia",
+		"language": "id",
+		"languageCode": "id-ID",
+		"countries": [
+			"ID"
+		],
+		"phrases": {
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"Batalkan"
+			],
+			"localization_notice": "Ini adalah file lokalisasi yang dibuat secara otomatis.\n\nTingkatkan dengan mengunjungi:",
+			"no": [
+				"Tidak",
+				"Tidak Pernah",
+				"Negatif"
+			],
+			"numbers": [
+				"Nol",
+				"Satu",
+				"Dua",
+				"Tiga",
+				"Empat",
+				"Lima",
+				"Enam",
+				"Tujuh",
+				"Delapan",
+				"Sembilan",
+				"Sepuluh"
+			],
+			"or": "Atau",
+			"say": "Mengatakan:",
+			"unlockPrompt": "",
+			"yes": [
+				"Ya",
+				"Oke",
+				"Ok",
+				"Afirmatif"
+			]
+		},
+		"supportedLanguages": [
+			"Arab",
+			"Belanda",
+			"Ceko",
+			"Cina Sederhana",
+			"Cina Tradisional",
+			"Denmark",
+			"Finlandia",
+			"Hindi",
+			"Hongaria",
+			"Ibrani",
+			"Indonesia",
+			"Inggris",
+			"Italia",
+			"Jepang",
+			"Jerman",
+			"Korea",
+			"Norwegia",
+			"Polandia",
+			"Portugis",
+			"Prancis",
+			"Rumania",
+			"Rusia",
+			"Slovakia",
+			"Spanyol",
+			"Swedia",
+			"Thai",
+			"Turki",
+			"Yunani"
+		]
+	},
+	"it": {
+		"name": "Italiano",
+		"language": "it",
+		"languageCode": "it-IT",
+		"countries": [
+			"IT"
+		],
+		"phrases": {
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"Annulla"
+			],
+			"localization_notice": "Questo è un file di localizzazione generato automaticamente.\n\nMiglioralo visitando:",
+			"no": [
+				"No",
+				"Mai",
+				"Negativo"
+			],
+			"numbers": [
+				"Zero",
+				"Uno",
+				"Due",
+				"Tre",
+				"Quattro",
+				"Cinque",
+				"Sei",
+				"Sette",
+				"Otto",
+				"Nove",
+				"Dieci"
+			],
+			"or": "o",
+			"say": "dire:",
+			"unlockPrompt": "",
+			"yes": [
+				"Sì",
+				"Okay",
+				"Ok",
+				"Affermativo."
+			]
+		},
+		"supportedLanguages": [
+			"Arabo",
+			"Ceco",
+			"Cinese semplificato",
+			"Cinese tradizionale",
+			"Coreano",
+			"Danese",
+			"Ebraico",
+			"Finlandese",
+			"Francese",
+			"Giapponese",
+			"Greco",
+			"Hindi",
+			"Indonesiano",
+			"Inglese",
+			"Italiano",
+			"Norvegese",
+			"Olandese",
+			"Polacco",
+			"Portoghese",
+			"Rumeno",
+			"Russo",
+			"Slovacco",
+			"Spagnolo",
+			"Svedese",
+			"Tailandese",
+			"Tedesco",
+			"Turco",
+			"Ungherese"
+		]
+	},
+	"ja": {
+		"name": "日本語",
+		"language": "ja",
+		"languageCode": "ja-JP",
+		"countries": [
+			"JP"
+		],
+		"phrases": {
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"キャンセル"
+			],
+			"localization_notice": "これは自動生成されたローカライゼーションファイルです。\n\n訪問してそれを改善する：",
+			"no": [
+				"いいえ",
+				"決して否定的"
+			],
+			"numbers": [
+				"ゼロ",
+				"1",
+				"2",
+				"3",
+				"4",
+				"5",
+				"6",
+				"7",
+				"8",
+				"9",
+				"10"
+			],
+			"or": "または",
+			"say": "言う：",
+			"unlockPrompt": "",
+			"yes": [
+				"はい",
+				"Ok",
+				"肯定"
+			]
+		},
+		"supportedLanguages": [
+			"アラビア語",
+			"イタリア語",
+			"インドネシア語",
+			"オランダ語",
+			"ギリシャ語",
+			"スウェーデン語",
+			"スペイン語",
+			"スロバキア語",
+			"タイ語",
+			"チェコ語",
+			"デンマーク語",
+			"ドイツ語",
+			"トルコ語",
+			"ノルウェー語",
+			"ハンガリー語",
+			"ヒンディー語",
+			"フィンランド語",
+			"フランス語",
+			"ヘブライ語",
+			"ポルトガル語",
+			"ポーランド語",
+			"ルーマニア語",
+			"ロシア語",
+			"日本語",
+			"簡体字中国語",
+			"繁体字中国語",
+			"英語",
+			"韓国語"
+		]
+	},
+	"ko": {
+		"name": "한국어",
+		"language": "ko",
+		"languageCode": "ko-KR",
+		"countries": [
+			"KR"
+		],
+		"phrases": {
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"취소"
+			],
+			"localization_notice": "이것은 자동으로 생성 된 현지화 파일입니다.\n\n방문하여 개선하십시오.",
+			"no": [
+				"아니오",
+				"절대",
+				"부정적"
+			],
+			"numbers": [
+				"0",
+				"1",
+				"2",
+				"3",
+				"4",
+				"5",
+				"6",
+				"7",
+				"8",
+				"9",
+				"10"
+			],
+			"or": "또는",
+			"say": "말할:",
+			"unlockPrompt": "",
+			"yes": [
+				"그래",
+				"좋아",
+				"긍정적"
+			]
+		},
+		"supportedLanguages": [
+			"그리스어",
+			"네덜란드어",
+			"노르웨이어",
+			"덴마크어",
+			"독일어",
+			"러시아어",
+			"루마니아어",
+			"스페인어",
+			"슬로바키아어",
+			"스웨덴어",
+			"아랍어",
+			"영어",
+			"이탈리아어",
+			"인도네시아어",
+			"일본어",
+			"중국어 간체",
+			"중국어 번체",
+			"체코어",
+			"태국어",
+			"터키어",
+			"포르투갈어",
+			"폴란드어",
+			"프랑스어",
+			"핀란드어",
+			"한국어",
+			"헝가리어",
+			"힌디어",
+			"히브리어"
+		]
+	},
+	"nb": {
+		"name": "Norsk",
+		"language": "nb",
+		"languageCode": "nb-NO",
+		"countries": [
+			"NO"
+		],
+		"phrases": {
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"Avbryt"
+			],
+			"localization_notice": "Dette er en automatisk generert lokaliseringsfil.\n\nForbedre det ved å besøke:",
+			"no": [
+				"Nei",
+				"Aldri",
+				"Negativ"
+			],
+			"numbers": [
+				"Null",
+				"En",
+				"To",
+				"Tre",
+				"Fire",
+				"Fem",
+				"Seks",
+				"Sju",
+				"Åtte",
+				"Ni",
+				"Ti"
+			],
+			"or": "Eller",
+			"unlockPrompt": "",
+			"say": "Si:",
+			"yes": [
+				"Ja",
+				"Greit",
+				"Ok",
+				"Bekreftende"
+			]
+		},
+		"supportedLanguages": [
+			"Arabisk",
+			"Dansk",
+			"Engelsk",
+			"Finsk",
+			"Fransk",
+			"Gresk",
+			"Hebraisk",
+			"Hindi",
+			"Indonesisk",
+			"Italiensk",
+			"Japansk",
+			"Kinesisk, forenklet",
+			"Kinesisk, tradisjonell",
+			"Koreansk",
+			"Nederlandsk",
+			"Norsk",
+			"Polsk",
+			"Portugisisk",
+			"Rumensk",
+			"Russisk",
+			"Slovakisk",
+			"Spansk",
+			"Svensk",
+			"Thai",
+			"Tsjekkisk",
+			"Tyrkisk",
+			"Tysk",
+			"Ungarsk"
+		]
+	},
+	"pl": {
+		"name": "Polski",
+		"language": "pl",
+		"languageCode": "pl-PL",
+		"countries": [
+			"PL"
+		],
+		"phrases": {
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"Anuluj"
+			],
+			"localization_notice": "Jest to automatycznie generowany plik lokalizacji.\n\nPopraw to, odwiedzając:",
+			"no": [
+				"Nie",
+				"Nigdy",
+				"Negatywne"
+			],
+			"numbers": [
+				"Zero",
+				"Jeden",
+				"Dwa",
+				"Trzy",
+				"Cztery",
+				"Pięć",
+				"Sześć",
+				"Siedem",
+				"Osiem",
+				"Dziewięć",
+				"Dziesięć"
+			],
+			"or": "Lub",
+			"say": "Powiedzieć:",
+			"unlockPrompt": "",
+			"yes": [
+				"Tak",
+				"Dobrze",
+				"Ok",
+				"Twierdząco"
+			]
+		},
+		"supportedLanguages": [
+			"Angielski",
+			"Arabski",
+			"Chiński tradycyjny",
+			"Chiński uproszczony",
+			"Czeski",
+			"Duński",
+			"Fiński",
+			"Francuski",
+			"Grecki",
+			"Hebrajski",
+			"Hindi",
+			"Hiszpański",
+			"Holenderski",
+			"Indonezyjski",
+			"Japoński",
+			"Koreański",
+			"Niemiecki",
+			"Norweski",
+			"Polski",
+			"Portugalski",
+			"Rosyjski",
+			"Rumuński",
+			"Szwedzki",
+			"Słowacki",
+			"Tajski",
+			"Turecki",
+			"Węgierski",
+			"Włoski"
+		]
+	},
+	"pt": {
+		"name": "Português",
+		"language": "pt",
+		"languageCode": "pt-BR",
+		"countries": [
+			"BR"
+		],
+		"phrases": {
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"Cancelar"
+			],
+			"localization_notice": "Este é um arquivo de localização gerado automaticamente.\n\nMelhorá-lo visitando:",
+			"no": [
+				"Não",
+				"Nunca",
+				"Negativo"
+			],
+			"numbers": [
+				"Zero",
+				"Um",
+				"Dois",
+				"Três",
+				"Quatro",
+				"Cinco",
+				"Seis",
+				"Sete",
+				"Oito",
+				"Nove",
+				"Dez"
+			],
+			"or": "Ou",
+			"say": "Dizer:",
+			"unlockPrompt": "",
+			"yes": [
+				"Sim",
+				"Ok",
+				"Afirmativo."
+			]
+		},
+		"supportedLanguages": [
+			"Alemão",
+			"Árabe",
+			"Chinês simplificado",
+			"Chinês tradicional",
+			"Coreano",
+			"Dinamarquês",
+			"Eslovaco",
+			"Espanhol",
+			"Finlandês",
+			"Francês",
+			"Grego",
+			"Hebraico",
+			"Hindi",
+			"Holandês",
+			"Húngaro",
+			"Indonésio",
+			"Inglês",
+			"Italiano",
+			"Japonês",
+			"Norueguês",
+			"Polonês",
+			"Português",
+			"Romeno",
+			"Russo",
+			"Sueco",
+			"Tailandês",
+			"Tcheco",
+			"Turco"
+		]
+	},
+	"ro": {
+		"name": "Română",
+		"language": "ro",
+		"languageCode": "ro-RO",
+		"countries": [
+			"RO"
+		],
+		"phrases": {
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"Anulare"
+			],
+			"localization_notice": "Acesta este un fișier de localizare generat automat.\n\nÎmbunătățiți-l vizitând:",
+			"no": [
+				"Nu",
+				"Niciodată",
+				"Negativ."
+			],
+			"numbers": [
+				"Zero",
+				"Unu",
+				"Doi",
+				"Trei",
+				"Patru",
+				"Cinci",
+				"Șase",
+				"Șapte",
+				"Opt",
+				"Nouă",
+				"Zece"
+			],
+			"or": "Sau",
+			"say": "Spun:",
+			"unlockPrompt": "",
+			"yes": [
+				"Da",
+				"Bine",
+				"Afirmativ."
+			]
+		},
+		"supportedLanguages": [
+			"Arabă",
+			"Cehă",
+			"Chineză simplificată",
+			"Chineză tradiţională",
+			"Coreeană",
+			"Daneză",
+			"Ebraică",
+			"Engleză",
+			"Finlandeză",
+			"Franceză",
+			"Germană",
+			"Greacă",
+			"Hindi",
+			"Indoneziană",
+			"Italiană",
+			"Japoneză",
+			"Maghiară",
+			"Norvegiană",
+			"Olandeză",
+			"Poloneză",
+			"Portugheză",
+			"Română",
+			"Rusă",
+			"Slovacă",
+			"Spaniolă",
+			"Suedeză",
+			"Thai",
+			"Turcă"
+		]
+	},
+	"ru": {
+		"name": "Pусский",
+		"language": "ru",
+		"languageCode": "ru-RU",
+		"countries": [
+			"RU"
+		],
+		"phrases": {
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"Отмена"
+			],
+			"localization_notice": "Это автоматически сгенерированный файл локализации.\n\nУлучшите это, посетив:",
+			"no": [
+				"Нет",
+				"Никогда",
+				"Отрицательный"
+			],
+			"numbers": [
+				"Ноль",
+				"Один",
+				"Два",
+				"Три",
+				"Четыре",
+				"Пять",
+				"Шесть",
+				"Семь",
+				"Восемь",
+				"Девять",
+				"Десять"
+			],
+			"or": "Или",
+			"say": "Сказать:",
+			"unlockPrompt": "",
+			"yes": [
+				"Да",
+				"Хорошо",
+				"Утвердительно"
+			]
+		},
+		"supportedLanguages": [
+			"Английский",
+			"Арабский",
+			"Венгерский",
+			"Голландский",
+			"Греческий",
+			"Датский",
+			"Иврит",
+			"Индонезийский",
+			"Испанский",
+			"Итальянский",
+			"Китайский традиционный",
+			"Китайский упрощенный",
+			"Корейский",
+			"Немецкий",
+			"Норвежский",
+			"Польский",
+			"Португальский",
+			"Румынский",
+			"Русский",
+			"Словацкий",
+			"Тайский",
+			"Турецкий",
+			"Финский",
+			"Французский",
+			"Хинди",
+			"Чешский",
+			"Шведский",
+			"Японский"
+		]
+	},
+	"sk": {
+		"name": "Slovenčina",
+		"language": "sk",
+		"languageCode": "sk-SK",
+		"countries": [
+			"SK"
+		],
+		"phrases": {
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"Zrušiť"
+			],
+			"localization_notice": "Toto je automaticky generovaný lokalizačný súbor.\n\nVylepšite ho návštevou:",
+			"no": [
+				"Nie",
+				"Nikdy",
+				"Negatívne"
+			],
+			"numbers": [
+				"Nula",
+				"Jeden",
+				"Dva",
+				"Tri",
+				"Štyri",
+				"Päť",
+				"Šesť",
+				"Sedem",
+				"Osem",
+				"Deväť",
+				"Desať"
+			],
+			"or": "Alebo",
+			"say": "Povedať:",
+			"unlockPrompt": "",
+			"yes": [
+				"Áno",
+				"Dobre",
+				"Ok",
+				"Kladne"
+			]
+		},
+		"supportedLanguages": [
+			"Angličtina",
+			"Arabčina",
+			"Čeština",
+			"Čínština (tradičná)",
+			"Čínština (zjednodušená)",
+			"Dánčina",
+			"Fínčina",
+			"Francúzština",
+			"Gréčtina",
+			"Hebrejčina",
+			"Hindčina",
+			"Holandčina",
+			"Indonézština",
+			"Japončina",
+			"Kórejčina",
+			"Maďarčina",
+			"Nemčina",
+			"Nórčina",
+			"Poľština",
+			"Portugalčina",
+			"Rumunčina",
+			"Ruština",
+			"Slovenčina",
+			"Španielčina",
+			"Švédčina",
+			"Taliančina",
+			"Thajčina",
+			"Turečtina"
+		]
+	},
+	"es": {
+		"name": "Español",
+		"language": "es",
+		"languageCode": "es-MX",
+		"countries": [
+			"ES",
+			"MX"
+		],
+		"phrases": {
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"Cancelar"
+			],
+			"localization_notice": "Este es un archivo de localización generado automáticamente.\n\nMejóralo visitando:",
+			"no": [
+				"No",
+				"Nunca",
+				"Negativo"
+			],
+			"numbers": [
+				"Cero",
+				"Uno",
+				"Dos",
+				"Tres",
+				"Cuatro",
+				"Cinco",
+				"Seis",
+				"Siete",
+				"Ocho",
+				"Nueve",
+				"Diez"
+			],
+			"or": "O",
+			"unlockPrompt": "",
+			"say": "Decir:",
+			"yes": [
+				"Sí",
+				"Vale",
+				"Ok",
+				"Afirmativo"
+			]
+		},
+		"supportedLanguages": [
+			"Arabic",
+			"Cantonese (Traditional)",
+			"Chinese Simplified",
+			"Chinese Traditional",
+			"Czech",
+			"Danish",
+			"Dutch",
+			"English",
+			"Finnish",
+			"French",
+			"German",
+			"Greek",
+			"Hebrew",
+			"Hindi",
+			"Hungarian",
+			"Indonesian",
+			"Italian",
+			"Japanese",
+			"Korean",
+			"Norwegian",
+			"Polish",
+			"Portuguese",
+			"Romanian",
+			"Russian",
+			"Slovak",
+			"Spanish",
+			"Swedish",
+			"Thai",
+			"Turkish"
+		]
+	},
+	"sv": {
+		"name": "Svenska",
+		"language": "sv",
+		"languageCode": "sv-SE",
+		"countries": [
+			"SE"
+		],
+		"phrases": {
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"Avbryt"
+			],
+			"localization_notice": "Det här är en automatiskt genererad lokaliseringsfil.\n\nFörbättra det genom att besöka:",
+			"no": [
+				"Nej",
+				"Aldrig",
+				"Negativt"
+			],
+			"numbers": [
+				"Noll",
+				"Ett",
+				"Två",
+				"Tre",
+				"Fyra",
+				"Fem",
+				"Sex",
+				"Sju",
+				"Åtta",
+				"Nio",
+				"Tio"
+			],
+			"or": "Eller",
+			"say": "Säga:",
+			"unlockPrompt": "",
+			"yes": [
+				"Ja",
+				"Okej",
+				"Ok",
+				"Jakande"
+			]
+		},
+		"supportedLanguages": [
+			"Arabiska",
+			"Danska",
+			"Engelska",
+			"Finska",
+			"Franska",
+			"Grekiska",
+			"Hebreiska",
+			"Hindi",
+			"Indonesiska",
+			"Italienska",
+			"Japanska",
+			"Kinesiska, förenklad",
+			"Kinesiska, traditionell",
+			"Koreanska",
+			"Nederländska",
+			"Norska",
+			"Polska",
+			"Portugisiska",
+			"Rumänska",
+			"Ryska",
+			"Slovakiska",
+			"Spanska",
+			"Svenska",
+			"Thai",
+			"Tjeckiska",
+			"Turkiska",
+			"Tyska",
+			"Ungerska"
+		]
+	},
+	"th": {
+		"name": "ไทย",
+		"language": "th",
+		"languageCode": "th-TH",
+		"countries": [
+			"TH"
+		],
+		"phrases": {
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"ยกเลิก"
+			],
+			"localization_notice": "นี่คือไฟล์การแปลที่สร้างขึ้นโดยอัตโนมัติ\n\nปรับปรุงโดยไปที่:",
+			"no": [
+				"ไม่มี",
+				"ไม่เคย",
+				"ลบ"
+			],
+			"numbers": [
+				"ศูนย์",
+				"หนึ่ง",
+				"สอง",
+				"สาม",
+				"สี่",
+				"ห้า",
+				"หก",
+				"เจ็ด",
+				"แปด",
+				"เก้า",
+				"สิบ"
+			],
+			"or": "หรือ",
+			"say": "พูด:",
+			"unlockPrompt": "",
+			"yes": [
+				"ใช่",
+				"โอเค",
+				"ตกลง",
+				"ยืนยัน"
+			]
+		}
+	},
+	"tr": {
+		"name": "Türkçe",
+		"language": "tr",
+		"languageCode": "tr-TR",
+		"countries": [
+			"TR"
+		],
+		"phrases": {
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"Iptal"
+			],
+			"localization_notice": "Bu otomatik olarak oluşturulan bir yerelleştirme dosyasıdır.\n\nZiyaret ederek geliştirin:",
+			"no": [
+				"Hayır",
+				"Asla",
+				"Negatif"
+			],
+			"numbers": [
+				"Sıfır",
+				"Bir",
+				"Iki",
+				"Üç",
+				"Dört",
+				"Beş",
+				"Altı",
+				"Yedi",
+				"Sekiz",
+				"Dokuz",
+				"On"
+			],
+			"or": "Veya",
+			"unlockPrompt": "",
+			"say": "Söyle:",
+			"yes": [
+				"Evet",
+				"Tamam",
+				"Olumlu"
+			]
+		},
+		"supportedLanguages": [
+			"Almanca",
+			"Arapça",
+			"Basitleştirilmiş Çince",
+			"Çekçe",
+			"Danca",
+			"Endonezya dili",
+			"Fince",
+			"Fransızca",
+			"Geleneksel Çince",
+			"Hintçe",
+			"Hollanda dili",
+			"İbranice",
+			"İngilizce",
+			"İspanyolca",
+			"İsveç dili",
+			"İtalyanca",
+			"Japonca",
+			"Kore dili",
+			"Lehçe",
+			"Macarca",
+			"Norveç dili",
+			"Portekizce",
+			"Rumence",
+			"Rusça",
+			"Slovakça",
+			"Tay dili",
+			"Türkçe",
+			"Yunanca"
 		]
 	}
 }

@@ -1,0 +1,75 @@
+{
+	"pl": {
+		"name": "Polski",
+		"language": "pl",
+		"languageCode": "pl-PL",
+		"countries": [
+			"PL"
+		],
+		"phrases": {
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"Anuluj"
+			],
+			"localization_notice": "Jest to automatycznie generowany plik lokalizacji.\n\nPopraw to, odwiedzając:",
+			"no": [
+				"Nie",
+				"Nigdy",
+				"Negatywne"
+			],
+			"numbers": [
+				"Zero",
+				"Jeden",
+				"Dwa",
+				"Trzy",
+				"Cztery",
+				"Pięć",
+				"Sześć",
+				"Siedem",
+				"Osiem",
+				"Dziewięć",
+				"Dziesięć"
+			],
+			"or": "Lub",
+			"say": "Powiedzieć:",
+			"unlockPrompt": "",
+			"yes": [
+				"Tak",
+				"Dobrze",
+				"Ok",
+				"Twierdząco"
+			]
+		},
+		"supportedLanguages": [
+			"Angielski",
+			"Arabski",
+			"Chiński tradycyjny",
+			"Chiński uproszczony",
+			"Czeski",
+			"Duński",
+			"Fiński",
+			"Francuski",
+			"Grecki",
+			"Hebrajski",
+			"Hindi",
+			"Hiszpański",
+			"Holenderski",
+			"Indonezyjski",
+			"Japoński",
+			"Koreański",
+			"Niemiecki",
+			"Norweski",
+			"Polski",
+			"Portugalski",
+			"Rosyjski",
+			"Rumuński",
+			"Szwedzki",
+			"Słowacki",
+			"Tajski",
+			"Turecki",
+			"Węgierski",
+			"Włoski"
+		]
+	}
+}

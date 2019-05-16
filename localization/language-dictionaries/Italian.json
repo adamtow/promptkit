@@ -1,0 +1,75 @@
+{
+	"it": {
+		"name": "Italiano",
+		"language": "it",
+		"languageCode": "it-IT",
+		"countries": [
+			"IT"
+		],
+		"phrases": {
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"Annulla"
+			],
+			"localization_notice": "Questo è un file di localizzazione generato automaticamente.\n\nMiglioralo visitando:",
+			"no": [
+				"No",
+				"Mai",
+				"Negativo"
+			],
+			"numbers": [
+				"Zero",
+				"Uno",
+				"Due",
+				"Tre",
+				"Quattro",
+				"Cinque",
+				"Sei",
+				"Sette",
+				"Otto",
+				"Nove",
+				"Dieci"
+			],
+			"or": "o",
+			"say": "dire:",
+			"unlockPrompt": "",
+			"yes": [
+				"Sì",
+				"Okay",
+				"Ok",
+				"Affermativo."
+			]
+		},
+		"supportedLanguages": [
+			"Arabo",
+			"Ceco",
+			"Cinese semplificato",
+			"Cinese tradizionale",
+			"Coreano",
+			"Danese",
+			"Ebraico",
+			"Finlandese",
+			"Francese",
+			"Giapponese",
+			"Greco",
+			"Hindi",
+			"Indonesiano",
+			"Inglese",
+			"Italiano",
+			"Norvegese",
+			"Olandese",
+			"Polacco",
+			"Portoghese",
+			"Rumeno",
+			"Russo",
+			"Slovacco",
+			"Spagnolo",
+			"Svedese",
+			"Tailandese",
+			"Tedesco",
+			"Turco",
+			"Ungherese"
+		]
+	}
+}

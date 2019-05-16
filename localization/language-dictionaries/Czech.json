@@ -1,0 +1,74 @@
+{
+	"cs": {
+		"name": "Čeština",
+		"language": "cs",
+		"languageCode": "cs-CZ",
+		"countries": [
+			"CZ"
+		],
+		"phrases": {
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"Storno"
+			],
+			"localization_notice": "Jedná se o automaticky generovaný lokalizační soubor.\n\nVylepšete ji návštěvou:",
+			"no": [
+				"Ne",
+				"Nikdy",
+				"Negativ"
+			],
+			"numbers": [
+				"Nula",
+				"Jedna",
+				"Dva",
+				"Tři",
+				"Čtyři",
+				"Pět",
+				"Šest",
+				"Sedm",
+				"Osm",
+				"Devět",
+				"Deset"
+			],
+			"or": "Nebo",
+			"say": "Říct:",
+			"unlockPrompt": "",
+			"yes": [
+				"Ano",
+				"Dobře",
+				"Potvrzuji"
+			]
+		},
+		"supportedLanguages": [
+			"Angličtina",
+			"Arabština",
+			"Čeština",
+			"Dánština",
+			"Finština",
+			"Francouzština",
+			"Hebrejština",
+			"Hindština",
+			"Holandština",
+			"Indonéština",
+			"Italština",
+			"Japonština",
+			"Korejština",
+			"Maďarština",
+			"Němčina",
+			"Norština",
+			"Polština",
+			"Portugalština",
+			"Rumunština",
+			"Ruština",
+			"Řečtina",
+			"Slovenština",
+			"Španělština",
+			"Švédština",
+			"Thajština",
+			"Tradiční čínština",
+			"Turečtina",
+			"Zjednodušená čínština"
+		]
+	}
+}

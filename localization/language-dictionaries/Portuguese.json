@@ -1,0 +1,74 @@
+{
+	"pt": {
+		"name": "Português",
+		"language": "pt",
+		"languageCode": "pt-BR",
+		"countries": [
+			"BR"
+		],
+		"phrases": {
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"Cancelar"
+			],
+			"localization_notice": "Este é um arquivo de localização gerado automaticamente.\n\nMelhorá-lo visitando:",
+			"no": [
+				"Não",
+				"Nunca",
+				"Negativo"
+			],
+			"numbers": [
+				"Zero",
+				"Um",
+				"Dois",
+				"Três",
+				"Quatro",
+				"Cinco",
+				"Seis",
+				"Sete",
+				"Oito",
+				"Nove",
+				"Dez"
+			],
+			"or": "Ou",
+			"say": "Dizer:",
+			"unlockPrompt": "",
+			"yes": [
+				"Sim",
+				"Ok",
+				"Afirmativo."
+			]
+		},
+		"supportedLanguages": [
+			"Alemão",
+			"Árabe",
+			"Chinês simplificado",
+			"Chinês tradicional",
+			"Coreano",
+			"Dinamarquês",
+			"Eslovaco",
+			"Espanhol",
+			"Finlandês",
+			"Francês",
+			"Grego",
+			"Hebraico",
+			"Hindi",
+			"Holandês",
+			"Húngaro",
+			"Indonésio",
+			"Inglês",
+			"Italiano",
+			"Japonês",
+			"Norueguês",
+			"Polonês",
+			"Português",
+			"Romeno",
+			"Russo",
+			"Sueco",
+			"Tailandês",
+			"Tcheco",
+			"Turco"
+		]
+	}
+}

@@ -1,0 +1,75 @@
+{
+	"nb": {
+		"name": "Norsk",
+		"language": "nb",
+		"languageCode": "nb-NO",
+		"countries": [
+			"NO"
+		],
+		"phrases": {
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"Avbryt"
+			],
+			"localization_notice": "Dette er en automatisk generert lokaliseringsfil.\n\nForbedre det ved å besøke:",
+			"no": [
+				"Nei",
+				"Aldri",
+				"Negativ"
+			],
+			"numbers": [
+				"Null",
+				"En",
+				"To",
+				"Tre",
+				"Fire",
+				"Fem",
+				"Seks",
+				"Sju",
+				"Åtte",
+				"Ni",
+				"Ti"
+			],
+			"or": "Eller",
+			"unlockPrompt": "",
+			"say": "Si:",
+			"yes": [
+				"Ja",
+				"Greit",
+				"Ok",
+				"Bekreftende"
+			]
+		},
+		"supportedLanguages": [
+			"Arabisk",
+			"Dansk",
+			"Engelsk",
+			"Finsk",
+			"Fransk",
+			"Gresk",
+			"Hebraisk",
+			"Hindi",
+			"Indonesisk",
+			"Italiensk",
+			"Japansk",
+			"Kinesisk, forenklet",
+			"Kinesisk, tradisjonell",
+			"Koreansk",
+			"Nederlandsk",
+			"Norsk",
+			"Polsk",
+			"Portugisisk",
+			"Rumensk",
+			"Russisk",
+			"Slovakisk",
+			"Spansk",
+			"Svensk",
+			"Thai",
+			"Tsjekkisk",
+			"Tyrkisk",
+			"Tysk",
+			"Ungarsk"
+		]
+	}
+}

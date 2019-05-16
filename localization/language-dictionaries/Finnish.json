@@ -1,0 +1,75 @@
+{
+	"fi": {
+		"name": "Suomi",
+		"language": "fi",
+		"languageCode": "fi-FI",
+		"countries": [
+			"FI"
+		],
+		"phrases": {
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"Peruuta"
+			],
+			"localization_notice": "Tämä on automaattisesti luotu lokalisointitiedosto.\n\nParanna sitä vierailemalla:",
+			"no": [
+				"Ei",
+				"Ei Koskaan",
+				"Negatiivinen"
+			],
+			"numbers": [
+				"Nolla",
+				"Yksi",
+				"Kaksi",
+				"Kolme",
+				"Neljä",
+				"Viisi",
+				"Kuusi",
+				"Seitsemän",
+				"Kahdeksan",
+				"Yhdeksän",
+				"Kymmenen"
+			],
+			"or": "Tai",
+			"say": "Sanoa:",
+			"unlockPrompt": "",
+			"yes": [
+				"Kyllä",
+				"Okei",
+				"Ok",
+				"Myöntävästi"
+			]
+		},
+		"supportedLanguages": [
+			"Arabia",
+			"Englanti",
+			"Espanja",
+			"Heprea",
+			"Hindi",
+			"Hollanti",
+			"Indonesia",
+			"Italia",
+			"Japani",
+			"Korea",
+			"Kreikka",
+			"Norja",
+			"Perinteinen kiina",
+			"Portugali",
+			"Puola",
+			"Ranska",
+			"Romania",
+			"Ruotsi",
+			"Saksa",
+			"Slovakki",
+			"Suomi",
+			"Tanska",
+			"Thai",
+			"Tšekki",
+			"Turkki",
+			"Unkari",
+			"Venäjä",
+			"Yksinkertaistettu kiina"
+		]
+	}
+}

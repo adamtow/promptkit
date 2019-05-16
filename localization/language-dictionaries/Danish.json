@@ -1,0 +1,75 @@
+{
+	"da": {
+		"name": "Dansk",
+		"language": "da",
+		"languageCode": "da-DK",
+		"countries": [
+			"DK"
+		],
+		"phrases": {
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"Annuller"
+			],
+			"localization_notice": "Dette er en automatisk genereret lokaliseringsfil.\n\nForbedre det ved at besøge:",
+			"no": [
+				"Nej",
+				"Aldrig",
+				"Negativ"
+			],
+			"numbers": [
+				"Nul",
+				"En",
+				"To",
+				"Tre",
+				"Fire",
+				"Fem",
+				"Seks",
+				"Syv",
+				"Otte",
+				"Ni",
+				"Ti"
+			],
+			"or": "Eller",
+			"say": "Sige:",
+			"unlockPrompt": "",
+			"yes": [
+				"Ja",
+				"Okay",
+				"Ok",
+				"Bekræftende"
+			]
+		},
+		"supportedLanguages": [
+			"Arabisk",
+			"Dansk",
+			"Engelsk",
+			"Finsk",
+			"Fransk",
+			"Græsk",
+			"Hebraisk",
+			"Hindi",
+			"Indonesisk",
+			"Italiensk",
+			"Japansk",
+			"Kinesisk, forenklet",
+			"Kinesisk, traditionelt",
+			"Koreansk",
+			"Nederlandsk",
+			"Norsk",
+			"Polsk",
+			"Portugisisk",
+			"Rumænsk",
+			"Russisk",
+			"Slovakisk",
+			"Spansk",
+			"Svensk",
+			"Thai",
+			"Tjekkisk",
+			"Tyrkisk",
+			"Tysk",
+			"Ungarsk"
+		]
+	}
+}

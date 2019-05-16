@@ -1,0 +1,75 @@
+{
+	"id": {
+		"name": "Indonesia",
+		"language": "id",
+		"languageCode": "id-ID",
+		"countries": [
+			"ID"
+		],
+		"phrases": {
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"Batalkan"
+			],
+			"localization_notice": "Ini adalah file lokalisasi yang dibuat secara otomatis.\n\nTingkatkan dengan mengunjungi:",
+			"no": [
+				"Tidak",
+				"Tidak Pernah",
+				"Negatif"
+			],
+			"numbers": [
+				"Nol",
+				"Satu",
+				"Dua",
+				"Tiga",
+				"Empat",
+				"Lima",
+				"Enam",
+				"Tujuh",
+				"Delapan",
+				"Sembilan",
+				"Sepuluh"
+			],
+			"or": "Atau",
+			"say": "Mengatakan:",
+			"unlockPrompt": "",
+			"yes": [
+				"Ya",
+				"Oke",
+				"Ok",
+				"Afirmatif"
+			]
+		},
+		"supportedLanguages": [
+			"Arab",
+			"Belanda",
+			"Ceko",
+			"Cina Sederhana",
+			"Cina Tradisional",
+			"Denmark",
+			"Finlandia",
+			"Hindi",
+			"Hongaria",
+			"Ibrani",
+			"Indonesia",
+			"Inggris",
+			"Italia",
+			"Jepang",
+			"Jerman",
+			"Korea",
+			"Norwegia",
+			"Polandia",
+			"Portugis",
+			"Prancis",
+			"Rumania",
+			"Rusia",
+			"Slovakia",
+			"Spanyol",
+			"Swedia",
+			"Thai",
+			"Turki",
+			"Yunani"
+		]
+	}
+}

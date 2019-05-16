@@ -1,0 +1,77 @@
+{
+	"es": {
+		"name": "Español",
+		"language": "es",
+		"languageCode": "es-MX",
+		"countries": [
+			"ES",
+			"MX"
+		],
+		"phrases": {
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"Cancelar"
+			],
+			"localization_notice": "Este es un archivo de localización generado automáticamente.\n\nMejóralo visitando:",
+			"no": [
+				"No",
+				"Nunca",
+				"Negativo"
+			],
+			"numbers": [
+				"Cero",
+				"Uno",
+				"Dos",
+				"Tres",
+				"Cuatro",
+				"Cinco",
+				"Seis",
+				"Siete",
+				"Ocho",
+				"Nueve",
+				"Diez"
+			],
+			"or": "O",
+			"unlockPrompt": "",
+			"say": "Decir:",
+			"yes": [
+				"Sí",
+				"Vale",
+				"Ok",
+				"Afirmativo"
+			]
+		},
+		"supportedLanguages": [
+			"Arabic",
+			"Cantonese (Traditional)",
+			"Chinese Simplified",
+			"Chinese Traditional",
+			"Czech",
+			"Danish",
+			"Dutch",
+			"English",
+			"Finnish",
+			"French",
+			"German",
+			"Greek",
+			"Hebrew",
+			"Hindi",
+			"Hungarian",
+			"Indonesian",
+			"Italian",
+			"Japanese",
+			"Korean",
+			"Norwegian",
+			"Polish",
+			"Portuguese",
+			"Romanian",
+			"Russian",
+			"Slovak",
+			"Spanish",
+			"Swedish",
+			"Thai",
+			"Turkish"
+		]
+	}
+}

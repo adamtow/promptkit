@@ -1,0 +1,75 @@
+{
+	"nl": {
+		"name": "Nederlands",
+		"language": "nl",
+		"languageCode": "nl-NL",
+		"countries": [
+			"NL"
+		],
+		"phrases": {
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"Annuleren"
+			],
+			"localization_notice": "Dit is een automatisch gegenereerd lokaliseringsbestand.\n\nVerbeter het door een bezoek te brengen aan:",
+			"no": [
+				"Nee",
+				"Nooit",
+				"Negatief"
+			],
+			"numbers": [
+				"Nul",
+				"Één",
+				"Twee",
+				"Drie",
+				"Vier",
+				"Vijf",
+				"Zes",
+				"Zeven",
+				"Acht",
+				"Negen",
+				"Tien"
+			],
+			"or": "Of",
+			"say": "Zeggen:",
+			"unlockPrompt": "",
+			"yes": [
+				"Ja",
+				"Oke",
+				"Ok",
+				"Bevestigend"
+			]
+		},
+		"supportedLanguages": [
+			"Arabisch",
+			"Deens",
+			"Duits",
+			"Engels",
+			"Fins",
+			"Frans",
+			"Grieks",
+			"Hebreeuws",
+			"Hindi",
+			"Hongaars",
+			"Indonesisch",
+			"Italiaans",
+			"Japans",
+			"Koreaans",
+			"Nederlands",
+			"Noors",
+			"Pools",
+			"Portugees",
+			"Roemeens",
+			"Russisch",
+			"Slowaaks",
+			"Spaans",
+			"Thais",
+			"Traditioneel Chinees",
+			"Tsjechisch",
+			"Turks",
+			"Vereenvoudigd Chinees",
+			"Zweeds"
+		]
+	}
+}

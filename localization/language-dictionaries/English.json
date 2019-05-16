@@ -1,0 +1,87 @@
+{
+	"en": {
+		"name": "English",
+		"language": "en",
+		"languageCode": "en-US",
+		"countries": [
+			"US",
+			"GB",
+			"CA"
+		],
+		"phrases": {
+			"bigNumbers": {
+				"million": "1000000",
+				"billion": "1000000000",
+				"trillion": "1000000000000"
+			},
+			"cancel": [
+				"🛑",
+				"Cancel"
+			],
+			"no": [
+				"No",
+				"Never",
+				"Negative"
+			],
+			"numbers": [
+				"zero",
+				"one",
+				"two",
+				"three",
+				"four",
+				"five",
+				"six",
+				"seven",
+				"eight",
+				"nine",
+				"ten"
+			],
+			"or": "Or",
+			"say": [
+				"Say:",
+				"Choose from:",
+				"Pick from:",
+				"You can say:"
+			],
+			"unlockPrompt": "PromptKit is requesting your attention. Please unlock your device to respond to the prompt.",
+			"yes": [
+				"Yes",
+				"Okay",
+				"Yeah",
+				"Ok",
+				"Affirmative"
+			]
+		},
+		"supportedLanguages": [
+			"Arabic",
+			"Cantonese (Traditional)",
+			"Chinese Simplified",
+			"Chinese Traditional",
+			"Czech",
+			"Danish",
+			"Dutch",
+			"English",
+			"Finnish",
+			"French",
+			"German",
+			"Greek",
+			"Hebrew",
+			"Hindi",
+			"Hungarian",
+			"Indonesian",
+			"Italian",
+			"Japanese",
+			"Korean",
+			"Norwegian",
+			"Polish",
+			"Portuguese",
+			"Romanian",
+			"Russian",
+			"Slovak",
+			"Spanish",
+			"Swedish",
+			"Thai",
+			"Turkish"
+		]
+	}
+}

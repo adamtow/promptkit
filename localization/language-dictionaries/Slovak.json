@@ -1,0 +1,75 @@
+{
+	"sk": {
+		"name": "Slovenčina",
+		"language": "sk",
+		"languageCode": "sk-SK",
+		"countries": [
+			"SK"
+		],
+		"phrases": {
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"Zrušiť"
+			],
+			"localization_notice": "Toto je automaticky generovaný lokalizačný súbor.\n\nVylepšite ho návštevou:",
+			"no": [
+				"Nie",
+				"Nikdy",
+				"Negatívne"
+			],
+			"numbers": [
+				"Nula",
+				"Jeden",
+				"Dva",
+				"Tri",
+				"Štyri",
+				"Päť",
+				"Šesť",
+				"Sedem",
+				"Osem",
+				"Deväť",
+				"Desať"
+			],
+			"or": "Alebo",
+			"say": "Povedať:",
+			"unlockPrompt": "",
+			"yes": [
+				"Áno",
+				"Dobre",
+				"Ok",
+				"Kladne"
+			]
+		},
+		"supportedLanguages": [
+			"Angličtina",
+			"Arabčina",
+			"Čeština",
+			"Čínština (tradičná)",
+			"Čínština (zjednodušená)",
+			"Dánčina",
+			"Fínčina",
+			"Francúzština",
+			"Gréčtina",
+			"Hebrejčina",
+			"Hindčina",
+			"Holandčina",
+			"Indonézština",
+			"Japončina",
+			"Kórejčina",
+			"Maďarčina",
+			"Nemčina",
+			"Nórčina",
+			"Poľština",
+			"Portugalčina",
+			"Rumunčina",
+			"Ruština",
+			"Slovenčina",
+			"Španielčina",
+			"Švédčina",
+			"Taliančina",
+			"Thajčina",
+			"Turečtina"
+		]
+	}
+}

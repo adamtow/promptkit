@@ -1,0 +1,75 @@
+{
+	"sv": {
+		"name": "Svenska",
+		"language": "sv",
+		"languageCode": "sv-SE",
+		"countries": [
+			"SE"
+		],
+		"phrases": {
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"Avbryt"
+			],
+			"localization_notice": "Det här är en automatiskt genererad lokaliseringsfil.\n\nFörbättra det genom att besöka:",
+			"no": [
+				"Nej",
+				"Aldrig",
+				"Negativt"
+			],
+			"numbers": [
+				"Noll",
+				"Ett",
+				"Två",
+				"Tre",
+				"Fyra",
+				"Fem",
+				"Sex",
+				"Sju",
+				"Åtta",
+				"Nio",
+				"Tio"
+			],
+			"or": "Eller",
+			"say": "Säga:",
+			"unlockPrompt": "",
+			"yes": [
+				"Ja",
+				"Okej",
+				"Ok",
+				"Jakande"
+			]
+		},
+		"supportedLanguages": [
+			"Arabiska",
+			"Danska",
+			"Engelska",
+			"Finska",
+			"Franska",
+			"Grekiska",
+			"Hebreiska",
+			"Hindi",
+			"Indonesiska",
+			"Italienska",
+			"Japanska",
+			"Kinesiska, förenklad",
+			"Kinesiska, traditionell",
+			"Koreanska",
+			"Nederländska",
+			"Norska",
+			"Polska",
+			"Portugisiska",
+			"Rumänska",
+			"Ryska",
+			"Slovakiska",
+			"Spanska",
+			"Svenska",
+			"Thai",
+			"Tjeckiska",
+			"Turkiska",
+			"Tyska",
+			"Ungerska"
+		]
+	}
+}

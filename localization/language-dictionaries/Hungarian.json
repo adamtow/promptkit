@@ -1,0 +1,75 @@
+{
+	"hu": {
+		"name": "Magyar",
+		"language": "hu",
+		"languageCode": "hu-HU",
+		"countries": [
+			"HU"
+		],
+		"phrases": {
+			"bigNumbers": {},
+			"cancel": [
+				"🛑",
+				"Mégse"
+			],
+			"localization_notice": "Ez egy automatikusan létrehozott lokalizációs fájl.\n\nJavítsa meg a következőt:",
+			"no": [
+				"Nem",
+				"Soha",
+				"Negatív"
+			],
+			"numbers": [
+				"Nulla",
+				"Egy",
+				"Kettő",
+				"Három",
+				"Négy",
+				"Öt",
+				"Hat",
+				"Hét",
+				"Nyolc",
+				"Kilenc",
+				"Tíz"
+			],
+			"or": "Vagy",
+			"say": "Mondani:",
+			"unlockPrompt": "",
+			"yes": [
+				"Igen",
+				"Oké",
+				"Ok",
+				"Megerősítő"
+			]
+		},
+		"supportedLanguages": [
+			"Angol",
+			"Arab",
+			"Cseh",
+			"Dán",
+			"Finn",
+			"Francia",
+			"Görög",
+			"Héber",
+			"Hindi",
+			"Holland",
+			"Indonéz",
+			"Japán",
+			"Kínai (egyszerűsített)",
+			"Kínai (hagyományos)",
+			"Koreai",
+			"Lengyel",
+			"Magyar",
+			"Német",
+			"Norvég",
+			"Olasz",
+			"Orosz",
+			"Portugál",
+			"Román",
+			"Spanyol",
+			"Svéd",
+			"Szlovák",
+			"Thai",
+			"Török"
+		]
+	}
+}
