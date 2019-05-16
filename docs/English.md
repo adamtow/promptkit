@@ -1012,11 +1012,12 @@ Each language dictionary has the following required properties:
 
 - **name**: name of the language. 
 - **code**: two-letter language code. 
-- **languageRegion**: language code + region string.
-- **regions**: an array of supported regions for the language dictionary.
+- **languageCode**: language code + region string.
+- **countries**: an array of supported regions for the language dictionary.
 - **phrases**: a dictionary containing:
-	- **bigNumbers**: a dictionary mapping for numbers that are converted to words by dictation (i.e. million, billion, and trillion). See English language dictionary as an example. 
+	- **bigNumbers**: a dictionary mapping for numbers that are converted to words by dictation (i.e. million, billion, and trillion). See English language dictionary as an example.
 	- **cancel**: an array of strings that are keyword phrases for the cancelling out of prompts. The first string is also displayed as an option in a confirmation prompt. 
+	- **localizationNotice**: a string that informs the user that the location dictionary for this language and the localized strings were auto-generated. See the [Localization section for more detail](#localization).
 	- **no**: an array of strings for saying NO in a confirmation prompt. 
 	- **numbers**: written out words that need to be changed to numbers when dictating text. If you try to say the number 1, Siri will often return the text, "One". Listing out the names of the numbers here (in order from zero) will allow PromptKit to convert the text into a number. 
 	- **or**: a single line of text that says "or" in the given language. 
