@@ -188,6 +188,7 @@
 		},
 		"supportedLanguages": [
 			"Arabic",
+			"Cantonese (Traditional)",
 			"Chinese Simplified",
 			"Chinese Traditional",
 			"Czech",
@@ -291,7 +292,7 @@
 		]
 	},
 	"fi": {
-		"name": "suomi",
+		"name": "Suomi",
 		"language": "fi",
 		"languageCode": "fi-FI",
 		"countries": [
@@ -656,7 +657,7 @@
 		]
 	},
 	"hu": {
-		"name": "magyar",
+		"name": "Magyar",
 		"language": "hu",
 		"languageCode": "hu-HU",
 		"countries": [
@@ -886,7 +887,7 @@
 		]
 	},
 	"da": {
-		"name": "dansk",
+		"name": "Dansk",
 		"language": "da",
 		"languageCode": "da-DK",
 		"countries": [
@@ -1465,7 +1466,7 @@
 		]
 	},
 	"sk": {
-		"name": "slovenčina",
+		"name": "Slovenčina",
 		"language": "sk",
 		"languageCode": "sk-SK",
 		"countries": [
