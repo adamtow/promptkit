@@ -13,7 +13,7 @@
 				"إلغاء",
 				"الأمر"
 			],
-			"localization_notice": "هذا ملف تعريب تم إنشاؤه تلقائيًا.\n\nتحسينه من خلال زيارة:",
+			"localizationNotice": "هذا ملف تعريب تم إنشاؤه تلقائيًا.\n\nتحسينه من خلال زيارة:",
 			"no": [
 				"لا",
 				"أبدا",
@@ -89,7 +89,7 @@
 				"🛑",
 				"取消"
 			],
-			"localization_notice": "這是一個自動生成的本地化文件。\n\n通過訪問改進它：",
+			"localizationNotice": "這是一個自動生成的本地化文件。\n\n通過訪問改進它：",
 			"no": [
 				"不",
 				"永遠",
@@ -160,7 +160,7 @@
 				"🛑",
 				"取消"
 			],
-			"localization_notice": "这是一个自动生成的本地化文件。\n\n通过访问改进它：",
+			"localizationNotice": "这是一个自动生成的本地化文件。\n\n通过访问改进它：",
 			"no": [
 				"不",
 				"永远",
@@ -231,7 +231,7 @@
 				"🛑",
 				"取消"
 			],
-			"localization_notice": "這是一個自動生成的本地化文件。\n\n通過訪問改進它：",
+			"localizationNotice": "這是一個自動生成的本地化文件。\n\n通過訪問改進它：",
 			"no": [
 				"不",
 				"永遠",
@@ -302,7 +302,7 @@
 				"🛑",
 				"Storno"
 			],
-			"localization_notice": "Jedná se o automaticky generovaný lokalizační soubor.\n\nVylepšete ji návštěvou:",
+			"localizationNotice": "Jedná se o automaticky generovaný lokalizační soubor.\n\nVylepšete ji návštěvou:",
 			"no": [
 				"Ne",
 				"Nikdy",
@@ -374,7 +374,7 @@
 				"🛑",
 				"Annuller"
 			],
-			"localization_notice": "Dette er en automatisk genereret lokaliseringsfil.\n\nForbedre det ved at besøge:",
+			"localizationNotice": "Dette er en automatisk genereret lokaliseringsfil.\n\nForbedre det ved at besøge:",
 			"no": [
 				"Nej",
 				"Aldrig",
@@ -447,7 +447,7 @@
 				"🛑",
 				"Annuleren"
 			],
-			"localization_notice": "Dit is een automatisch gegenereerd lokaliseringsbestand.\n\nVerbeter het door een bezoek te brengen aan:",
+			"localizationNotice": "Dit is een automatisch gegenereerd lokaliseringsbestand.\n\nVerbeter het door een bezoek te brengen aan:",
 			"no": [
 				"Nee",
 				"Nooit",
@@ -605,7 +605,7 @@
 				"🛑",
 				"Peruuta"
 			],
-			"localization_notice": "Tämä on automaattisesti luotu lokalisointitiedosto.\n\nParanna sitä vierailemalla:",
+			"localizationNotice": "Tämä on automaattisesti luotu lokalisointitiedosto.\n\nParanna sitä vierailemalla:",
 			"no": [
 				"Ei",
 				"Ei Koskaan",
@@ -678,7 +678,7 @@
 				"🛑",
 				"Annuler"
 			],
-			"localization_notice": "C'est un fichier de localisation généré automatiquement.\n\nAméliorez-le en visitant:",
+			"localizationNotice": "C'est un fichier de localisation généré automatiquement.\n\nAméliorez-le en visitant:",
 			"no": [
 				"Non",
 				"Jamais",
@@ -752,7 +752,7 @@
 				"🛑",
 				"Absagen"
 			],
-			"localization_notice": "Dies ist eine automatisch generierte Lokalisierungsdatei.\n\nVerbessere es, indem du besuchst:",
+			"localizationNotice": "Dies ist eine automatisch generierte Lokalisierungsdatei.\n\nVerbessere es, indem du besuchst:",
 			"no": [
 				"Nein",
 				"Niemals",
@@ -825,7 +825,7 @@
 				"🛑",
 				"Άκυρο"
 			],
-			"localization_notice": "Αυτό είναι ένα αρχείο εντοπισμού που δημιουργείται αυτόματα.\n\nΒελτιώστε το με την επίσκεψη:",
+			"localizationNotice": "Αυτό είναι ένα αρχείο εντοπισμού που δημιουργείται αυτόματα.\n\nΒελτιώστε το με την επίσκεψη:",
 			"no": [
 				"Όχι",
 				"Ποτέ",
@@ -897,7 +897,7 @@
 				"🛑",
 				"ביטול"
 			],
-			"localization_notice": "זהו קובץ לוקליזציה שנוצר באופן אוטומטי.\n\nשפר זאת על ידי ביקור בכתובת:",
+			"localizationNotice": "זהו קובץ לוקליזציה שנוצר באופן אוטומטי.\n\nשפר זאת על ידי ביקור בכתובת:",
 			"no": [
 				". לא",
 				"לעולם לא",
@@ -970,7 +970,7 @@
 				"🛑",
 				"रद्द करें"
 			],
-			"localization_notice": "यह स्वचालित रूप से बनाई गई स्थानीयकरण फ़ाइल है।\n\nपर जाकर इसे सुधारें:",
+			"localizationNotice": "यह स्वचालित रूप से बनाई गई स्थानीयकरण फ़ाइल है।\n\nपर जाकर इसे सुधारें:",
 			"no": [
 				"नहीं",
 				"कभी नहीं",
@@ -1042,7 +1042,7 @@
 				"🛑",
 				"Mégse"
 			],
-			"localization_notice": "Ez egy automatikusan létrehozott lokalizációs fájl.\n\nJavítsa meg a következőt:",
+			"localizationNotice": "Ez egy automatikusan létrehozott lokalizációs fájl.\n\nJavítsa meg a következőt:",
 			"no": [
 				"Nem",
 				"Soha",
@@ -1115,7 +1115,7 @@
 				"🛑",
 				"Batalkan"
 			],
-			"localization_notice": "Ini adalah file lokalisasi yang dibuat secara otomatis.\n\nTingkatkan dengan mengunjungi:",
+			"localizationNotice": "Ini adalah file lokalisasi yang dibuat secara otomatis.\n\nTingkatkan dengan mengunjungi:",
 			"no": [
 				"Tidak",
 				"Tidak Pernah",
@@ -1188,7 +1188,7 @@
 				"🛑",
 				"Annulla"
 			],
-			"localization_notice": "Questo è un file di localizzazione generato automaticamente.\n\nMiglioralo visitando:",
+			"localizationNotice": "Questo è un file di localizzazione generato automaticamente.\n\nMiglioralo visitando:",
 			"no": [
 				"No",
 				"Mai",
@@ -1261,7 +1261,7 @@
 				"🛑",
 				"キャンセル"
 			],
-			"localization_notice": "これは自動生成されたローカライゼーションファイルです。\n\n訪問してそれを改善する：",
+			"localizationNotice": "これは自動生成されたローカライゼーションファイルです。\n\n訪問してそれを改善する：",
 			"no": [
 				"いいえ",
 				"決して否定的"
@@ -1332,7 +1332,7 @@
 				"🛑",
 				"취소"
 			],
-			"localization_notice": "이것은 자동으로 생성 된 현지화 파일입니다.\n\n방문하여 개선하십시오.",
+			"localizationNotice": "이것은 자동으로 생성 된 현지화 파일입니다.\n\n방문하여 개선하십시오.",
 			"no": [
 				"아니오",
 				"절대",
@@ -1404,7 +1404,7 @@
 				"🛑",
 				"Avbryt"
 			],
-			"localization_notice": "Dette er en automatisk generert lokaliseringsfil.\n\nForbedre det ved å besøke:",
+			"localizationNotice": "Dette er en automatisk generert lokaliseringsfil.\n\nForbedre det ved å besøke:",
 			"no": [
 				"Nei",
 				"Aldri",
@@ -1477,7 +1477,7 @@
 				"🛑",
 				"Anuluj"
 			],
-			"localization_notice": "Jest to automatycznie generowany plik lokalizacji.\n\nPopraw to, odwiedzając:",
+			"localizationNotice": "Jest to automatycznie generowany plik lokalizacji.\n\nPopraw to, odwiedzając:",
 			"no": [
 				"Nie",
 				"Nigdy",
@@ -1550,7 +1550,7 @@
 				"🛑",
 				"Cancelar"
 			],
-			"localization_notice": "Este é um arquivo de localização gerado automaticamente.\n\nMelhorá-lo visitando:",
+			"localizationNotice": "Este é um arquivo de localização gerado automaticamente.\n\nMelhorá-lo visitando:",
 			"no": [
 				"Não",
 				"Nunca",
@@ -1622,7 +1622,7 @@
 				"🛑",
 				"Anulare"
 			],
-			"localization_notice": "Acesta este un fișier de localizare generat automat.\n\nÎmbunătățiți-l vizitând:",
+			"localizationNotice": "Acesta este un fișier de localizare generat automat.\n\nÎmbunătățiți-l vizitând:",
 			"no": [
 				"Nu",
 				"Niciodată",
@@ -1694,7 +1694,7 @@
 				"🛑",
 				"Отмена"
 			],
-			"localization_notice": "Это автоматически сгенерированный файл локализации.\n\nУлучшите это, посетив:",
+			"localizationNotice": "Это автоматически сгенерированный файл локализации.\n\nУлучшите это, посетив:",
 			"no": [
 				"Нет",
 				"Никогда",
@@ -1766,7 +1766,7 @@
 				"🛑",
 				"Zrušiť"
 			],
-			"localization_notice": "Toto je automaticky generovaný lokalizačný súbor.\n\nVylepšite ho návštevou:",
+			"localizationNotice": "Toto je automaticky generovaný lokalizačný súbor.\n\nVylepšite ho návštevou:",
 			"no": [
 				"Nie",
 				"Nikdy",
@@ -1840,7 +1840,7 @@
 				"🛑",
 				"Cancelar"
 			],
-			"localization_notice": "Este es un archivo de localización generado automáticamente.\n\nMejóralo visitando:",
+			"localizationNotice": "Este es un archivo de localización generado automáticamente.\n\nMejóralo visitando:",
 			"no": [
 				"No",
 				"Nunca",
@@ -1914,7 +1914,7 @@
 				"🛑",
 				"Avbryt"
 			],
-			"localization_notice": "Det här är en automatiskt genererad lokaliseringsfil.\n\nFörbättra det genom att besöka:",
+			"localizationNotice": "Det här är en automatiskt genererad lokaliseringsfil.\n\nFörbättra det genom att besöka:",
 			"no": [
 				"Nej",
 				"Aldrig",
@@ -1987,7 +1987,7 @@
 				"🛑",
 				"ยกเลิก"
 			],
-			"localization_notice": "นี่คือไฟล์การแปลที่สร้างขึ้นโดยอัตโนมัติ\n\nปรับปรุงโดยไปที่:",
+			"localizationNotice": "นี่คือไฟล์การแปลที่สร้างขึ้นโดยอัตโนมัติ\n\nปรับปรุงโดยไปที่:",
 			"no": [
 				"ไม่มี",
 				"ไม่เคย",
@@ -2030,7 +2030,7 @@
 				"🛑",
 				"Iptal"
 			],
-			"localization_notice": "Bu otomatik olarak oluşturulan bir yerelleştirme dosyasıdır.\n\nZiyaret ederek geliştirin:",
+			"localizationNotice": "Bu otomatik olarak oluşturulan bir yerelleştirme dosyasıdır.\n\nZiyaret ederek geliştirin:",
 			"no": [
 				"Hayır",
 				"Asla",

@@ -12,7 +12,7 @@
 				"🛑",
 				"Annuler"
 			],
-			"localization_notice": "C'est un fichier de localisation généré automatiquement.\n\nAméliorez-le en visitant:",
+			"localizationNotice": "C'est un fichier de localisation généré automatiquement.\n\nAméliorez-le en visitant:",
 			"no": [
 				"Non",
 				"Jamais",
