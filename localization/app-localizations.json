@@ -2828,7 +2828,7 @@
 		"prompt_translationLanguage_custom": "Numele limbii trebuie să corespundă cu ceea ce se afișează în acțiunea traducere text cu Microsoft.\n\nUtilizare particularizat... pentru a introduce un nume de limbă particularizat dacă aveți probleme.",
 		"prompt_unlock": "Va trebui să deblocați acest dispozitiv pentru a executa acest prompt PromptKit."
 	},
-	"Pусский": {
+	"Русский": {
 		"alert_about": "Ууцкит-это контекстно-библиотека для создания интерактивных подсказок с речью, диктовки, меню, диалогами и проверкой подлинности.\n\nПодсказки для УСО-Кит могут переводить между языками, хранить данные и ярлыки вызова.",
 		"alert_shortcuts_retrieval": "Извлечение списка установленных коротких сочетаний истории. Это может занять несколько мгновений.",
 		"alert_update_none": "В настоящее время вы работаете с последней версией Уоперакит.",
