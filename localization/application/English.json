@@ -103,7 +103,7 @@
 		"prompt_language": "Choose Language",
 		"prompt_language_unknown": "The language could not be detected for the inputted text. Continue using the default language?",
 		"prompt_run": "PromptKit Story shortcuts have the word `PKS` in their name.",
-		"prompt_runText": "Enter contents of a	PromptKit JSON or text to have it run by PromptKit.",
+		"prompt_runText": "Enter contents of a PromptKit JSON or text to have it run by PromptKit.",
 		"prompt_settings": "PromptKit Settings",
 		"prompt_settings_defaultMode": "Choose the mode to use when none is specified or when Mode Override is enabled",
 		"prompt_settings_repeat": "Enter the default number of times PromptKit will re-ask the question before exiting.",
