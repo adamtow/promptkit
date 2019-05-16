@@ -993,7 +993,7 @@ Powering each translatable language is a PromptKit Language Dictionary. It conta
 
 Improve the performance and accuracy of PromptKit by contributing to a language dictionary. 
 
-You can find the current set of [language dictionaries on GitHub here](https://github.com/adamtow/promptkit/blob/master/localization/language-dictionaries.json).
+You can find the current set of [language dictionaries on GitHub here](https://github.com/adamtow/promptkit/blob/master/localization/language-dictionaries/).
 
 Each language dictionary is a dictionary object whose primary key within the root dictionaries object is the language code or language + country.
 
@@ -1017,7 +1017,6 @@ Each language dictionary has the following required properties:
 - **phrases**: a dictionary containing:
 	- **bigNumbers**: a dictionary mapping for numbers that are converted to words by dictation (i.e. million, billion, and trillion). See English language dictionary as an example.
 	- **cancel**: an array of strings that are keyword phrases for the cancelling out of prompts. The first string is also displayed as an option in a confirmation prompt. 
-	- **localizationNotice**: a string that informs the user that the location dictionary for this language and the localized strings were auto-generated. See the [Localization section for more detail](#localization).
 	- **no**: an array of strings for saying NO in a confirmation prompt. 
 	- **numbers**: written out words that need to be changed to numbers when dictating text. If you try to say the number 1, Siri will often return the text, "One". Listing out the names of the numbers here (in order from zero) will allow PromptKit to convert the text into a number. 
 	- **or**: a single line of text that says "or" in the given language. 
@@ -1032,8 +1031,8 @@ Here is an example of the English language dictionary object:
 "en": {
 		"name": "English",
 		"code": "en",
-		"languageRegion": "en-US",
-		"regions": [
+		"languageCode": "en-US",
+		"countries": [
 			"US",
 			"GB",
 			"CA"
@@ -1115,17 +1114,22 @@ Here is an example of the English language dictionary object:
 		]
 	}
 ```
+
 ****
 
 <span id="localization"></span> 
 ## Localization
-PromptKit is available in English, but the application is fully ready to be localized. Use the Localization Helper shortcut to assist with localizing PromptKit into your language.
+PromptKit is available in English, but the application is also supplied with auto-translated localized files for the support spoken/dictation languages.
+
+Since machine translation is never perfect, your help would come greatly in handy. If you are a native speaker of one of these languages, consider contributing to improving PromptKit's localization files.
+
+You can use the Localization Helper shortcut to assist with localizing PromptKit into your language.
 
 > [**Download Localization Helper from RoutineHub &raquo;**](https://routinehub.co/shortcut/1931)
 
-- When the localization file is complete, submit a pull request on [the Record Text to Speech GitHub page](https://github.com/adamtow/promptkit).
+- When the localization file is complete, submit a pull request on [the PromptKit GitHub page](https://github.com/adamtow/promptkit/localization/application).
 
-You can also inspect the files for each supported language's language dictionary in the `localization` directory. This contains information such as alternate phrases for Yes, No, and Cancel, numbers, localized version of support translation languages (for the Translate Text with Microsoft action), and more. Help make PromptKit more accurate and more universal for all iOS users!
+You can also inspect the files for each supported language's language dictionary in the `localization/application` directory. This contains information such as alternate phrases for Yes, No, and Cancel, numbers, localized version of support translation languages (for the Translate Text with Microsoft action), and more. Help make PromptKit more accurate and more universal for all iOS users!
 
 ****
 
