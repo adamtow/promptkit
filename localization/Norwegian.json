@@ -1,7 +1,6 @@
 {
 	"Norsk": {
 		"alert_about": "PromptKit er en snarvei bibliotek for å bygge interaktive spørsmål med tale, diktat, menyer, dialoger og validering.\n\nPromptKit-meldinger kan oversette mellom språk, lagre data og ringe snarveier.",
-		"alert_localization_file": "Denne lokaliserings filen ble oversatt av en datamaskin. Hvis du vil bidra til å forbedre oversettelsen, kan du gå til:",
 		"alert_shortcuts_retrieval": "Henter en liste over installerte PromptKit Story-snarveier. Dette kan ta litt tid.",
 		"alert_update_none": "Du kjører nå den nyeste versjonen av PromptKit.",
 		"alert_update_none_title": "Ingen oppdatering er tilgjengelig",

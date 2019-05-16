@@ -1,7 +1,6 @@
 {
 	"Slovenčina": {
 		"alert_about": "PromptKit je skratka knižnica na vytváranie interaktívnych výziev s rečou, diktáciou, ponukami, dialógoch a overovaním.\n\nPromptKit vyzve môžete preložiť medzi jazykmi, ukladať dáta a volať skratky.",
-		"alert_localization_file": "Tento lokalizačný súbor bol preložený počítačom. Ak chcete pomôcť zlepšiť preklad, navštívte prosím:",
 		"alert_shortcuts_retrieval": "Načítava sa zoznam nainštalovaných skratiek programu PromptKit Story. To môže trvať niekoľko okamihov.",
 		"alert_update_none": "Momentálne používate najnovšiu verziu programu PromptKit.",
 		"alert_update_none_title": "Nie je k dispozícii žiadna aktualizácia",

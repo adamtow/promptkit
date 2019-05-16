@@ -1,7 +1,6 @@
 {
 	"Deutsch": {
 		"alert_about": "PromptKit ist eine Shortcut-Bibliothek für den Aufbau interaktiver Eingaben mit Sprache, Diktat, Menüs, Dialogen und Validierung.\n\nPromptKit-Eingaben können zwischen Sprachen übersetzen, Daten speichern und Shortcuts abrufen.",
-		"alert_localization_file": "Diese Lokalisierungsdatei wurde von einem Computer übersetzt. Wenn Sie zur Verbesserung der Übersetzung beitragen möchten, besuchen Sie bitte:",
 		"alert_shortcuts_retrieval": "Das Abrufen einer Liste der installierten PromptKit Story-Shortcuts. Das kann einige Augenblicke dauern.",
 		"alert_update_none": "Sie laufen derzeit die neueste Version von PromptKit.",
 		"alert_update_none_title": "Kein Update verfügbar",

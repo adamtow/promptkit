@@ -1,7 +1,6 @@
 {
 	"Español": {
 		"alert_about": "PromptKit es una biblioteca de accesos directos para crear mensajes interactivos con voz, dictado, menús, diálogos y validación.\n\nLos mensajes de PromptKit pueden traducir entre idiomas, almacenar datos y llamar a accesos directos.",
-		"alert_localization_file": "Este archivo de localización fue traducido por un ordenador. Si desea ayudar a mejorar la traducción, por favor visite:",
 		"alert_shortcuts_retrieval": "Recuperar una lista de accesos directos de la historia de PromptKit instalados. Esto puede tardar unos instantes.",
 		"alert_update_none": "Actualmente está ejecutando la última versión de PromptKit.",
 		"alert_update_none_title": "No hay actualización disponible",

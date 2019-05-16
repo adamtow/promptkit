@@ -1,7 +1,6 @@
 {
 	"Dansk": {
 		"alert_about": "PromptKit er et genvejs bibliotek til at opbygge interaktive prompter med tale, diktering, menuer, dialoger og validering.\n\nPromptKit-meddelelser kan oversætte mellem sprog, gemme data og kalde genveje.",
-		"alert_localization_file": "Denne lokaliserings fil blev oversat af en computer. Hvis du ønsker at hjælpe med at forbedre oversættelsen, kan du besøge:",
 		"alert_shortcuts_retrieval": "Henter en liste over installerede genveje til PromptKit-historien. Dette kan tage et øjeblik.",
 		"alert_update_none": "Du kører i øjeblikket den nyeste version af PromptKit.",
 		"alert_update_none_title": "Ingen opdatering tilgængelig",

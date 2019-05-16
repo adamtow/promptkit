@@ -1,7 +1,6 @@
 {
 	"Magyar": {
 		"alert_about": "PromptKit van egy omlós torta könyvtár részére épület egymásra kölcsönösen ható gyors-val beszéd, diktálás, étlap, párbeszéd, és érvényesítés.\n\nA PromptKit Parancspromptok lefordítására a nyelvek között, adatokat tárolhat és híváshivatkozásokat is használhat.",
-		"alert_localization_file": "Ezt a honosítási fájlt egy számítógép lefordította. Ha szeretné, hogy segítsen javítani a fordítást, kérjük, látogasson el:",
 		"alert_shortcuts_retrieval": "A telepített PromptKit szövegegység-parancsikonok listájának beolvasása. Ez eltarthat néhány pillanatig.",
 		"alert_update_none": "Jelenleg a PromptKit legújabb verzióját futtatja.",
 		"alert_update_none_title": "Nincs elérhető frissítés",

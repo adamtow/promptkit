@@ -1,7 +1,6 @@
 {
 	"Nederlands": {
 		"alert_about": "PromptKit is een snelkoppelings bibliotheek voor het bouwen van interactieve prompts met spraak, dictee, menu's, dialogen en validatie.\n\nPromptKit prompts kunnen vertalen tussen talen, opslaan van gegevens, en bel snelkoppelingen.",
-		"alert_localization_file": "Dit lokalisatie bestand is vertaald door een computer. Als u wilt helpen bij het verbeteren van de vertaling, ga dan naar:",
 		"alert_shortcuts_retrieval": "Het ophalen van een lijst van geïnstalleerde PromptKit verhaal snelkoppelingen. Dit kan even duren.",
 		"alert_update_none": "U gebruikt momenteel de recentste versie van PromptKit.",
 		"alert_update_none_title": "Geen update beschikbaar",

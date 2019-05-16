@@ -1,7 +1,6 @@
 {
 	"Čeština": {
 		"alert_about": "PromptKit je knihovna zástupců pro vytváření interaktivních výzev s mluvenou řečí, diktování, nabídkami, dialogy a ověřováním.\n\nDotaz PromptKit může překládat mezi jazyky, ukládat data a volat zástupce.",
-		"alert_localization_file": "Tento soubor lokalizace byl přeložen počítačem. Chcete-li přispět ke zlepšení překladu, navštivte prosím následující:",
 		"alert_shortcuts_retrieval": "Načítání seznamu nainstalovaných zástupců PromptKit Story To může chvíli trvat.",
 		"alert_update_none": "Nyní je spuštěna nejnovější verze programu PromptKit.",
 		"alert_update_none_title": "Aktualizace není k dispozici",

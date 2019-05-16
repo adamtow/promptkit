@@ -1,7 +1,6 @@
 {
 	"Italiano": {
 		"alert_about": "PromptKit è una libreria di scelta rapida per la creazione di prompt interattivi con voce, dettatura, menu, finestre di dialogo e convalida.\n\nPrompt PromptKit possono tradurre tra le lingue, archiviare i dati e le scorciatoie di chiamata.",
-		"alert_localization_file": "Questo file di localizzazione è stato tradotto da un computer. Se si desidera contribuire a migliorare la traduzione, si prega di visitare:",
 		"alert_shortcuts_retrieval": "Recupero di un elenco di scorciatoie di PromptKit Story installate. Questo potrebbe richiedere alcuni istanti.",
 		"alert_update_none": "Si sta attualmente eseguendo l'ultima versione di PromptKit.",
 		"alert_update_none_title": "Nessun aggiornamento disponibile",

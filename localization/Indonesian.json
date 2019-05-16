@@ -1,7 +1,6 @@
 {
 	"Indonesia": {
 		"alert_about": "PromptKit adalah pustaka pintasan untuk membangun perintah interaktif dengan pidato, dikte, Menu, dialog, dan validasi.\n\nPromptKit prompt dapat menerjemahkan antara bahasa, menyimpan data, dan panggilan pintas.",
-		"alert_localization_file": "Berkas lokalisasi ini diterjemahkan oleh komputer. Jika Anda ingin membantu meningkatkan terjemahan, silakan kunjungi:",
 		"alert_shortcuts_retrieval": "Mengambil daftar pintasan cerita PromptKit yang terpasang. Ini mungkin memakan waktu beberapa saat.",
 		"alert_update_none": "Anda sedang menjalankan versi terbaru dari PromptKit.",
 		"alert_update_none_title": "Tidak ada update tersedia",
