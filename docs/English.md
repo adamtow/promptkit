@@ -1,6 +1,6 @@
 # PromptKit
 
-PromptKit is a shortcut library for creating powerful, interactive, multilingual, and multi-step prompts featuring speech, dictation, menus, dialogs, and automatic language translation. 
+PromptKit is an advanced dialog engine for Shortcuts and iOS. PromptKit creates powerful, interactive, multilingual, and multi-step prompts featuring speech, dictation, menus, dialogs, and automatic language translation. 
 
 For shortcut developers, the [PromptKit API](#developer) facilitates the creation of interactive prompts with branching logic, input validation, history, state, external shortcut support, and data storage, all without writing a single line of code. 
 
@@ -1127,7 +1127,7 @@ You can use the Localization Helper shortcut to assist with localizing PromptKit
 
 > [**Download Localization Helper from RoutineHub &raquo;**](https://routinehub.co/shortcut/1931)
 
-- When the localization file is complete, submit a pull request on [the PromptKit GitHub page](https://github.com/adamtow/promptkit/localization/application).
+- When the localization file is complete, submit a pull request on [the PromptKit GitHub page](https://github.com/adamtow/promptkit/tree/master/localization/application).
 
 You can also inspect the files for each supported language's language dictionary in the `localization/application` directory. This contains information such as alternate phrases for Yes, No, and Cancel, numbers, localized version of support translation languages (for the Translate Text with Microsoft action), and more. Help make PromptKit more accurate and more universal for all iOS users!
 
