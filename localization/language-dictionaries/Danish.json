@@ -12,7 +12,7 @@
 				"🛑",
 				"Annuller"
 			],
-			"localizationNotice": "Dette er en automatisk genereret lokaliseringsfil.\n\nForbedre det ved at besøge:",
+			"alert_localization_notice": "Dette er en automatisk genereret lokaliseringsfil.\n\nForbedre det ved at besøge:",
 			"no": [
 				"Nej",
 				"Aldrig",

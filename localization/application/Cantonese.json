@@ -1,6 +1,7 @@
 {
 	"粵語 (繁體)": {
 		"alert_about": "提示工具包係用於通過語音、聽寫、餐牌、對話框同驗證構建交互式提示的快捷方式庫。\n\n提示工具包提示可以喺語言之間進行轉換、存儲數據和呼叫快捷方式。",
+		"alert_localization_notice": "這是一個自動生成的本地化文件。\n\n通過訪問改進它：",
 		"alert_shortcuts_retrieval": "檢索已安裝的提示工具包故事快捷方式的列表。 可能需要一些時間。",
 		"alert_update_none": "您當前運行最新版本的提示工具包緊。",
 		"alert_update_none_title": "沒有可用的更新",

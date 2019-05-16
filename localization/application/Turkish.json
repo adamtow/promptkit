@@ -1,6 +1,7 @@
 {
 	"Türkçe": {
 		"alert_about": "PromptKit konuşma, dikte, menüler, diyaloglar ve doğrulama ile etkileşimli istekleri oluşturmak için bir kısayol kitaplığıdır.\n\nPromptKit istemleri diller arasında çevirmek, veri depolamak ve kısayolları çağırın.",
+		"alert_localization_notice": "Bu otomatik olarak oluşturulan bir yerelleştirme dosyasıdır.\n\nZiyaret ederek geliştirin:",
 		"alert_shortcuts_retrieval": "Yüklü PromptKit öykü kısayollarının bir listesini alma. Bu bir kaç dakika sürebilir.",
 		"alert_update_none": "Şu anda PromptKit 'in en son sürümünü çalıştırıyorsunuz.",
 		"alert_update_none_title": "Kullanılabilir güncelleştirme yok",

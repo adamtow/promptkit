@@ -1,6 +1,7 @@
 {
 	"Français": {
 		"alert_about": "PromptKit est une bibliothèque de raccourcis pour créer des invites interactives avec la parole, la dictée, les menus, les dialogues et la validation.\n\nLes invites PromptKit peuvent traduire entre les langues, stocker des données et appeler des raccourcis.",
+		"alert_localization_notice": "C'est un fichier de localisation généré automatiquement.\n\nAméliorez-le en visitant:",
 		"alert_shortcuts_retrieval": "Récupération d’une liste des raccourcis PromptKit Story installés. Cela peut prendre quelques instants.",
 		"alert_update_none": "Vous exécutez actuellement la dernière version de PromptKit.",
 		"alert_update_none_title": "Aucune mise à jour disponible",

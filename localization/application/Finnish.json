@@ -1,6 +1,7 @@
 {
 	"Suomi": {
 		"alert_about": "PromptKit on pikakirjasto, jonka avulla luodaan vuorovaikutteisia kehotteita, joissa on puhetta, sanelua, valikoita, dialogeja ja vahvistusta.\n\nPromptKit-kehotteet voivat kääntää kielten välillä, tallentaa tietoja ja soittaa pikanäppäimiä.",
+		"alert_localization_notice": "Tämä on automaattisesti luotu lokalisointitiedosto.\n\nParanna sitä vierailemalla:",
 		"alert_shortcuts_retrieval": "Haetaan asennettujen PromptKit-jutun pikakuvakkeiden luetteloa. Tämä voi kestää hetken.",
 		"alert_update_none": "Käytössäsi on tällä hetkellä uusin PromptKit-versio.",
 		"alert_update_none_title": "Päivitystä ei ole saatavilla",

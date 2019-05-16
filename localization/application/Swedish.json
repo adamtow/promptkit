@@ -1,6 +1,7 @@
 {
 	"Svenska": {
 		"alert_about": "PromptKit är ett gen vägs bibliotek för att skapa interaktiva prompter med tal, diktering, menyer, dialoger och validering.\n\nPromptKit-prompter kan översätta mellan språk, lagra data och anropa genvägar.",
+		"alert_localization_notice": "Det här är en automatiskt genererad lokaliseringsfil.\n\nFörbättra det genom att besöka:",
 		"alert_shortcuts_retrieval": "Hämtar en lista över installerade PromptKit Story-genvägar. Det kan ta en stund.",
 		"alert_update_none": "Du kör för närvarande den senaste versionen av PromptKit.",
 		"alert_update_none_title": "Ingen uppdatering tillgänglig",

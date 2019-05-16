@@ -1,6 +1,7 @@
 {
 	"العربية": {
 		"alert_about": "برومبتكيت هي مكتبه اختصار لبناء المطالبات التفاعلية مع الكلام والإملاء والقوائم ومربعات الحوار والتحقق من الصحة.\n\nيمكن لمطالبات برومبتكيت الترجمة بين اللغات وتخزين البيانات واختصارات المكالمات.",
+		"alert_localization_notice": "هذا ملف تعريب تم إنشاؤه تلقائيًا.\n\nتحسينه من خلال زيارة:",
 		"alert_shortcuts_retrieval": "يتم الآن استرداد قائمه باختصارات برومبتكيت Story المثبتة. قد يستغرق هذا بضع لحظات.",
 		"alert_update_none": "تقوم حاليا بتشغيل أحدث إصدار من برومبتكيت.",
 		"alert_update_none_title": "لا يوجد تحديث متوفر",
@@ -124,6 +125,7 @@
 	},
 	"粵語 (繁體)": {
 		"alert_about": "提示工具包係用於通過語音、聽寫、餐牌、對話框同驗證構建交互式提示的快捷方式庫。\n\n提示工具包提示可以喺語言之間進行轉換、存儲數據和呼叫快捷方式。",
+		"alert_localization_notice": "這是一個自動生成的本地化文件。\n\n通過訪問改進它：",
 		"alert_shortcuts_retrieval": "檢索已安裝的提示工具包故事快捷方式的列表。 可能需要一些時間。",
 		"alert_update_none": "您當前運行最新版本的提示工具包緊。",
 		"alert_update_none_title": "沒有可用的更新",
@@ -247,6 +249,7 @@
 	},
 	"简体中文": {
 		"alert_about": "提示工具包是用于通过语音、听写、菜单、对话框和验证构建交互式提示的快捷方式库。\n\n提示工具包提示可以在语言之间进行转换、存储数据和呼叫快捷方式。",
+		"alert_localization_notice": "这是一个自动生成的本地化文件。\n\n通过访问改进它：",
 		"alert_shortcuts_retrieval": "检索已安装的提示工具包故事快捷方式的列表。这可能需要一些时间。",
 		"alert_update_none": "您当前正在运行最新版本的提示工具包。",
 		"alert_update_none_title": "没有可用的更新",
@@ -493,6 +496,7 @@
 	},
 	"Čeština": {
 		"alert_about": "PromptKit je knihovna zástupců pro vytváření interaktivních výzev s mluvenou řečí, diktování, nabídkami, dialogy a ověřováním.\n\nDotaz PromptKit může překládat mezi jazyky, ukládat data a volat zástupce.",
+		"alert_localization_notice": "Jedná se o automaticky generovaný lokalizační soubor.\n\nVylepšete ji návštěvou:",
 		"alert_shortcuts_retrieval": "Načítání seznamu nainstalovaných zástupců PromptKit Story To může chvíli trvat.",
 		"alert_update_none": "Nyní je spuštěna nejnovější verze programu PromptKit.",
 		"alert_update_none_title": "Aktualizace není k dispozici",
@@ -616,6 +620,7 @@
 	},
 	"Dansk": {
 		"alert_about": "PromptKit er et genvejs bibliotek til at opbygge interaktive prompter med tale, diktering, menuer, dialoger og validering.\n\nPromptKit-meddelelser kan oversætte mellem sprog, gemme data og kalde genveje.",
+		"alert_localization_notice": "Dette er en automatisk genereret lokaliseringsfil.\n\nForbedre det ved at besøge:",
 		"alert_shortcuts_retrieval": "Henter en liste over installerede genveje til PromptKit-historien. Dette kan tage et øjeblik.",
 		"alert_update_none": "Du kører i øjeblikket den nyeste version af PromptKit.",
 		"alert_update_none_title": "Ingen opdatering tilgængelig",
@@ -739,6 +744,7 @@
 	},
 	"Nederlands": {
 		"alert_about": "PromptKit is een snelkoppelings bibliotheek voor het bouwen van interactieve prompts met spraak, dictee, menu's, dialogen en validatie.\n\nPromptKit prompts kunnen vertalen tussen talen, opslaan van gegevens, en bel snelkoppelingen.",
+		"alert_localization_notice": "Dit is een automatisch gegenereerd lokaliseringsbestand.\n\nVerbeter het door een bezoek te brengen aan:",
 		"alert_shortcuts_retrieval": "Het ophalen van een lijst van geïnstalleerde PromptKit verhaal snelkoppelingen. Dit kan even duren.",
 		"alert_update_none": "U gebruikt momenteel de recentste versie van PromptKit.",
 		"alert_update_none_title": "Geen update beschikbaar",
@@ -862,6 +868,7 @@
 	},
 	"English": {
 		"alert_about": "PromptKit is a shortcut library for building interactive prompts with speech, dictation, menus, dialogs, and validation.\n\nPromptKit prompts can translate between languages, store data, and call shortcuts.",
+		"alert_localization_notice": "",
 		"alert_shortcuts_retrieval": "Retrieving a list of installed PromptKit Story shortcuts. This may take a few moments.",
 		"alert_update_none": "You are currently running the latest version of PromptKit.",
 		"alert_update_none_title": "No Update Available",
@@ -985,6 +992,7 @@
 	},
 	"Suomi": {
 		"alert_about": "PromptKit on pikakirjasto, jonka avulla luodaan vuorovaikutteisia kehotteita, joissa on puhetta, sanelua, valikoita, dialogeja ja vahvistusta.\n\nPromptKit-kehotteet voivat kääntää kielten välillä, tallentaa tietoja ja soittaa pikanäppäimiä.",
+		"alert_localization_notice": "Tämä on automaattisesti luotu lokalisointitiedosto.\n\nParanna sitä vierailemalla:",
 		"alert_shortcuts_retrieval": "Haetaan asennettujen PromptKit-jutun pikakuvakkeiden luetteloa. Tämä voi kestää hetken.",
 		"alert_update_none": "Käytössäsi on tällä hetkellä uusin PromptKit-versio.",
 		"alert_update_none_title": "Päivitystä ei ole saatavilla",
@@ -1108,6 +1116,7 @@
 	},
 	"Français": {
 		"alert_about": "PromptKit est une bibliothèque de raccourcis pour créer des invites interactives avec la parole, la dictée, les menus, les dialogues et la validation.\n\nLes invites PromptKit peuvent traduire entre les langues, stocker des données et appeler des raccourcis.",
+		"alert_localization_notice": "C'est un fichier de localisation généré automatiquement.\n\nAméliorez-le en visitant:",
 		"alert_shortcuts_retrieval": "Récupération d’une liste des raccourcis PromptKit Story installés. Cela peut prendre quelques instants.",
 		"alert_update_none": "Vous exécutez actuellement la dernière version de PromptKit.",
 		"alert_update_none_title": "Aucune mise à jour disponible",
@@ -1231,6 +1240,7 @@
 	},
 	"Deutsch": {
 		"alert_about": "PromptKit ist eine Shortcut-Bibliothek für den Aufbau interaktiver Eingaben mit Sprache, Diktat, Menüs, Dialogen und Validierung.\n\nPromptKit-Eingaben können zwischen Sprachen übersetzen, Daten speichern und Shortcuts abrufen.",
+		"alert_localization_notice": "Dies ist eine automatisch generierte Lokalisierungsdatei.\n\nVerbessere es, indem du besuchst:",
 		"alert_shortcuts_retrieval": "Das Abrufen einer Liste der installierten PromptKit Story-Shortcuts. Das kann einige Augenblicke dauern.",
 		"alert_update_none": "Sie laufen derzeit die neueste Version von PromptKit.",
 		"alert_update_none_title": "Kein Update verfügbar",
@@ -1354,6 +1364,7 @@
 	},
 	"Ελληνικά": {
 		"alert_about": "Οι Παροτρύσεις είναι μια βιβλιοθήκη συντόμευσης για τη δημιουργία αλληλεπιδραστικών μηνυμάτων με ομιλία, υπαγόρευση, μενού, διαλόγους και επικύρωση.\n\nΟι παροτρύσεις προτροπής μπορούν να μεταφράσουν μεταξύ γλωσσών, αποθήκευσης δεδομένων και συντομεύσεων κλήσης.",
+		"alert_localization_notice": "Αυτό είναι ένα αρχείο εντοπισμού που δημιουργείται αυτόματα.\n\nΒελτιώστε το με την επίσκεψη:",
 		"alert_shortcuts_retrieval": "Ανάκτηση μιας λίστας εγκατεστημένων Παροτρύσεις για την ιστορία. Αυτό μπορεί να πάρει μερικά λεπτά.",
 		"alert_update_none": "Αυτή τη στιγμή εκτελείτε την τελευταία έκδοση των Παροτρύρων.",
 		"alert_update_none_title": "Δεν υπάρχει διαθέσιμη ενημέρωση",
@@ -1477,6 +1488,7 @@
 	},
 	"עברית": {
 		"alert_about": "PromptKit היא ספריית קיצורי דרך לבניית הנחיות אינטראקטיביות עם דיבור, הכתבה, תפריטים, תיבות דו-שיח ואימות.\n\nבקשות PromptKit יכולות לתרגם בין שפות, נתוני אחסון וקיצורי דרך לשיחה.",
+		"alert_localization_notice": "זהו קובץ לוקליזציה שנוצר באופן אוטומטי.\n\nשפר זאת על ידי ביקור בכתובת:",
 		"alert_shortcuts_retrieval": "מאחזר רשימה של קיצורי דרך המותקנים PromptKit הכתבה. . זה עשוי להימשך מספר דקות",
 		"alert_update_none": "אתה מפעיל כעת את הגירסה העדכנית ביותר של PromptKit.",
 		"alert_update_none_title": "אין עדכון זמין",
@@ -1600,6 +1612,7 @@
 	},
 	"हिंदी": {
 		"alert_about": "PromptKit वाक्, श्रुतलेख, मेनू, संवाद, और मांयता के साथ सहभागी संकेतों को बनाने के लिए एक शॉर्टकट लायब्रेरी है ।\n\nPromptKit संकेतों भाषाओं, संग्रह डेटा, और कॉल शॉर्टकट के बीच अनुवाद कर सकते हैं ।",
+		"alert_localization_notice": "यह स्वचालित रूप से बनाई गई स्थानीयकरण फ़ाइल है।\n\nपर जाकर इसे सुधारें:",
 		"alert_shortcuts_retrieval": "स्थापित PromptKit कहानी शॉर्टकट की एक सूची पुनर्प्राप्त कर रहा है । इसमें कुछ पल लग सकते हैं ।",
 		"alert_update_none": "आप वर्तमान में PromptKit का नवीनतम संस्करण चला रहे हैं ।",
 		"alert_update_none_title": "कोई अद्यतन उपलब्ध नहीं है",
@@ -1723,6 +1736,7 @@
 	},
 	"Magyar": {
 		"alert_about": "PromptKit van egy omlós torta könyvtár részére épület egymásra kölcsönösen ható gyors-val beszéd, diktálás, étlap, párbeszéd, és érvényesítés.\n\nA PromptKit Parancspromptok lefordítására a nyelvek között, adatokat tárolhat és híváshivatkozásokat is használhat.",
+		"alert_localization_notice": "Ez egy automatikusan létrehozott lokalizációs fájl.\n\nJavítsa meg a következőt:",
 		"alert_shortcuts_retrieval": "A telepített PromptKit szövegegység-parancsikonok listájának beolvasása. Ez eltarthat néhány pillanatig.",
 		"alert_update_none": "Jelenleg a PromptKit legújabb verzióját futtatja.",
 		"alert_update_none_title": "Nincs elérhető frissítés",
@@ -1846,6 +1860,7 @@
 	},
 	"Indonesia": {
 		"alert_about": "PromptKit adalah pustaka pintasan untuk membangun perintah interaktif dengan pidato, dikte, Menu, dialog, dan validasi.\n\nPromptKit prompt dapat menerjemahkan antara bahasa, menyimpan data, dan panggilan pintas.",
+		"alert_localization_notice": "Ini adalah file lokalisasi yang dibuat secara otomatis.\n\nTingkatkan dengan mengunjungi:",
 		"alert_shortcuts_retrieval": "Mengambil daftar pintasan cerita PromptKit yang terpasang. Ini mungkin memakan waktu beberapa saat.",
 		"alert_update_none": "Anda sedang menjalankan versi terbaru dari PromptKit.",
 		"alert_update_none_title": "Tidak ada update tersedia",
@@ -1969,6 +1984,7 @@
 	},
 	"Italiano": {
 		"alert_about": "PromptKit è una libreria di scelta rapida per la creazione di prompt interattivi con voce, dettatura, menu, finestre di dialogo e convalida.\n\nPrompt PromptKit possono tradurre tra le lingue, archiviare i dati e le scorciatoie di chiamata.",
+		"alert_localization_notice": "Questo è un file di localizzazione generato automaticamente.\n\nMiglioralo visitando:",
 		"alert_shortcuts_retrieval": "Recupero di un elenco di scorciatoie di PromptKit Story installate. Questo potrebbe richiedere alcuni istanti.",
 		"alert_update_none": "Si sta attualmente eseguendo l'ultima versione di PromptKit.",
 		"alert_update_none_title": "Nessun aggiornamento disponibile",
@@ -2092,6 +2108,7 @@
 	},
 	"日本語": {
 		"alert_about": "PromptKit は、音声、ディクテーション、メニュー、ダイアログ、および検証を使用してインタラクティブなプロンプトを作成するためのショートカットライブラリです。\n\nPromptKit プロンプトでは、言語間の変換、データの保存、ショートカットの呼び出しが可能です。",
+		"alert_localization_notice": "これは自動生成されたローカライゼーションファイルです。\n\n訪問してそれを改善する：",
 		"alert_shortcuts_retrieval": "インストールされた PromptKit ストーリーショートカットの一覧を取得しています。しばらく時間がかかる場合があります。",
 		"alert_update_none": "現在、PromptKit の最新バージョンを実行しています。",
 		"alert_update_none_title": "更新がありません",
@@ -2215,6 +2232,7 @@
 	},
 	"한국어": {
 		"alert_about": "프롬 프 킷 음성, 받아쓰기, 메뉴, 대화 상자 및 유효성 검사와 대화 형 프롬프트를 작성 하기 위한 바로 가기 라이브러리입니다.\n\n프롬 프 킷 프롬프트는 언어, 저장 데이터 및 호출 바로 가기를 사이에 번역 할 수 있습니다.",
+		"alert_localization_notice": "이것은 자동으로 생성 된 현지화 파일입니다.\n\n방문하여 개선하십시오.",
 		"alert_shortcuts_retrieval": "목록 검색 설치 된 프롬프트 키트 스토리 바로 가기. 이 몇 분 정도 걸릴 수 있습니다.",
 		"alert_update_none": "현재 최신 버전의 프롬 프 킷이 실행 중입니다.",
 		"alert_update_none_title": "사용 가능한 업데이트 없음",
@@ -2338,6 +2356,7 @@
 	},
 	"Norsk": {
 		"alert_about": "PromptKit er en snarvei bibliotek for å bygge interaktive spørsmål med tale, diktat, menyer, dialoger og validering.\n\nPromptKit-meldinger kan oversette mellom språk, lagre data og ringe snarveier.",
+		"alert_localization_notice": "Dette er en automatisk generert lokaliseringsfil.\n\nForbedre det ved å besøke:",
 		"alert_shortcuts_retrieval": "Henter en liste over installerte PromptKit Story-snarveier. Dette kan ta litt tid.",
 		"alert_update_none": "Du kjører nå den nyeste versjonen av PromptKit.",
 		"alert_update_none_title": "Ingen oppdatering er tilgjengelig",
@@ -2461,6 +2480,7 @@
 	},
 	"Polski": {
 		"alert_about": "PromptKit jest biblioteką skrótów do tworzenia interaktywnych monitów z mowy, dyktowania, menu, okien dialogowych i sprawdzania poprawności.\n\nMonitów PromptKit można tłumaczyć między językami, przechowywać dane i skróty połączeń.",
+		"alert_localization_notice": "Jest to automatycznie generowany plik lokalizacji.\n\nPopraw to, odwiedzając:",
 		"alert_shortcuts_retrieval": "Pobieranie listy zainstalowanych skrótów PromptKit Story. Może to potrwać kilka chwil.",
 		"alert_update_none": "Aktualnie korzystasz z najnowszej wersji PromptKit.",
 		"alert_update_none_title": "Brak dostępnej aktualizacji",
@@ -2584,6 +2604,7 @@
 	},
 	"Português": {
 		"alert_about": "O PromptKit é uma biblioteca de atalhos para criar prompts interativos com fala, ditado, menus, diálogos e validação.\n\nOs prompts do PromptKit podem traduzir entre idiomas, armazenar dados e chamar atalhos.",
+		"alert_localization_notice": "Este é um arquivo de localização gerado automaticamente.\n\nMelhorá-lo visitando:",
 		"alert_shortcuts_retrieval": "Recuperando uma lista de atalhos de história do PromptKit instalados. Isto pode demorar alguns instantes.",
 		"alert_update_none": "Você está atualmente executando a versão mais recente do PromptKit.",
 		"alert_update_none_title": "Sem atualização disponível",
@@ -2707,6 +2728,7 @@
 	},
 	"Română": {
 		"alert_about": "PromptKit este o bibliotecă de comenzi rapide pentru construirea de solicitări interactive cu vorbire, dictare, meniuri, dialoguri și validare.\n\nSolicitările PromptKit pot traduce între limbi, stoca date și comenzi rapide de apel.",
+		"alert_localization_notice": "Acesta este un fișier de localizare generat automat.\n\nÎmbunătățiți-l vizitând:",
 		"alert_shortcuts_retrieval": "Regăsirea unei liste de comenzi rapide de poveste pentru PromptKit instalate. Acest lucru poate dura câteva momente.",
 		"alert_update_none": "Executați în prezent cea mai recentă versiune de PromptKit.",
 		"alert_update_none_title": "Nici o actualizare disponibilă",
@@ -2830,6 +2852,7 @@
 	},
 	"Русский": {
 		"alert_about": "Ууцкит-это контекстно-библиотека для создания интерактивных подсказок с речью, диктовки, меню, диалогами и проверкой подлинности.\n\nПодсказки для УСО-Кит могут переводить между языками, хранить данные и ярлыки вызова.",
+		"alert_localization_notice": "Это автоматически сгенерированный файл локализации.\n\nУлучшите это, посетив:",
 		"alert_shortcuts_retrieval": "Извлечение списка установленных коротких сочетаний истории. Это может занять несколько мгновений.",
 		"alert_update_none": "В настоящее время вы работаете с последней версией Уоперакит.",
 		"alert_update_none_title": "Нет обновления доступно",
@@ -2953,6 +2976,7 @@
 	},
 	"Slovenčina": {
 		"alert_about": "PromptKit je skratka knižnica na vytváranie interaktívnych výziev s rečou, diktáciou, ponukami, dialógoch a overovaním.\n\nPromptKit vyzve môžete preložiť medzi jazykmi, ukladať dáta a volať skratky.",
+		"alert_localization_notice": "Toto je automaticky generovaný lokalizačný súbor.\n\nVylepšite ho návštevou:",
 		"alert_shortcuts_retrieval": "Načítava sa zoznam nainštalovaných skratiek programu PromptKit Story. To môže trvať niekoľko okamihov.",
 		"alert_update_none": "Momentálne používate najnovšiu verziu programu PromptKit.",
 		"alert_update_none_title": "Nie je k dispozícii žiadna aktualizácia",
@@ -3076,6 +3100,7 @@
 	},
 	"Español": {
 		"alert_about": "PromptKit es una biblioteca de accesos directos para crear mensajes interactivos con voz, dictado, menús, diálogos y validación.\n\nLos mensajes de PromptKit pueden traducir entre idiomas, almacenar datos y llamar a accesos directos.",
+		"alert_localization_notice": "Este es un archivo de localización generado automáticamente.\n\nMejóralo visitando:",
 		"alert_shortcuts_retrieval": "Recuperar una lista de accesos directos de la historia de PromptKit instalados. Esto puede tardar unos instantes.",
 		"alert_update_none": "Actualmente está ejecutando la última versión de PromptKit.",
 		"alert_update_none_title": "No hay actualización disponible",
@@ -3199,6 +3224,7 @@
 	},
 	"Svenska": {
 		"alert_about": "PromptKit är ett gen vägs bibliotek för att skapa interaktiva prompter med tal, diktering, menyer, dialoger och validering.\n\nPromptKit-prompter kan översätta mellan språk, lagra data och anropa genvägar.",
+		"alert_localization_notice": "Det här är en automatiskt genererad lokaliseringsfil.\n\nFörbättra det genom att besöka:",
 		"alert_shortcuts_retrieval": "Hämtar en lista över installerade PromptKit Story-genvägar. Det kan ta en stund.",
 		"alert_update_none": "Du kör för närvarande den senaste versionen av PromptKit.",
 		"alert_update_none_title": "Ingen uppdatering tillgänglig",
@@ -3322,6 +3348,7 @@
 	},
 	"ไทย": {
 		"alert_about": "PromptKit เป็นไลบรารีทางลัดสำหรับการสร้างพร้อมท์แบบโต้ตอบด้วยคำพูดการเขียนตามรายการเมนูกล่องโต้ตอบและการตรวจสอบความถูกต้อง\n\nพร้อมต์ PromptKit สามารถแปลระหว่างภาษาเก็บข้อมูลและทางลัดการโทร",
+		"alert_localization_notice": "นี่คือไฟล์การแปลที่สร้างขึ้นโดยอัตโนมัติ\n\nปรับปรุงโดยไปที่:",
 		"alert_shortcuts_retrieval": "กำลังเรียกรายการของทางลัด PromptKit Story ที่ติดตั้งไว้ การดำเนินการนี้อาจใช้เวลาสักครู่",
 		"alert_update_none": "คุณกำลังเรียกใช้ PromptKit รุ่นล่าสุด",
 		"alert_update_none_title": "ไม่มีการปรับปรุงพร้อมใช้งาน",
@@ -3445,6 +3472,7 @@
 	},
 	"Türkçe": {
 		"alert_about": "PromptKit konuşma, dikte, menüler, diyaloglar ve doğrulama ile etkileşimli istekleri oluşturmak için bir kısayol kitaplığıdır.\n\nPromptKit istemleri diller arasında çevirmek, veri depolamak ve kısayolları çağırın.",
+		"alert_localization_notice": "Bu otomatik olarak oluşturulan bir yerelleştirme dosyasıdır.\n\nZiyaret ederek geliştirin:",
 		"alert_shortcuts_retrieval": "Yüklü PromptKit öykü kısayollarının bir listesini alma. Bu bir kaç dakika sürebilir.",
 		"alert_update_none": "Şu anda PromptKit 'in en son sürümünü çalıştırıyorsunuz.",
 		"alert_update_none_title": "Kullanılabilir güncelleştirme yok",

@@ -1,6 +1,7 @@
 {
 	"Português": {
 		"alert_about": "O PromptKit é uma biblioteca de atalhos para criar prompts interativos com fala, ditado, menus, diálogos e validação.\n\nOs prompts do PromptKit podem traduzir entre idiomas, armazenar dados e chamar atalhos.",
+		"alert_localization_notice": "Este é um arquivo de localização gerado automaticamente.\n\nMelhorá-lo visitando:",
 		"alert_shortcuts_retrieval": "Recuperando uma lista de atalhos de história do PromptKit instalados. Isto pode demorar alguns instantes.",
 		"alert_update_none": "Você está atualmente executando a versão mais recente do PromptKit.",
 		"alert_update_none_title": "Sem atualização disponível",
