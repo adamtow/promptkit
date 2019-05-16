@@ -1,5 +1,5 @@
 {
-    "Arabic": {
+    "العربية": {
         "alert_about": "برومبتكيت هي مكتبه اختصار لبناء المطالبات التفاعلية مع الكلام والإملاء والقوائم ومربعات الحوار والتحقق من الصحة.\n\nيمكن لمطالبات برومبتكيت الترجمة بين اللغات وتخزين البيانات واختصارات المكالمات.",
         "alert_localization_file": "تمت ترجمه ملف التعريب هذا بواسطة جهاز كمبيوتر. إذا كنت ترغب في المساعدة في تحسين الترجمة ، يرجى زيارة:",
         "alert_shortcuts_retrieval": "يتم الآن استرداد قائمه باختصارات برومبتكيت Story المثبتة. قد يستغرق هذا بضع لحظات.",
@@ -123,7 +123,7 @@
         "prompt_translationLanguage_custom": "يجب ان يتطابق اسم اللغة مع ما يتم عرضه في ترجمه النص مع اجراء Microsoft.\n\nاستخدام مخصص... لإدخال اسم لغة مخصصه إذا كان لديك مشاكل.",
         "prompt_unlock": "سوف تحتاج إلى إلغاء تامين هذا الجهاز من أجل تشغيل هذه المطالبة برومبتكيت."
     },
-    "Cantonese (Traditional)": {
+    "粵語 (繁體)": {
         "alert_about": "提示工具包係用於通過語音、聽寫、餐牌、對話框同驗證構建交互式提示的快捷方式庫。\n\n提示工具包提示可以喺語言之間進行轉換、存儲數據和呼叫快捷方式。",
         "alert_localization_file": "此本地化文件已由電腦翻譯。 如果你想幫助改進翻譯, 請訪問:",
         "alert_shortcuts_retrieval": "檢索已安裝的提示工具包故事快捷方式的列表。 可能需要一些時間。",
@@ -247,7 +247,7 @@
         "prompt_translationLanguage_custom": "語言的名稱必須與 microsoft 操作在 \"翻譯文本\" 中顯示的內容相匹配。\n\n使用自定義 如果有問題, 請輸入自定義語言名稱。",
         "prompt_unlock": "你需要解锁此設備才能運行此提示工具包提示。"
     },
-    "Chinese Simplified": {
+    "简体中文": {
         "alert_about": "提示工具包是用于通过语音、听写、菜单、对话框和验证构建交互式提示的快捷方式库。\n\n提示工具包提示可以在语言之间进行转换、存储数据和呼叫快捷方式。",
         "alert_localization_file": "此本地化文件已由计算机翻译。如果您想帮助改进翻译, 请访问:",
         "alert_shortcuts_retrieval": "检索已安装的提示工具包故事快捷方式的列表。这可能需要一些时间。",
@@ -371,7 +371,7 @@
         "prompt_translationLanguage_custom": "语言的名称必须与 Microsoft 操作在 \"翻译文本\" 中显示的内容相匹配。\n\n使用自定义如果有问题, 请输入自定义语言名称。",
         "prompt_unlock": "您需要解锁此设备才能运行此提示工具包提示。"
     },
-    "Chinese Traditional": {
+    "繁體中文": {
         "alert_about": "提示工具組是用於通過語音、聽寫、功能表、對話方塊和驗證構建互動式提示的快捷方式庫。\n\n提示工具組提示可以在語言之間進行轉換、存儲資料和呼叫快捷方式。",
         "alert_localization_file": "此當地語系化檔已由電腦翻譯。如果您想説明改進翻譯, 請訪問:",
         "alert_shortcuts_retrieval": "檢索已安裝的提示工具組故事快捷方式的清單。這可能需要一些時間。",
@@ -495,7 +495,7 @@
         "prompt_translationLanguage_custom": "語言的名稱必須與 Microsoft 操作在 \"翻譯文本\" 中顯示的內容相匹配。\n\n使用自訂如果有問題, 請輸入自訂語言名稱。",
         "prompt_unlock": "您需要解鎖此設備才能運行此提示工具組提示。"
     },
-    "Czech": {
+    "Čeština": {
         "alert_about": "PromptKit je knihovna zástupců pro vytváření interaktivních výzev s mluvenou řečí, diktování, nabídkami, dialogy a ověřováním.\n\nDotaz PromptKit může překládat mezi jazyky, ukládat data a volat zástupce.",
         "alert_localization_file": "Tento soubor lokalizace byl přeložen počítačem. Chcete-li přispět ke zlepšení překladu, navštivte prosím následující:",
         "alert_shortcuts_retrieval": "Načítání seznamu nainstalovaných zástupců PromptKit Story To může chvíli trvat.",
@@ -619,7 +619,7 @@
         "prompt_translationLanguage_custom": "Název jazyka se musí shodovat s názvem zobrazeným v akci přeložit text s akcí společnosti Microsoft.\n\nPoužít vlastní... Pokud máte potíže, zadejte vlastní název jazyka.",
         "prompt_unlock": "Chcete-li spustit tento příkazový řádek PromptKit, bude nutné toto zařízení odemknout."
     },
-    "Danish": {
+    "Dansk": {
         "alert_about": "PromptKit er et genvejs bibliotek til at opbygge interaktive prompter med tale, diktering, menuer, dialoger og validering.\n\nPromptKit-meddelelser kan oversætte mellem sprog, gemme data og kalde genveje.",
         "alert_localization_file": "Denne lokaliserings fil blev oversat af en computer. Hvis du ønsker at hjælpe med at forbedre oversættelsen, kan du besøge:",
         "alert_shortcuts_retrieval": "Henter en liste over installerede genveje til PromptKit-historien. Dette kan tage et øjeblik.",
@@ -743,7 +743,7 @@
         "prompt_translationLanguage_custom": "Navnet på sproget skal svare til det, der vises i handlingen Oversæt tekst med Microsoft.\n\nBrug brugerdefineret... for at angive et brugerdefineret sprog navn, hvis du har problemer.",
         "prompt_unlock": "Du bliver nødt til at låse denne enhed for at køre denne PromptKit prompt."
     },
-    "Dutch": {
+    "Nederlands": {
         "alert_about": "PromptKit is een snelkoppelings bibliotheek voor het bouwen van interactieve prompts met spraak, dictee, menu's, dialogen en validatie.\n\nPromptKit prompts kunnen vertalen tussen talen, opslaan van gegevens, en bel snelkoppelingen.",
         "alert_localization_file": "Dit lokalisatie bestand is vertaald door een computer. Als u wilt helpen bij het verbeteren van de vertaling, ga dan naar:",
         "alert_shortcuts_retrieval": "Het ophalen van een lijst van geïnstalleerde PromptKit verhaal snelkoppelingen. Dit kan even duren.",
@@ -991,7 +991,7 @@
         "prompt_translationLanguage_custom": "The name of the language must match what is displayed in the Translate Text with Microsoft action.\n\nUse Custom… to enter a custom language name if you have problems.",
         "prompt_unlock": "You will need to unlock this device in order to run this PromptKit prompt."
     },
-    "Finnish": {
+    "Suomi": {
         "alert_about": "PromptKit on pikakirjasto, jonka avulla luodaan vuorovaikutteisia kehotteita, joissa on puhetta, sanelua, valikoita, dialogeja ja vahvistusta.\n\nPromptKit-kehotteet voivat kääntää kielten välillä, tallentaa tietoja ja soittaa pikanäppäimiä.",
         "alert_localization_file": "Tämä lokalisointi tiedosto on käännetty tieto koneella. Jos haluat auttaa parantamaan käännös, osoitteessa:",
         "alert_shortcuts_retrieval": "Haetaan asennettujen PromptKit-jutun pikakuvakkeiden luetteloa. Tämä voi kestää hetken.",
@@ -1115,7 +1115,7 @@
         "prompt_translationLanguage_custom": "Kielen nimen on vastattava sitä, mitä tekstin kääntäminen Microsoft-toiminnolla näkyy.\n\nKäytä mukautettua... Voit kirjoittaa mukautetun kielen nimen, jos sinulla on ongelmia.",
         "prompt_unlock": "Sinun on avattava tämä laite, jotta voit suorittaa tämän PromptKit-kehotteen."
     },
-    "French": {
+    "Français": {
         "alert_about": "PromptKit est une bibliothèque de raccourcis pour créer des invites interactives avec la parole, la dictée, les menus, les dialogues et la validation.\n\nLes invites PromptKit peuvent traduire entre les langues, stocker des données et appeler des raccourcis.",
         "alert_localization_file": "Ce fichier de localisation a été traduit par un ordinateur. Si vous voulez aider à améliorer la traduction, s’il vous plaît visitez:",
         "alert_shortcuts_retrieval": "Récupération d’une liste des raccourcis PromptKit Story installés. Cela peut prendre quelques instants.",
@@ -1239,7 +1239,7 @@
         "prompt_translationLanguage_custom": "Le nom de la langue doit correspondre à ce qui est affiché dans l’action traduire le texte avec Microsoft.\n\nUtiliser personnalisé... pour entrer un nom de langue personnalisé si vous avez des problèmes.",
         "prompt_unlock": "Vous aurez besoin de déverrouiller cet appareil afin d’exécuter cette invite PromptKit."
     },
-    "German": {
+    "Deutsch": {
         "alert_about": "PromptKit ist eine Shortcut-Bibliothek für den Aufbau interaktiver Eingaben mit Sprache, Diktat, Menüs, Dialogen und Validierung.\n\nPromptKit-Eingaben können zwischen Sprachen übersetzen, Daten speichern und Shortcuts abrufen.",
         "alert_localization_file": "Diese Lokalisierungsdatei wurde von einem Computer übersetzt. Wenn Sie zur Verbesserung der Übersetzung beitragen möchten, besuchen Sie bitte:",
         "alert_shortcuts_retrieval": "Das Abrufen einer Liste der installierten PromptKit Story-Shortcuts. Das kann einige Augenblicke dauern.",
@@ -1363,7 +1363,7 @@
         "prompt_translationLanguage_custom": "Der Name der Sprache muss mit dem übereinstimmen, was im Translate Text mit Microsoft-Aktion angezeigt wird.\n\nVerwenden Sie Custom ... Wenn Sie Probleme haben, geben Sie einen eigenen Sprachnamen ein.",
         "prompt_unlock": "Sie müssen dieses Gerät entsperren, um dieses PromptKit-Prompt laufen zu lassen."
     },
-    "Greek": {
+    "Ελληνικά": {
         "alert_about": "Οι Παροτρύσεις είναι μια βιβλιοθήκη συντόμευσης για τη δημιουργία αλληλεπιδραστικών μηνυμάτων με ομιλία, υπαγόρευση, μενού, διαλόγους και επικύρωση.\n\nΟι παροτρύσεις προτροπής μπορούν να μεταφράσουν μεταξύ γλωσσών, αποθήκευσης δεδομένων και συντομεύσεων κλήσης.",
         "alert_localization_file": "Αυτό το αρχείο μετάφρασης μεταφράστηκαν από έναν υπολογιστή. Αν θέλετε να βοηθήσετε στη βελτίωση της μετάφρασης, παρακαλούμε επισκεφτείτε:",
         "alert_shortcuts_retrieval": "Ανάκτηση μιας λίστας εγκατεστημένων Παροτρύσεις για την ιστορία. Αυτό μπορεί να πάρει μερικά λεπτά.",
@@ -1487,7 +1487,7 @@
         "prompt_translationLanguage_custom": "Το όνομα της γλώσσας πρέπει να ταιριάζει με αυτό που εμφανίζεται στο κείμενο μετάφραση με ενέργεια της Microsoft.\n\nΧρήση προσαρμοσμένου... για να εισαγάγετε ένα προσαρμοσμένο όνομα γλώσσας, εάν έχετε προβλήματα.",
         "prompt_unlock": "Θα πρέπει να ξεκλειδώσετε αυτή τη συσκευή για να εκτελέσετε αυτήν την προτροπή παροτρύ-Kit."
     },
-    "Hebrew": {
+    "עברית": {
         "alert_about": "PromptKit היא ספריית קיצורי דרך לבניית הנחיות אינטראקטיביות עם דיבור, הכתבה, תפריטים, תיבות דו-שיח ואימות.\n\nבקשות PromptKit יכולות לתרגם בין שפות, נתוני אחסון וקיצורי דרך לשיחה.",
         "alert_localization_file": "קובץ הלוקליזציה הזה תורגם על-ידי מחשב. אם ברצונך לסייע בשיפור התרגום, בקר בבקשה:",
         "alert_shortcuts_retrieval": "מאחזר רשימה של קיצורי דרך המותקנים PromptKit הכתבה. . זה עשוי להימשך מספר דקות",
@@ -1611,7 +1611,7 @@
         "prompt_translationLanguage_custom": "שם השפה חייב להתאים למה שמוצג בפעולה תרגום טקסט עם Microsoft.\n\nהשתמש במותאם אישית... כדי להזין שם שפה מותאם אישית אם נתקלת בבעיות.",
         "prompt_unlock": "יהיה עליך לבטל את נעילת התקן זה כדי להפעיל את הפקודה PromptKit."
     },
-    "Hindi": {
+    "हिंदी": {
         "alert_about": "PromptKit वाक्, श्रुतलेख, मेनू, संवाद, और मांयता के साथ सहभागी संकेतों को बनाने के लिए एक शॉर्टकट लायब्रेरी है ।\n\nPromptKit संकेतों भाषाओं, संग्रह डेटा, और कॉल शॉर्टकट के बीच अनुवाद कर सकते हैं ।",
         "alert_localization_file": "इस स्थानीयकरण फ़ाइल किसी कंप्यूटर द्वारा अनुवादित किया गया था । यदि आप अनुवाद में सुधार करने में मदद करना चाहते हैं, तो कृपया देखें:",
         "alert_shortcuts_retrieval": "स्थापित PromptKit कहानी शॉर्टकट की एक सूची पुनर्प्राप्त कर रहा है । इसमें कुछ पल लग सकते हैं ।",
@@ -1735,7 +1735,7 @@
         "prompt_translationLanguage_custom": "भाषा का नाम जो Microsoft क्रिया के साथ पाठ का अनुवाद करें में प्रदर्शित किया जाता है से मेल खाना चाहिए ।\n\nकस्टम का उपयोग करें.. । यदि आपको कोई समस्या है, तो कस्टम भाषा नाम दर्ज करने के लिए ।",
         "prompt_unlock": "आप इस PromptKit प्रॉम्प्ट को चलाने के लिए इस डिवाइस को अनवरोधित करने के लिए की आवश्यकता होगी ।"
     },
-    "Hungarian": {
+    "Magyar": {
         "alert_about": "PromptKit van egy omlós torta könyvtár részére épület egymásra kölcsönösen ható gyors-val beszéd, diktálás, étlap, párbeszéd, és érvényesítés.\n\nA PromptKit Parancspromptok lefordítására a nyelvek között, adatokat tárolhat és híváshivatkozásokat is használhat.",
         "alert_localization_file": "Ezt a honosítási fájlt egy számítógép lefordította. Ha szeretné, hogy segítsen javítani a fordítást, kérjük, látogasson el:",
         "alert_shortcuts_retrieval": "A telepített PromptKit szövegegység-parancsikonok listájának beolvasása. Ez eltarthat néhány pillanatig.",
@@ -1859,7 +1859,7 @@
         "prompt_translationLanguage_custom": "A nyelv nevének meg kell egyeznie a szöveg lefordítása a Microsoft műveletén megjelenő szöveggel.\n\nHasználja az egyéni... Ha problémája van, adja meg az egyéni nyelv nevét.",
         "prompt_unlock": "Ennek a PromptKit parancsnak a futtatásához fel kell oldania ezt az eszközt."
     },
-    "Indonesian": {
+    "Indonesia": {
         "alert_about": "PromptKit adalah pustaka pintasan untuk membangun perintah interaktif dengan pidato, dikte, Menu, dialog, dan validasi.\n\nPromptKit prompt dapat menerjemahkan antara bahasa, menyimpan data, dan panggilan pintas.",
         "alert_localization_file": "Berkas lokalisasi ini diterjemahkan oleh komputer. Jika Anda ingin membantu meningkatkan terjemahan, silakan kunjungi:",
         "alert_shortcuts_retrieval": "Mengambil daftar pintasan cerita PromptKit yang terpasang. Ini mungkin memakan waktu beberapa saat.",
@@ -1983,7 +1983,7 @@
         "prompt_translationLanguage_custom": "Nama bahasa harus cocok dengan yang ditampilkan dalam tindakan Terjemahkan teks dengan Microsoft.\n\nGunakan kustom... untuk memasukkan nama bahasa kustom jika Anda memiliki masalah.",
         "prompt_unlock": "Anda akan perlu untuk membuka perangkat ini dalam rangka untuk menjalankan PromptKit ini prompt."
     },
-    "Italian": {
+    "Italiano": {
         "alert_about": "PromptKit è una libreria di scelta rapida per la creazione di prompt interattivi con voce, dettatura, menu, finestre di dialogo e convalida.\n\nPrompt PromptKit possono tradurre tra le lingue, archiviare i dati e le scorciatoie di chiamata.",
         "alert_localization_file": "Questo file di localizzazione è stato tradotto da un computer. Se si desidera contribuire a migliorare la traduzione, si prega di visitare:",
         "alert_shortcuts_retrieval": "Recupero di un elenco di scorciatoie di PromptKit Story installate. Questo potrebbe richiedere alcuni istanti.",
@@ -2107,7 +2107,7 @@
         "prompt_translationLanguage_custom": "Il nome della lingua deve corrispondere a quello visualizzato nell'azione Traduci il testo con Microsoft.\n\nUtilizzare Custom... per immettere un nome di lingua personalizzato in caso di problemi.",
         "prompt_unlock": "Sarà necessario sbloccare questo dispositivo per eseguire questo prompt PromptKit."
     },
-    "Japanese": {
+    "日本語": {
         "alert_about": "PromptKit は、音声、ディクテーション、メニュー、ダイアログ、および検証を使用してインタラクティブなプロンプトを作成するためのショートカットライブラリです。\n\nPromptKit プロンプトでは、言語間の変換、データの保存、ショートカットの呼び出しが可能です。",
         "alert_localization_file": "このローカリゼーションファイルは、コンピュータによって翻訳されました。翻訳を改善したい場合は、次のサイトをご覧ください。",
         "alert_shortcuts_retrieval": "インストールされた PromptKit ストーリーショートカットの一覧を取得しています。しばらく時間がかかる場合があります。",
@@ -2231,7 +2231,7 @@
         "prompt_translationLanguage_custom": "言語の名前は、翻訳テキストに Microsoft アクションで表示されるものと一致する必要があります。\n\nカスタムを使用する...問題がある場合は、カスタム言語名を入力します。",
         "prompt_unlock": "この PromptKit プロンプトを実行するには、このデバイスのロックを解除する必要があります。"
     },
-    "Korean": {
+    "한국어": {
         "alert_about": "프롬 프 킷 음성, 받아쓰기, 메뉴, 대화 상자 및 유효성 검사와 대화 형 프롬프트를 작성 하기 위한 바로 가기 라이브러리입니다.\n\n프롬 프 킷 프롬프트는 언어, 저장 데이터 및 호출 바로 가기를 사이에 번역 할 수 있습니다.",
         "alert_localization_file": "이 현지화 파일은 컴퓨터에 의해 번역 되었습니다. 번역을 개선 하려면 다음을 방문 하십시오.",
         "alert_shortcuts_retrieval": "목록 검색 설치 된 프롬프트 키트 스토리 바로 가기. 이 몇 분 정도 걸릴 수 있습니다.",
@@ -2355,7 +2355,7 @@
         "prompt_translationLanguage_custom": "언어의 이름은 Microsoft 작업으로 번역 텍스트에 표시 되는 것과 일치 해야 합니다.\n\n사용자 지정 사용 ... 문제가 있는 경우 사용자 지정 언어 이름을 입력 합니다.",
         "prompt_unlock": "이 프롬 킷 프롬프트를 실행 하려면이 장치의 잠금을 해제 해야 합니다."
     },
-    "Norwegian": {
+    "Norsk": {
         "alert_about": "PromptKit er en snarvei bibliotek for å bygge interaktive spørsmål med tale, diktat, menyer, dialoger og validering.\n\nPromptKit-meldinger kan oversette mellom språk, lagre data og ringe snarveier.",
         "alert_localization_file": "Denne lokaliserings filen ble oversatt av en datamaskin. Hvis du vil bidra til å forbedre oversettelsen, kan du gå til:",
         "alert_shortcuts_retrieval": "Henter en liste over installerte PromptKit Story-snarveier. Dette kan ta litt tid.",
@@ -2479,7 +2479,7 @@
         "prompt_translationLanguage_custom": "Navnet på språket må samsvare med det som vises i handlingen Oversett tekst med Microsoft.\n\nBruk egendefinert... for å angi et egendefinert språk hvis du har problemer.",
         "prompt_unlock": "Du må låse opp denne enheten for å kunne kjøre denne PromptKit-ledeteksten."
     },
-    "Polish": {
+    "Polski": {
         "alert_about": "PromptKit jest biblioteką skrótów do tworzenia interaktywnych monitów z mowy, dyktowania, menu, okien dialogowych i sprawdzania poprawności.\n\nMonitów PromptKit można tłumaczyć między językami, przechowywać dane i skróty połączeń.",
         "alert_localization_file": "Ten plik lokalizacji został przetłumaczony przez komputer. Jeśli chcesz pomóc poprawić tłumaczenie, odwiedź stronę:",
         "alert_shortcuts_retrieval": "Pobieranie listy zainstalowanych skrótów PromptKit Story. Może to potrwać kilka chwil.",
@@ -2603,7 +2603,7 @@
         "prompt_translationLanguage_custom": "Nazwa języka musi odpowiadać, co jest wyświetlane w tłumaczeniu tekstu za pomocą akcji firmy Microsoft.\n\nUżyj Custom... , aby wprowadzić nazwę języka niestandardowego, jeśli występują problemy.",
         "prompt_unlock": "Trzeba będzie odblokować to urządzenie, aby uruchomić ten monit PromptKit."
     },
-    "Portuguese": {
+    "Português": {
         "alert_about": "O PromptKit é uma biblioteca de atalhos para criar prompts interativos com fala, ditado, menus, diálogos e validação.\n\nOs prompts do PromptKit podem traduzir entre idiomas, armazenar dados e chamar atalhos.",
         "alert_localization_file": "Este arquivo de localização foi traduzido por um computador. Se você quiser ajudar a melhorar a tradução, por favor, visite:",
         "alert_shortcuts_retrieval": "Recuperando uma lista de atalhos de história do PromptKit instalados. Isto pode demorar alguns instantes.",
@@ -2727,7 +2727,7 @@
         "prompt_translationLanguage_custom": "O nome do idioma deve corresponder ao que é exibido na ação traduzir texto com a Microsoft.\n\nUse custom... para inserir um nome de idioma personalizado se você tiver problemas.",
         "prompt_unlock": "Você precisará de destravar este dispositivo a fim executar este alerta de PromptKit."
     },
-    "Romanian": {
+    "Română": {
         "alert_about": "PromptKit este o bibliotecă de comenzi rapide pentru construirea de solicitări interactive cu vorbire, dictare, meniuri, dialoguri și validare.\n\nSolicitările PromptKit pot traduce între limbi, stoca date și comenzi rapide de apel.",
         "alert_localization_file": "Acest fișier de localizare a fost tradus de un computer. Dacă doriți să ajutați la îmbunătățirea traducerii, vă rugăm să vizitați:",
         "alert_shortcuts_retrieval": "Regăsirea unei liste de comenzi rapide de poveste pentru PromptKit instalate. Acest lucru poate dura câteva momente.",
@@ -2851,7 +2851,7 @@
         "prompt_translationLanguage_custom": "Numele limbii trebuie să corespundă cu ceea ce se afișează în acțiunea traducere text cu Microsoft.\n\nUtilizare particularizat... pentru a introduce un nume de limbă particularizat dacă aveți probleme.",
         "prompt_unlock": "Va trebui să deblocați acest dispozitiv pentru a executa acest prompt PromptKit."
     },
-    "Russian": {
+    "Pусский": {
         "alert_about": "Ууцкит-это контекстно-библиотека для создания интерактивных подсказок с речью, диктовки, меню, диалогами и проверкой подлинности.\n\nПодсказки для УСО-Кит могут переводить между языками, хранить данные и ярлыки вызова.",
         "alert_localization_file": "Этот файл локализации был переведен компьютером. Если вы хотите помочь улучшить перевод, пожалуйста, посетите:",
         "alert_shortcuts_retrieval": "Извлечение списка установленных коротких сочетаний истории. Это может занять несколько мгновений.",
@@ -2975,7 +2975,7 @@
         "prompt_translationLanguage_custom": "Название языка должно совпадать с тем, что отображается в тексте перевода с действием Microsoft.\n\nИспользование пользовательских... для ввода пользовательского названия языка, если у вас есть проблемы.",
         "prompt_unlock": "Вам нужно будет разблокировать это устройство для того, чтобы запустить этот запрос Уоператкит."
     },
-    "Slovak": {
+    "Slovenčina": {
         "alert_about": "PromptKit je skratka knižnica na vytváranie interaktívnych výziev s rečou, diktáciou, ponukami, dialógoch a overovaním.\n\nPromptKit vyzve môžete preložiť medzi jazykmi, ukladať dáta a volať skratky.",
         "alert_localization_file": "Tento lokalizačný súbor bol preložený počítačom. Ak chcete pomôcť zlepšiť preklad, navštívte prosím:",
         "alert_shortcuts_retrieval": "Načítava sa zoznam nainštalovaných skratiek programu PromptKit Story. To môže trvať niekoľko okamihov.",
@@ -3099,7 +3099,7 @@
         "prompt_translationLanguage_custom": "Názov jazyka sa musí zhodovať s tým, čo sa zobrazí v časti preklad textu s akciou spoločnosti Microsoft.\n\nPoužiť vlastné... Ak máte problémy, zadajte vlastný názov jazyka.",
         "prompt_unlock": "Ak chcete spustiť túto výzvu PromptKit, budete musieť odomknúť toto zariadenie."
     },
-    "Spanish": {
+    "Español": {
         "alert_about": "PromptKit es una biblioteca de accesos directos para crear mensajes interactivos con voz, dictado, menús, diálogos y validación.\n\nLos mensajes de PromptKit pueden traducir entre idiomas, almacenar datos y llamar a accesos directos.",
         "alert_localization_file": "Este archivo de localización fue traducido por un ordenador. Si desea ayudar a mejorar la traducción, por favor visite:",
         "alert_shortcuts_retrieval": "Recuperar una lista de accesos directos de la historia de PromptKit instalados. Esto puede tardar unos instantes.",
@@ -3223,7 +3223,7 @@
         "prompt_translationLanguage_custom": "El nombre del idioma debe coincidir con lo que se muestra en la acción traducir texto con Microsoft.\n\nUsar Custom... para introducir un nombre de idioma personalizado si tiene problemas.",
         "prompt_unlock": "Usted necesitará desbloquear este dispositivo para funcionar con este prompt del PromptKit."
     },
-    "Swedish": {
+    "Svenska": {
         "alert_about": "PromptKit är ett gen vägs bibliotek för att skapa interaktiva prompter med tal, diktering, menyer, dialoger och validering.\n\nPromptKit-prompter kan översätta mellan språk, lagra data och anropa genvägar.",
         "alert_localization_file": "Den här lokaliserings filen har översatts av en dator. Om du vill bidra till att förbättra översättningen, vänligen besök:",
         "alert_shortcuts_retrieval": "Hämtar en lista över installerade PromptKit Story-genvägar. Det kan ta en stund.",
@@ -3347,7 +3347,7 @@
         "prompt_translationLanguage_custom": "Språkets namn måste överensstämma med vad som visas i åtgärden Översätt text med Microsoft.\n\nAnvänd Custom... för att ange ett eget språk namn om du har problem.",
         "prompt_unlock": "Du måste låsa upp den här enheten för att kunna köra den här PromptKit-prompten."
     },
-    "Thai": {
+    "ไทย": {
         "alert_about": "PromptKit เป็นไลบรารีทางลัดสำหรับการสร้างพร้อมท์แบบโต้ตอบด้วยคำพูดการเขียนตามรายการเมนูกล่องโต้ตอบและการตรวจสอบความถูกต้อง\n\nพร้อมต์ PromptKit สามารถแปลระหว่างภาษาเก็บข้อมูลและทางลัดการโทร",
         "alert_localization_file": "ไฟล์แปลนี้ถูกแปลโดยคอมพิวเตอร์ หากคุณต้องการที่จะช่วยปรับปรุงการแปล, กรุณาเยี่ยมชม:",
         "alert_shortcuts_retrieval": "กำลังเรียกรายการของทางลัด PromptKit Story ที่ติดตั้งไว้ การดำเนินการนี้อาจใช้เวลาสักครู่",
@@ -3471,7 +3471,7 @@
         "prompt_translationLanguage_custom": "ชื่อของภาษาต้องตรงกับสิ่งที่จะแสดงในการแปลข้อความด้วยการกระทำของ Microsoft\n\nใช้กำหนดเอง ... เพื่อป้อนชื่อภาษาที่กำหนดเองถ้าคุณมีปัญหา",
         "prompt_unlock": "คุณจะต้องปลดล็อกอุปกรณ์นี้เพื่อที่จะเรียกใช้ PromptKit prompt นี้"
     },
-    "Turkish": {
+    "Türkçe": {
         "alert_about": "PromptKit konuşma, dikte, menüler, diyaloglar ve doğrulama ile etkileşimli istekleri oluşturmak için bir kısayol kitaplığıdır.\n\nPromptKit istemleri diller arasında çevirmek, veri depolamak ve kısayolları çağırın.",
         "alert_localization_file": "Bu yerelleştirme dosyası bir bilgisayar tarafından çevrilmiştir. Eğer çeviri geliştirmek yardımcı olmak istiyorsanız, lütfen ziyaret edin:",
         "alert_shortcuts_retrieval": "Yüklü PromptKit öykü kısayollarının bir listesini alma. Bu bir kaç dakika sürebilir.",
