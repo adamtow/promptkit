@@ -1,6 +1,7 @@
 {
 	"日本語": {
 		"alert_about": "PromptKit は、音声、ディクテーション、メニュー、ダイアログ、および検証を使用してインタラクティブなプロンプトを作成するためのショートカットライブラリです。\n\nPromptKit プロンプトでは、言語間の変換、データの保存、ショートカットの呼び出しが可能です。",
+		"alert_localization_notice": "これは自動生成されたローカライゼーションファイルです。\n\n訪問してそれを改善する：",
 		"alert_shortcuts_retrieval": "インストールされた PromptKit ストーリーショートカットの一覧を取得しています。しばらく時間がかかる場合があります。",
 		"alert_update_none": "現在、PromptKit の最新バージョンを実行しています。",
 		"alert_update_none_title": "更新がありません",

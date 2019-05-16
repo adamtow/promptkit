@@ -1,6 +1,7 @@
 {
 	"Polski": {
 		"alert_about": "PromptKit jest biblioteką skrótów do tworzenia interaktywnych monitów z mowy, dyktowania, menu, okien dialogowych i sprawdzania poprawności.\n\nMonitów PromptKit można tłumaczyć między językami, przechowywać dane i skróty połączeń.",
+		"alert_localization_notice": "Jest to automatycznie generowany plik lokalizacji.\n\nPopraw to, odwiedzając:",
 		"alert_shortcuts_retrieval": "Pobieranie listy zainstalowanych skrótów PromptKit Story. Może to potrwać kilka chwil.",
 		"alert_update_none": "Aktualnie korzystasz z najnowszej wersji PromptKit.",
 		"alert_update_none_title": "Brak dostępnej aktualizacji",

@@ -1,6 +1,7 @@
 {
 	"English": {
 		"alert_about": "PromptKit is a shortcut library for building interactive prompts with speech, dictation, menus, dialogs, and validation.\n\nPromptKit prompts can translate between languages, store data, and call shortcuts.",
+		"alert_localization_notice": "",
 		"alert_shortcuts_retrieval": "Retrieving a list of installed PromptKit Story shortcuts. This may take a few moments.",
 		"alert_update_none": "You are currently running the latest version of PromptKit.",
 		"alert_update_none_title": "No Update Available",

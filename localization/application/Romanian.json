@@ -1,6 +1,7 @@
 {
 	"Română": {
 		"alert_about": "PromptKit este o bibliotecă de comenzi rapide pentru construirea de solicitări interactive cu vorbire, dictare, meniuri, dialoguri și validare.\n\nSolicitările PromptKit pot traduce între limbi, stoca date și comenzi rapide de apel.",
+		"alert_localization_notice": "Acesta este un fișier de localizare generat automat.\n\nÎmbunătățiți-l vizitând:",
 		"alert_shortcuts_retrieval": "Regăsirea unei liste de comenzi rapide de poveste pentru PromptKit instalate. Acest lucru poate dura câteva momente.",
 		"alert_update_none": "Executați în prezent cea mai recentă versiune de PromptKit.",
 		"alert_update_none_title": "Nici o actualizare disponibilă",
