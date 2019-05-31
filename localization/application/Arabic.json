@@ -121,6 +121,7 @@
 		"prompt_story_mode": "كيف تحب هذه القصة المقدمة ؟",
 		"prompt_translationLanguage": "اختر اللغة المستخدمة للترجمة التلقائية للمطالبات.\n\nيجب ان يتطابق اسم اللغة مع ما يتم عرضه في ترجمه النص مع اجراء Microsoft.\n\nاستخدام مخصص... لإدخال اسم لغة مخصصه إذا كان لديك مشاكل.",
 		"prompt_translationLanguage_custom": "يجب ان يتطابق اسم اللغة مع ما يتم عرضه في ترجمه النص مع اجراء Microsoft.\n\nاستخدام مخصص... لإدخال اسم لغة مخصصه إذا كان لديك مشاكل.",
-		"prompt_unlock": "سوف تحتاج إلى إلغاء تامين هذا الجهاز من أجل تشغيل هذه المطالبة برومبتكيت."
+		"prompt_unlock": "سوف تحتاج إلى إلغاء تامين هذا الجهاز من أجل تشغيل هذه المطالبة برومبتكيت.",
+		"prompt_update": "PromptKit {{version}} is available. Would you like to download it now?\n\nRelease Notes\n{{notes}}"
 	}
 }

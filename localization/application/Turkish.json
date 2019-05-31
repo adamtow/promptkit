@@ -121,6 +121,7 @@
 		"prompt_story_mode": "Nasıl bu hikaye sundu istiyorsunuz?",
 		"prompt_translationLanguage": "Otomatik çeviri istemleri için kullanılan dili seçin.\n\nDilin adı, metni Microsoft ile çevir eyleminde görüntülenen eşleşmelidir.\n\nÖzel kullanım... sorun yaşıyorsanız özel bir dil adı girmek için.",
 		"prompt_translationLanguage_custom": "Dilin adı, metni Microsoft ile çevir eyleminde görüntülenen eşleşmelidir.\n\nÖzel kullanım... sorun yaşıyorsanız özel bir dil adı girmek için.",
-		"prompt_unlock": "Bu PromptKit istemini çalıştırmak için bu aygıtın kilidini açmanız gerekir."
+		"prompt_unlock": "Bu PromptKit istemini çalıştırmak için bu aygıtın kilidini açmanız gerekir.",
+		"prompt_update": "PromptKit {{version}} is available. Would you like to download it now?\n\nRelease Notes\n{{notes}}"
 	}
 }

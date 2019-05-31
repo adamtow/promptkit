@@ -121,6 +121,7 @@
 		"prompt_story_mode": "Comment aimeriez-vous que cette histoire soit présentée?",
 		"prompt_translationLanguage": "Choisissez la langue utilisée pour la traduction automatique des invites.\n\nLe nom de la langue doit correspondre à ce qui est affiché dans l’action traduire le texte avec Microsoft.\n\nUtiliser personnalisé... pour entrer un nom de langue personnalisé si vous avez des problèmes.",
 		"prompt_translationLanguage_custom": "Le nom de la langue doit correspondre à ce qui est affiché dans l’action traduire le texte avec Microsoft.\n\nUtiliser personnalisé... pour entrer un nom de langue personnalisé si vous avez des problèmes.",
-		"prompt_unlock": "Vous aurez besoin de déverrouiller cet appareil afin d’exécuter cette invite PromptKit."
+		"prompt_unlock": "Vous aurez besoin de déverrouiller cet appareil afin d’exécuter cette invite PromptKit.",
+		"prompt_update": "PromptKit {{version}} is available. Would you like to download it now?\n\nRelease Notes\n{{notes}}"
 	}
 }

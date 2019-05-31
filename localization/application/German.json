@@ -121,6 +121,7 @@
 		"prompt_story_mode": "Wie möchten Sie diese Geschichte präsentieren?",
 		"prompt_translationLanguage": "Wählen Sie die Sprache, die für die automatische Übersetzung von Anfragen verwendet wird.\n\nDer Name der Sprache muss mit dem übereinstimmen, was im Translate Text mit Microsoft-Aktion angezeigt wird.\n\nVerwenden Sie Custom ... Wenn Sie Probleme haben, geben Sie einen eigenen Sprachnamen ein.",
 		"prompt_translationLanguage_custom": "Der Name der Sprache muss mit dem übereinstimmen, was im Translate Text mit Microsoft-Aktion angezeigt wird.\n\nVerwenden Sie Custom ... Wenn Sie Probleme haben, geben Sie einen eigenen Sprachnamen ein.",
-		"prompt_unlock": "Sie müssen dieses Gerät entsperren, um dieses PromptKit-Prompt laufen zu lassen."
+		"prompt_unlock": "Sie müssen dieses Gerät entsperren, um dieses PromptKit-Prompt laufen zu lassen.",
+		"prompt_update": "PromptKit {{version}} is available. Would you like to download it now?\n\nRelease Notes\n{{notes}}"
 	}
 }

@@ -121,6 +121,7 @@
 		"prompt_story_mode": "Hvordan vil du at denne historien skal presenteres?",
 		"prompt_translationLanguage": "Velg språket som brukes til automatisk oversetting av ledetekster.\n\nNavnet på språket må samsvare med det som vises i handlingen Oversett tekst med Microsoft.\n\nBruk egendefinert... for å angi et egendefinert språk hvis du har problemer.",
 		"prompt_translationLanguage_custom": "Navnet på språket må samsvare med det som vises i handlingen Oversett tekst med Microsoft.\n\nBruk egendefinert... for å angi et egendefinert språk hvis du har problemer.",
-		"prompt_unlock": "Du må låse opp denne enheten for å kunne kjøre denne PromptKit-ledeteksten."
+		"prompt_unlock": "Du må låse opp denne enheten for å kunne kjøre denne PromptKit-ledeteksten.",
+		"prompt_update": "PromptKit {{version}} is available. Would you like to download it now?\n\nRelease Notes\n{{notes}}"
 	}
 }

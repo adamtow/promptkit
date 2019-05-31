@@ -121,6 +121,7 @@
 		"prompt_story_mode": "คุณต้องการให้เรื่องนี้นำเสนออย่างไร",
 		"prompt_translationLanguage": "เลือกภาษาที่ใช้สำหรับการแปลอัตโนมัติของพร้อมท์\n\nชื่อของภาษาต้องตรงกับสิ่งที่จะแสดงในการแปลข้อความด้วยการกระทำของ Microsoft\n\nใช้กำหนดเอง ... เพื่อป้อนชื่อภาษาที่กำหนดเองถ้าคุณมีปัญหา",
 		"prompt_translationLanguage_custom": "ชื่อของภาษาต้องตรงกับสิ่งที่จะแสดงในการแปลข้อความด้วยการกระทำของ Microsoft\n\nใช้กำหนดเอง ... เพื่อป้อนชื่อภาษาที่กำหนดเองถ้าคุณมีปัญหา",
-		"prompt_unlock": "คุณจะต้องปลดล็อกอุปกรณ์นี้เพื่อที่จะเรียกใช้ PromptKit prompt นี้"
+		"prompt_unlock": "คุณจะต้องปลดล็อกอุปกรณ์นี้เพื่อที่จะเรียกใช้ PromptKit prompt นี้",
+		"prompt_update": "PromptKit {{version}} is available. Would you like to download it now?\n\nRelease Notes\n{{notes}}"
 	}
 }

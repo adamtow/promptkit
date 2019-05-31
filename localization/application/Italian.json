@@ -121,6 +121,7 @@
 		"prompt_story_mode": "Come ti piacerebbe questa storia presentata?",
 		"prompt_translationLanguage": "Scegliere la lingua utilizzata per la traduzione automatica dei prompt.\n\nIl nome della lingua deve corrispondere a quello visualizzato nell'azione Traduci il testo con Microsoft.\n\nUtilizzare Custom... per immettere un nome di lingua personalizzato in caso di problemi.",
 		"prompt_translationLanguage_custom": "Il nome della lingua deve corrispondere a quello visualizzato nell'azione Traduci il testo con Microsoft.\n\nUtilizzare Custom... per immettere un nome di lingua personalizzato in caso di problemi.",
-		"prompt_unlock": "Sarà necessario sbloccare questo dispositivo per eseguire questo prompt PromptKit."
+		"prompt_unlock": "Sarà necessario sbloccare questo dispositivo per eseguire questo prompt PromptKit.",
+		"prompt_update": "PromptKit {{version}} is available. Would you like to download it now?\n\nRelease Notes\n{{notes}}"
 	}
 }

@@ -121,6 +121,7 @@
 		"prompt_story_mode": "Ako by ste chceli tento príbeh prezentované?",
 		"prompt_translationLanguage": "Vyberte jazyk, ktorý sa používa na automatický preklad výziev.\n\nNázov jazyka sa musí zhodovať s tým, čo sa zobrazí v časti preklad textu s akciou spoločnosti Microsoft.\n\nPoužiť vlastné... Ak máte problémy, zadajte vlastný názov jazyka.",
 		"prompt_translationLanguage_custom": "Názov jazyka sa musí zhodovať s tým, čo sa zobrazí v časti preklad textu s akciou spoločnosti Microsoft.\n\nPoužiť vlastné... Ak máte problémy, zadajte vlastný názov jazyka.",
-		"prompt_unlock": "Ak chcete spustiť túto výzvu PromptKit, budete musieť odomknúť toto zariadenie."
+		"prompt_unlock": "Ak chcete spustiť túto výzvu PromptKit, budete musieť odomknúť toto zariadenie.",
+		"prompt_update": "PromptKit {{version}} is available. Would you like to download it now?\n\nRelease Notes\n{{notes}}"
 	}
 }

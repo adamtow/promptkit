@@ -121,6 +121,7 @@
 		"prompt_story_mode": "이 이야기를 어떻게 표현 하 시겠습니까?",
 		"prompt_translationLanguage": "프롬프트 자동 번역에 사용 되는 언어를 선택 합니다.\n\n언어의 이름은 Microsoft 작업으로 번역 텍스트에 표시 되는 것과 일치 해야 합니다.\n\n사용자 지정 사용 ... 문제가 있는 경우 사용자 지정 언어 이름을 입력 합니다.",
 		"prompt_translationLanguage_custom": "언어의 이름은 Microsoft 작업으로 번역 텍스트에 표시 되는 것과 일치 해야 합니다.\n\n사용자 지정 사용 ... 문제가 있는 경우 사용자 지정 언어 이름을 입력 합니다.",
-		"prompt_unlock": "이 프롬 킷 프롬프트를 실행 하려면이 장치의 잠금을 해제 해야 합니다."
+		"prompt_unlock": "이 프롬 킷 프롬프트를 실행 하려면이 장치의 잠금을 해제 해야 합니다.",
+		"prompt_update": "PromptKit {{version}} is available. Would you like to download it now?\n\nRelease Notes\n{{notes}}"
 	}
 }

@@ -121,6 +121,7 @@
 		"prompt_story_mode": "? היית רוצה שהסיפור הזה יוצג",
 		"prompt_translationLanguage": "בחר את השפה המשמשת לתרגום אוטומטי של ההנחיות.\n\nשם השפה חייב להתאים למה שמוצג בפעולה תרגום טקסט עם Microsoft.\n\nהשתמש במותאם אישית... כדי להזין שם שפה מותאם אישית אם נתקלת בבעיות.",
 		"prompt_translationLanguage_custom": "שם השפה חייב להתאים למה שמוצג בפעולה תרגום טקסט עם Microsoft.\n\nהשתמש במותאם אישית... כדי להזין שם שפה מותאם אישית אם נתקלת בבעיות.",
-		"prompt_unlock": "יהיה עליך לבטל את נעילת התקן זה כדי להפעיל את הפקודה PromptKit."
+		"prompt_unlock": "יהיה עליך לבטל את נעילת התקן זה כדי להפעיל את הפקודה PromptKit.",
+		"prompt_update": "PromptKit {{version}} is available. Would you like to download it now?\n\nRelease Notes\n{{notes}}"
 	}
 }

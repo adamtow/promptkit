@@ -121,6 +121,7 @@
 		"prompt_story_mode": "Hur skulle du vilja att den här berättelsen presenteras?",
 		"prompt_translationLanguage": "Välj det språk som används för automatisk översättning av prompter.\n\nSpråkets namn måste överensstämma med vad som visas i åtgärden Översätt text med Microsoft.\n\nAnvänd Custom... för att ange ett eget språk namn om du har problem.",
 		"prompt_translationLanguage_custom": "Språkets namn måste överensstämma med vad som visas i åtgärden Översätt text med Microsoft.\n\nAnvänd Custom... för att ange ett eget språk namn om du har problem.",
-		"prompt_unlock": "Du måste låsa upp den här enheten för att kunna köra den här PromptKit-prompten."
+		"prompt_unlock": "Du måste låsa upp den här enheten för att kunna köra den här PromptKit-prompten.",
+		"prompt_update": "PromptKit {{version}} is available. Would you like to download it now?\n\nRelease Notes\n{{notes}}"
 	}
 }

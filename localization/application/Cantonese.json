@@ -121,6 +121,7 @@
 		"prompt_story_mode": "你希望呢個故事呈現到咩環境呀?",
 		"prompt_translationLanguage": "選擇用於自動翻譯提示嘅語言。\n\n語言的名稱必須與 microsoft 操作在 \"翻譯文本\" 中顯示的內容相匹配。\n\n使用自定義 如果有問題, 請輸入自定義語言名稱。",
 		"prompt_translationLanguage_custom": "語言的名稱必須與 microsoft 操作在 \"翻譯文本\" 中顯示的內容相匹配。\n\n使用自定義 如果有問題, 請輸入自定義語言名稱。",
-		"prompt_unlock": "你需要解锁此設備才能運行此提示工具包提示。"
+		"prompt_unlock": "你需要解锁此設備才能運行此提示工具包提示。",
+		"prompt_update": "PromptKit {{version}} is available. Would you like to download it now?\n\nRelease Notes\n{{notes}}"
 	}
 }

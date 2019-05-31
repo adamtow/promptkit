@@ -121,6 +121,7 @@
 		"prompt_story_mode": "Bagaimana Anda ingin cerita ini disajikan?",
 		"prompt_translationLanguage": "Pilih bahasa yang digunakan untuk terjemahan otomatis prompt.\n\nNama bahasa harus cocok dengan yang ditampilkan dalam tindakan Terjemahkan teks dengan Microsoft.\n\nGunakan kustom... untuk memasukkan nama bahasa kustom jika Anda memiliki masalah.",
 		"prompt_translationLanguage_custom": "Nama bahasa harus cocok dengan yang ditampilkan dalam tindakan Terjemahkan teks dengan Microsoft.\n\nGunakan kustom... untuk memasukkan nama bahasa kustom jika Anda memiliki masalah.",
-		"prompt_unlock": "Anda akan perlu untuk membuka perangkat ini dalam rangka untuk menjalankan PromptKit ini prompt."
+		"prompt_unlock": "Anda akan perlu untuk membuka perangkat ini dalam rangka untuk menjalankan PromptKit ini prompt.",
+		"prompt_update": "PromptKit {{version}} is available. Would you like to download it now?\n\nRelease Notes\n{{notes}}"
 	}
 }

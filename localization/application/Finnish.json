@@ -121,6 +121,7 @@
 		"prompt_story_mode": "Miten haluaisit tämän tarinan esitetään?",
 		"prompt_translationLanguage": "Valitse kehotteiden automaattisessa käännöksessä käytettävä kieli.\n\nKielen nimen on vastattava sitä, mitä tekstin kääntäminen Microsoft-toiminnolla näkyy.\n\nKäytä mukautettua... Voit kirjoittaa mukautetun kielen nimen, jos sinulla on ongelmia.",
 		"prompt_translationLanguage_custom": "Kielen nimen on vastattava sitä, mitä tekstin kääntäminen Microsoft-toiminnolla näkyy.\n\nKäytä mukautettua... Voit kirjoittaa mukautetun kielen nimen, jos sinulla on ongelmia.",
-		"prompt_unlock": "Sinun on avattava tämä laite, jotta voit suorittaa tämän PromptKit-kehotteen."
+		"prompt_unlock": "Sinun on avattava tämä laite, jotta voit suorittaa tämän PromptKit-kehotteen.",
+		"prompt_update": "PromptKit {{version}} is available. Would you like to download it now?\n\nRelease Notes\n{{notes}}"
 	}
 }

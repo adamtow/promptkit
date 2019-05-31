@@ -121,6 +121,7 @@
 		"prompt_story_mode": "Jak chcesz tę historię prezentowane?",
 		"prompt_translationLanguage": "Wybierz język używany do automatycznego tłumaczenia monitów.\n\nNazwa języka musi odpowiadać, co jest wyświetlane w tłumaczeniu tekstu za pomocą akcji firmy Microsoft.\n\nUżyj Custom... , aby wprowadzić nazwę języka niestandardowego, jeśli występują problemy.",
 		"prompt_translationLanguage_custom": "Nazwa języka musi odpowiadać, co jest wyświetlane w tłumaczeniu tekstu za pomocą akcji firmy Microsoft.\n\nUżyj Custom... , aby wprowadzić nazwę języka niestandardowego, jeśli występują problemy.",
-		"prompt_unlock": "Trzeba będzie odblokować to urządzenie, aby uruchomić ten monit PromptKit."
+		"prompt_unlock": "Trzeba będzie odblokować to urządzenie, aby uruchomić ten monit PromptKit.",
+		"prompt_update": "PromptKit {{version}} is available. Would you like to download it now?\n\nRelease Notes\n{{notes}}"
 	}
 }

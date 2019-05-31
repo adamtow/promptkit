@@ -121,6 +121,7 @@
 		"prompt_story_mode": "Hogyan tetszik ez a történet bemutatni?",
 		"prompt_translationLanguage": "Válassza ki az automatikus promptok fordításának nyelvét.\n\nA nyelv nevének meg kell egyeznie a szöveg lefordítása a Microsoft műveletén megjelenő szöveggel.\n\nHasználja az egyéni... Ha problémája van, adja meg az egyéni nyelv nevét.",
 		"prompt_translationLanguage_custom": "A nyelv nevének meg kell egyeznie a szöveg lefordítása a Microsoft műveletén megjelenő szöveggel.\n\nHasználja az egyéni... Ha problémája van, adja meg az egyéni nyelv nevét.",
-		"prompt_unlock": "Ennek a PromptKit parancsnak a futtatásához fel kell oldania ezt az eszközt."
+		"prompt_unlock": "Ennek a PromptKit parancsnak a futtatásához fel kell oldania ezt az eszközt.",
+		"prompt_update": "PromptKit {{version}} is available. Would you like to download it now?\n\nRelease Notes\n{{notes}}"
 	}
 }

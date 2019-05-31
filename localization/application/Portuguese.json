@@ -121,6 +121,7 @@
 		"prompt_story_mode": "Como você gostaria que esta história apresentada?",
 		"prompt_translationLanguage": "Escolha o idioma usado para a tradução automática de prompts.\n\nO nome do idioma deve corresponder ao que é exibido na ação traduzir texto com a Microsoft.\n\nUse custom... para inserir um nome de idioma personalizado se você tiver problemas.",
 		"prompt_translationLanguage_custom": "O nome do idioma deve corresponder ao que é exibido na ação traduzir texto com a Microsoft.\n\nUse custom... para inserir um nome de idioma personalizado se você tiver problemas.",
-		"prompt_unlock": "Você precisará de destravar este dispositivo a fim executar este alerta de PromptKit."
+		"prompt_unlock": "Você precisará de destravar este dispositivo a fim executar este alerta de PromptKit.",
+		"prompt_update": "PromptKit {{version}} is available. Would you like to download it now?\n\nRelease Notes\n{{notes}}"
 	}
 }

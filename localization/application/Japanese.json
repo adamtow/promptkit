@@ -121,6 +121,7 @@
 		"prompt_story_mode": "このストーリーはどのように提示されますか?",
 		"prompt_translationLanguage": "プロンプトの自動翻訳に使用する言語を選択します。\n\n言語の名前は、翻訳テキストに Microsoft アクションで表示されるものと一致する必要があります。\n\nカスタムを使用する...問題がある場合は、カスタム言語名を入力します。",
 		"prompt_translationLanguage_custom": "言語の名前は、翻訳テキストに Microsoft アクションで表示されるものと一致する必要があります。\n\nカスタムを使用する...問題がある場合は、カスタム言語名を入力します。",
-		"prompt_unlock": "この PromptKit プロンプトを実行するには、このデバイスのロックを解除する必要があります。"
+		"prompt_unlock": "この PromptKit プロンプトを実行するには、このデバイスのロックを解除する必要があります。",
+		"prompt_update": "PromptKit {{version}} is available. Would you like to download it now?\n\nRelease Notes\n{{notes}}"
 	}
 }

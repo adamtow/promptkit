@@ -121,6 +121,7 @@
 		"prompt_story_mode": "Hoe zou u dit verhaal willen presenteren?",
 		"prompt_translationLanguage": "Kies de taal die wordt gebruikt voor automatische vertaling van prompts.\n\nDe naam van de taal moet overeenkomen met wat wordt weergegeven in de tekst vertalen met Microsoft action.\n\nGebruik aangepaste... om een aangepaste Taalnaam in te voeren als u problemen hebt.",
 		"prompt_translationLanguage_custom": "De naam van de taal moet overeenkomen met wat wordt weergegeven in de tekst vertalen met Microsoft action.\n\nGebruik aangepaste... om een aangepaste Taalnaam in te voeren als u problemen hebt.",
-		"prompt_unlock": "U zult dit apparaat moeten openen om deze PromptKit herinnering in werking te stellen."
+		"prompt_unlock": "U zult dit apparaat moeten openen om deze PromptKit herinnering in werking te stellen.",
+		"prompt_update": "PromptKit {{version}} is available. Would you like to download it now?\n\nRelease Notes\n{{notes}}"
 	}
 }
